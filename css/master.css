@@ -1,0 +1,88 @@
+/* Universal */
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  margin: 1em;
+}
+nav {
+  position: sticky;
+  top: 0;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  background: black;
+}
+nav a {
+  margin: 1em;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Index only */
+header {
+  height: calc(100vh - 3em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: url("https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  transition: all 300ms;
+}
+header h1 {
+  text-transform: uppercase;
+  margin: 1em 1em 0;
+}
+header p {
+  margin: 1em;
+}
+fieldset {
+  margin: 0.5em;
+}
+.section-container {
+  margin: 0.5em 0;
+  display: flex;
+}
+.section-container img {
+  margin-right: 0.5em;
+}
+#header-content-cycle {
+  width: calc(100vw - 2.5em);
+  justify-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+#header-content-cycle a {
+  padding: 0 0.125em 0.2em;
+  color: white;
+  text-decoration: none;
+  font-size: 5em;
+}
+#header-content-cycle a:hover {
+  background: rgba(245, 245, 245, 0.15);
+  backdrop-filter: blur(5px);
+  transition: all 150ms;
+}
+#header-content-bar {
+  user-select: none;
+}
+#header-content-bar a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  text-align: center;
+}
+#featured-article {
+  text-align: justify;
+}

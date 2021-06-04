@@ -4,44 +4,207 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>FADHsquared</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
-      rel="stylesheet"
+
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="downloads, fadh, personal, portfolio, website"
     />
-    <style>
-      h1 {
-        font-family: "Montserrat", sans-serif;
-      }
-      p {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      body {
-        height: 100vh;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: url("https://staticg.sportskeeda.com/editor/2021/05/4a988-16221943412861-800.jpg");
-        background-position: top;
-        background-size: 200vh;
-        backdrop-filter: blur(48px);
-      }
-      main {
-        font-size: 1.25em;
-        color: white;
-        text-align: center;
-      }
-    </style>
+
+    <link rel="stylesheet" href="../css/master.css" />
   </head>
   <body>
-    <main>
-      <h1>What are you doing here?</h1>
+    <header>
+      <div id="header-content-cycle">
+        <a href="javascript:cycleHeaderContent('previous');">&lsaquo;</a>
+        <a href="javascript:cycleHeaderContent('next');">&rsaquo;</a>
+      </div>
+      <h1>Minecraft 1.17 Split into Two Parts</h1>
       <p>
-        I might put something here later, but for now you're better off going
-        somewhere else.
+        Mojang has officially given a statement regarding the development state
+        of Minecraft 1.17.
+        <a
+          href="https://www.minecraft.net/en-us/article/a-caves---cliffs-announcement"
+          target="_blank"
+          >Learn more...</a
+        >
       </p>
+      <div id="header-content-bar">
+        <a href="javascript:toHeaderContent(0);">&#8226;</a>
+        <a href="javascript:toHeaderContent(1);">&#9702;</a>
+        <a href="javascript:toHeaderContent(2);">&#9702;</a>
+        <a href="javascript:toHeaderContent(3);">&#9702;</a>
+      </div>
+    </header>
+    <nav>
+      <a href="">News</a>
+      <a href="">Downloads</a>
+      <a href="">Projects</a>
+      <a href="">Videos</a>
+    </nav>
+    <main>
+      <section id="homepage-videos">
+        <fieldset>
+          <legend><h2>FEATURED VIDEOS</h2></legend>
+          <div class="section-container">
+            <img
+              src="http://i3.ytimg.com/vi/hEfysL3NKe4/hqdefault.jpg"
+              width="120px"
+              alt=""
+            />
+            <div class="section-text">
+              <h3>water logic</h3>
+              <p>This is how water works in Minecraft... what?</p>
+            </div>
+          </div>
+          <div class="section-container">
+            <img
+              src="http://i3.ytimg.com/vi/A6DXZrAVrzU/hqdefault.jpg"
+              width="120px"
+              alt=""
+            />
+            <div class="section-text">
+              <h3>but if you close your eyes</h3>
+              <p>You know what's next</p>
+            </div>
+          </div>
+          <div class="section-container">
+            <img
+              src="http://i3.ytimg.com/vi/I9XG9_jSNOQ/hqdefault.jpg"
+              width="120px"
+              alt=""
+            />
+            <div class="section-text">
+              <h3>Dolphins like to spin around in circles</h3>
+              <p>
+                Update Aquatic snapshot video from PhoenixSC, apparently 2018 me
+                decided to cut a part of it and make it a "meme" i guess.
+              </p>
+            </div>
+          </div>
+          <div class="section-container">
+            <img
+              src="http://i3.ytimg.com/vi/3B3BeMvIgU8/hqdefault.jpg"
+              width="120px"
+              alt=""
+            />
+            <div class="section-text">
+              <h3>Minecraft - Tiny cocoa bean farm</h3>
+              <p>
+                Very small cocoa bean farm. Cocoa beans are kind of dated now,
+                though.
+              </p>
+            </div>
+          </div>
+        </fieldset>
+      </section>
+      <section id="image-gallery">
+        <h2>IMAGES</h2>
+      </section>
+      <section id="featured-article">
+        <h2>FEATURED ARTICLE: Minecraft Snapshot 21w16a</h2>
+        <div class="article-container">
+          <article>
+            <p>
+              Snapshot 21w16a introduces some changes to azaleas and dripstone.
+              On top of that, we've tweaked the textures of raw ores. There are
+              also a few additions to the Caves & Cliffs preview datapack.
+            </p>
+            <h3>New Features in 21w16a</h3>
+            <ul>
+              <li>
+                Azalea and Flowering Azalea can now be bonemealed to get an
+                Azalea Tree
+              </li>
+              <li>Added dripstone growth</li>
+            </ul>
+            <h4>Dripstone Growth</h4>
+            <ul>
+              <li>
+                If a stalactite is hanging from a dripstone block with a water
+                source above, it will slowly grow both the stalactite from above
+                and a stalagmite from below
+              </li>
+              <li>
+                Growth speed is random but very slow, a single growth step can
+                take several minecraft days
+              </li>
+              <li>A stalactite will only grow up ot 7 blocks long</li>
+              <li>
+                A stalactite will only cause stalagmite growth if the floor or
+                stalagmite below is within 10 blocks
+              </li>
+              <li>
+                If the stalactite tip is inside water it won't drip, and
+                therefore won't trigger any growth
+              </li>
+              <li>
+                If the stalagmite tip is inside water it won't be grown by a
+                dripping stalactite. Same thing if there is any fluid between
+                the two tips
+              </li>
+              <li>A stalagmite or stalactite will never grow into a fluid</li>
+            </ul>
+            <h3>Changes in 21w16a</h3>
+            <ul>
+              <li>Tweaked the texture of raw ores and raw ore blocks</li>
+            </ul>
+            <h3>Changes to the Caves & Cliffs Preview</h3>
+            <p>
+              Download the updated datapack
+              <a
+                href="https://www.minecraft.net/en-us/article/minecraft-snapshot-21w16a"
+                target="_blank"
+                >here</a
+              >.
+            </p>
+            <ul>
+              <li>
+                Aquifers below height 0 will sometimes be lava aquifers instead
+                of water aquifers
+              </li>
+              <li>Ore veins can now spawn underground</li>
+            </ul>
+            <h4>Ore Veins</h4>
+            <ul>
+              <li>
+                Ore veins are large, rare, snake-like underground ore formations
+              </li>
+              <li>
+                Copper veins form above height 0 and are mixed with granite
+              </li>
+              <li>Iron veins form below height 0 and are mixed with tuff</li>
+            </ul>
+            <h3>Tehnical Changes in 21w16a</h3>
+            <ul>
+              <li>
+                Users who previously permanenetly declined server resource packs
+                will now still be shown the pack prompt if the pack is mandatory
+                (instead of being immediately disconnected)
+              </li>
+              <li>The statistic for play time has been renamed to play_time</li>
+              <li>
+                There is now a statistic for "Time with World Open"
+                (total_world_time) that also includes the time when the game was
+                paused
+              </li>
+            </ul>
+            <h3>Fixed Bugs in 21w16a</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.minecraft.net/en-us/article/minecraft-snapshot-21w16a"
+                  target="_blank"
+                  >Visit the article link to view</a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
     </main>
+    <script src="../js/main.js"></script>
   </body>
 </html>

@@ -1,6 +1,23 @@
+const headerImage1 = new Image();
+headerImage1.src =
+  "https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg";
+headerImage1.id = "header-image";
+const headerImage2 = new Image();
+headerImage2.src =
+  "https://www.ultimatepocket.com/wp-content/uploads/2021/06/heres-when-to-expect-minecrafts-1-17-caves-cliffs-update.jpg";
+headerImage2.id = "header-image";
+const headerImage3 = new Image();
+headerImage3.src =
+  "https://www.minecraft.net/content/dam/community/fy21/minecraft/communitynews-assets/hero_sustainability_42221.png.transform/minecraft-image-large/image.png";
+headerImage3.id = "header-image";
+const headerImage4 = new Image();
+headerImage4.src =
+  "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg";
+headerImage4.id = "header-image";
 const body = document.body;
 const contentBar = document.getElementById("header-content-bar").childNodes;
 const homepageHeader = document.getElementsByTagName("header")[0];
+let headerElement = document.getElementById("header-image");
 
 let currentContentNumber = 0;
 function toHeaderContent(contentNumber) {
@@ -11,28 +28,26 @@ function toHeaderContent(contentNumber) {
   contentBar[7].innerHTML = "&#9702;";
   switch (contentNumber) {
     case 0:
-      homepageHeader.style.background =
-        "url(https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg)";
+      headerElement.parentNode.replaceChild(headerImage1, headerElement);
+      headerElement = document.getElementById("header-image");
       contentBar[1].innerHTML = "&#8226;";
       break;
     case 1:
-      homepageHeader.style.background =
-        "url(https://s31092.pcdn.co/wp-content/uploads/2021/04/Minecraft-Caves-Cliffs.jpg)";
+      headerElement.parentNode.replaceChild(headerImage2, headerElement);
+      headerElement = document.getElementById("header-image");
       contentBar[3].innerHTML = "&#8226;";
       break;
     case 2:
-      homepageHeader.style.background =
-        "url(https://www.minecraft.net/content/dam/community/fy21/minecraft/communitynews-assets/hero_sustainability_42221.png.transform/minecraft-image-large/image.png)";
+      headerElement.parentNode.replaceChild(headerImage3, headerElement);
+      headerElement = document.getElementById("header-image");
       contentBar[5].innerHTML = "&#8226;";
       break;
     case 3:
-      homepageHeader.style.background =
-        "url(https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg)";
+      headerElement.parentNode.replaceChild(headerImage4, headerElement);
+      headerElement = document.getElementById("header-image");
       contentBar[7].innerHTML = "&#8226;";
       break;
   }
-  homepageHeader.style.backgroundSize = "cover";
-  homepageHeader.style.backgroundPosition = "center";
 }
 function cycleHeaderContent(cycleTo) {
   switch (cycleTo) {

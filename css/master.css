@@ -30,12 +30,16 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background: url("https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg");
-  background-size: cover;
-  background-position: center;
   color: white;
   text-align: center;
   transition: all 300ms;
+}
+#header-image {
+  position: absolute;
+  min-height: calc(100vh - 3em);
+  width: calc(100vw - 1.001em);
+  max-width: calc(100vw - 1.001em);
+  z-index: -1;
 }
 header h1 {
   text-transform: uppercase;

@@ -6,6 +6,9 @@
 main {
   margin: 1em;
 }
+body {
+  overflow-x: hidden;
+}
 nav {
   position: sticky;
   top: 0;
@@ -32,13 +35,11 @@ header {
   justify-content: flex-end;
   color: white;
   text-align: center;
-  transition: all 300ms;
 }
 #header-image {
   position: absolute;
+  min-width: calc(100vw - 1.001em);
   min-height: calc(100vh - 3em);
-  width: calc(100vw - 1.001em);
-  max-width: calc(100vw - 1.001em);
   z-index: -1;
 }
 header h1 {

@@ -29,7 +29,7 @@ fetch("./videos.xml")
         [index].getElementsByTagName("title")[0].textContent;
       body
         .getElementsByClassName("section-text")
-        [index].getElementsByTagName("p")[0].textContent = youtubeFeedXml
+        [index].getElementsByTagName("p")[0].innerText = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("media:description")[0].textContent;
       body

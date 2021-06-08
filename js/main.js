@@ -14,6 +14,14 @@ const headerImage4 = new Image();
 headerImage4.src =
   "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg";
 headerImage4.id = "header-image";
+
+const youtubeFeedRequest = new XMLHttpRequest();
+youtubeFeedRequest.open(
+  "GET",
+  'https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"'
+);
+youtubeFeedRequest.send();
+
 const body = document.body;
 const contentBar = document.getElementById("header-content-bar").childNodes;
 const homepageHeader = document.getElementsByTagName("header")[0];

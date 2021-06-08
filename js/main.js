@@ -51,6 +51,11 @@ const homepageHeader = document.getElementsByTagName("header")[0];
 let headerElement = document.getElementById("header-image");
 
 let currentContentNumber = 0;
+
+function replaceHeaderImage(headerImage) {
+  headerElement.parentNode.replaceChild(headerImage, headerElement);
+  headerElement = document.getElementById("header-image");
+}
 function toHeaderContent(contentNumber) {
   currentContentNumber = contentNumber;
   contentBar[1].innerHTML = "&#9702;";
@@ -59,23 +64,19 @@ function toHeaderContent(contentNumber) {
   contentBar[7].innerHTML = "&#9702;";
   switch (contentNumber) {
     case 0:
-      headerElement.parentNode.replaceChild(headerImage1, headerElement);
-      headerElement = document.getElementById("header-image");
+      replaceHeaderImage(headerImage1);
       contentBar[1].innerHTML = "&#8226;";
       break;
     case 1:
-      headerElement.parentNode.replaceChild(headerImage2, headerElement);
-      headerElement = document.getElementById("header-image");
+      replaceHeaderImage(headerImage2);
       contentBar[3].innerHTML = "&#8226;";
       break;
     case 2:
-      headerElement.parentNode.replaceChild(headerImage3, headerElement);
-      headerElement = document.getElementById("header-image");
+      replaceHeaderImage(headerImage3);
       contentBar[5].innerHTML = "&#8226;";
       break;
     case 3:
-      headerElement.parentNode.replaceChild(headerImage4, headerElement);
-      headerElement = document.getElementById("header-image");
+      replaceHeaderImage(headerImage4);
       contentBar[7].innerHTML = "&#8226;";
       break;
   }

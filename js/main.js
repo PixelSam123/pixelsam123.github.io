@@ -58,26 +58,26 @@ function replaceHeaderImage(headerImage) {
 }
 function toHeaderContent(contentNumber) {
   currentContentNumber = contentNumber;
-  contentBar[1].innerHTML = "&#9702;";
-  contentBar[3].innerHTML = "&#9702;";
-  contentBar[5].innerHTML = "&#9702;";
-  contentBar[7].innerHTML = "&#9702;";
+  contentBar[1].textContent = "&#9702;";
+  contentBar[3].textContent = "&#9702;";
+  contentBar[5].textContent = "&#9702;";
+  contentBar[7].textContent = "&#9702;";
   switch (contentNumber) {
     case 0:
       replaceHeaderImage(headerImage1);
-      contentBar[1].innerHTML = "&#8226;";
+      contentBar[1].textContent = "&#8226;";
       break;
     case 1:
       replaceHeaderImage(headerImage2);
-      contentBar[3].innerHTML = "&#8226;";
+      contentBar[3].textContent = "&#8226;";
       break;
     case 2:
       replaceHeaderImage(headerImage3);
-      contentBar[5].innerHTML = "&#8226;";
+      contentBar[5].textContent = "&#8226;";
       break;
     case 3:
       replaceHeaderImage(headerImage4);
-      contentBar[7].innerHTML = "&#8226;";
+      contentBar[7].textContent = "&#8226;";
       break;
   }
 }

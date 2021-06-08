@@ -91,3 +91,9 @@ h2 {
 #featured-article {
   text-align: justify;
 }
+textarea {
+  resize: none;
+}
+#pro-tip h2 {
+  text-align: left;
+}

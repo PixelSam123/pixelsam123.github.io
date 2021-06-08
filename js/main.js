@@ -15,16 +15,34 @@ headerImage4.src =
   "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg";
 headerImage4.id = "header-image";
 
-let youtubeFeed = undefined;
 fetch("./videos.xml")
   .then((response) => response.text())
   .then((text) => new DOMParser().parseFromString(text, "text/xml"))
-  .then((youtubeFeed) => {
-    body
-      .getElementsByClassName("section-text")[0]
-      .getElementsByTagName("h3")[0].textContent = youtubeFeed
-      .getElementsByTagName("entry")[0]
-      .getElementsByTagName("title")[0].textContent;
+  .then((youtubeFeedXml) => {
+    for (let index = 0; index < 4; index++) {
+      body
+        .getElementsByClassName("section-text")
+        [index].getElementsByTagName("h3")[0].textContent = youtubeFeedXml
+        .getElementsByTagName("entry")
+        [index].getElementsByTagName("title")[0].textContent;
+
+      body
+        .getElementsByClassName("section-text")
+        [index].getElementsByTagName("p")[0].textContent = youtubeFeedXml
+        .getElementsByTagName("entry")
+        [index].getElementsByTagName("media:description")[0].textContent;
+
+      body
+        .getElementsByClassName("section-container")
+        [index].getElementsByTagName("img")[0]
+        .setAttribute(
+          "src",
+          youtubeFeedXml
+            .getElementsByTagName("entry")
+            [index].getElementsByTagName("media:thumbnail")[0]
+            .getAttribute("url")
+        );
+    }
   });
 
 const body = document.body;

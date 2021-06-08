@@ -1,19 +1,21 @@
-const headerImage1 = new Image();
-headerImage1.src =
-  "https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg";
-headerImage1.id = "header-image";
-const headerImage2 = new Image();
-headerImage2.src =
-  "https://www.ultimatepocket.com/wp-content/uploads/2021/06/heres-when-to-expect-minecrafts-1-17-caves-cliffs-update.jpg";
-headerImage2.id = "header-image";
-const headerImage3 = new Image();
-headerImage3.src =
-  "https://www.minecraft.net/content/dam/community/fy21/minecraft/communitynews-assets/hero_sustainability_42221.png.transform/minecraft-image-large/image.png";
-headerImage3.id = "header-image";
-const headerImage4 = new Image();
-headerImage4.src =
-  "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg";
-headerImage4.id = "header-image";
+function loadHeaderImage(src) {
+  headerImage = new Image();
+  headerImage.src = src;
+  headerImage.id = "header-image";
+  return headerImage;
+}
+const headerImage1 = loadHeaderImage(
+  "https://assets.gamepur.com/wp-content/uploads/2021/03/10123835/Lush-Caves-lit-up-with-torches.jpg"
+);
+const headerImage2 = loadHeaderImage(
+  "https://www.ultimatepocket.com/wp-content/uploads/2021/06/heres-when-to-expect-minecrafts-1-17-caves-cliffs-update.jpg"
+);
+const headerImage3 = loadHeaderImage(
+  "https://www.minecraft.net/content/dam/community/fy21/minecraft/communitynews-assets/hero_sustainability_42221.png.transform/minecraft-image-large/image.png"
+);
+const headerImage4 = loadHeaderImage(
+  "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg"
+);
 
 fetch("./videos.xml")
   .then((response) => response.text())
@@ -25,13 +27,11 @@ fetch("./videos.xml")
         [index].getElementsByTagName("h3")[0].textContent = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("title")[0].textContent;
-
       body
         .getElementsByClassName("section-text")
         [index].getElementsByTagName("p")[0].textContent = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("media:description")[0].textContent;
-
       body
         .getElementsByClassName("section-container")
         [index].getElementsByTagName("img")[0]

@@ -17,6 +17,8 @@ const headerImage4 = loadHeaderImage(
   "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg"
 );
 
+const body = document.body;
+
 fetch("./videos.xml")
   .then((response) => response.text())
   .then((text) => new DOMParser().parseFromString(text, "text/xml"))
@@ -45,13 +47,11 @@ fetch("./videos.xml")
     }
   });
 
-const body = document.body;
 const contentBar = document.getElementById("header-content-bar").childNodes;
 const homepageHeader = document.getElementsByTagName("header")[0];
 let headerElement = document.getElementById("header-image");
 
 let currentContentNumber = 0;
-
 function replaceHeaderImage(headerImage) {
   headerElement.parentNode.replaceChild(headerImage, headerElement);
   headerElement = document.getElementById("header-image");

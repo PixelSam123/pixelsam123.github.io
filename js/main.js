@@ -15,12 +15,17 @@ headerImage4.src =
   "https://www.minecraft.net/content/dam/games/minecraft/screenshots/snapshot-21w16a-header.jpg.transform/minecraft-image-large/image.jpg";
 headerImage4.id = "header-image";
 
-const youtubeFeedRequest = new XMLHttpRequest();
-youtubeFeedRequest.open(
-  "GET",
-  'https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"'
-);
-youtubeFeedRequest.send();
+let youtubeFeed = undefined;
+fetch("./videos.xml")
+  .then((response) => response.text())
+  .then((text) => new DOMParser().parseFromString(text, "text/xml"))
+  .then((youtubeFeed) => {
+    body
+      .getElementsByClassName("section-text")[0]
+      .getElementsByTagName("h3")[0].textContent = youtubeFeed
+      .getElementsByTagName("entry")[0]
+      .getElementsByTagName("title")[0].textContent;
+  });
 
 const body = document.body;
 const contentBar = document.getElementById("header-content-bar").childNodes;

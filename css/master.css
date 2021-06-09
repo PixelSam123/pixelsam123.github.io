@@ -8,6 +8,7 @@ main {
   background: white;
 }
 body {
+  background: black;
   overflow-x: hidden;
 }
 nav {

@@ -53,8 +53,12 @@ let headerElement = document.getElementById("header-image");
 
 let currentContentNumber = 0;
 function replaceHeaderImage(headerImage) {
-  headerElement.parentNode.replaceChild(headerImage, headerElement);
-  headerElement = document.getElementById("header-image");
+  headerElement.parentNode.appendChild(headerImage);
+  setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
+  setTimeout(
+    () => (headerElement = document.getElementById("header-image")),
+    305
+  );
 }
 function toHeaderContent(contentNumber) {
   currentContentNumber = contentNumber;

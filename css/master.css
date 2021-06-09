@@ -4,7 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 main {
-  margin: 1em;
+  padding: 1em;
+  background: white;
 }
 body {
   overflow-x: hidden;
@@ -36,11 +37,22 @@ header {
   color: white;
   text-align: center;
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 #header-image {
-  position: absolute;
+  position: fixed;
   min-width: calc(100vw - 1.001em);
   min-height: calc(100vh - 3em);
   z-index: -1;
+  animation: fade-in;
+  animation-duration: 300ms;
 }
 header h1 {
   text-transform: uppercase;

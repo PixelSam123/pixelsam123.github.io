@@ -15,11 +15,12 @@ nav {
   top: 0;
   height: 3.25em;
   display: flex;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-between;
   background: black;
 }
-nav a {
-  margin: auto 1em;
+nav div a {
+  margin: 0 1em;
   text-decoration: none;
   color: white;
 }
@@ -27,10 +28,9 @@ nav a:hover {
   text-decoration: underline;
 }
 nav input {
-  height: 3.9em;
-  width: 8.5em;
-  position: absolute;
-  right: 0;
+  height: 2em;
+  max-width: 9em;
+  flex-grow: 1;
 }
 
 /* Index only */

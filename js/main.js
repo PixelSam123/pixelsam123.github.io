@@ -102,3 +102,13 @@ function cycleHeaderContent(cycleTo) {
   }
   toHeaderContent(currentContentNumber);
 }
+
+darkModeIsOn = false;
+function toggleDarkMode() {
+  darkModeIsOn = !darkModeIsOn;
+  if (darkModeIsOn) {
+    body.getElementsByTagName("main")[0].setAttribute("id", "dark-mode");
+  } else {
+    body.getElementsByTagName("main")[0].setAttribute("id", "");
+  }
+}

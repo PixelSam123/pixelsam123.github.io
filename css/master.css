@@ -9,7 +9,6 @@ main {
 }
 body {
   background: black;
-  overflow-x: hidden;
 }
 nav {
   position: sticky;
@@ -49,7 +48,7 @@ header {
 }
 #header-image {
   position: fixed;
-  min-width: calc(100vw - 1.001em);
+  min-width: 100vw;
   min-height: calc(100vh - 3em);
   z-index: -1;
   animation: fade-in;
@@ -109,4 +108,8 @@ textarea {
 }
 #pro-tip h2 {
   text-align: left;
+}
+#homepage-videos {
+  min-width: 0;
+  overflow-x: auto;
 }

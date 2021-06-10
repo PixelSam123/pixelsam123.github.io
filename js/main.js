@@ -57,7 +57,7 @@ function replaceHeaderImage(headerImage) {
   setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
   setTimeout(
     () => (headerElement = document.getElementById("header-image")),
-    305
+    300
   );
 }
 function toHeaderContent(contentNumber) {

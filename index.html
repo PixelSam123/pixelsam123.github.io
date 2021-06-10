@@ -43,14 +43,16 @@
         <a href="">Videos</a>
       </div>
 
-      <input type="search" placeholder="search (dummy)" size="4" />
+      <input type="search" placeholder="search (dummy)" size="3" />
     </nav>
     <main>
       <section id="pro-tip">
-        <h2>
-          Pro tip: IntelliJ editor look in VS Code (1080p screen, 13 font size)
-        </h2>
-        <textarea name="" id="" cols="40" rows="8" readonly>
+        <h2>Pro tip: IntelliJ editor look in VS Code</h2>
+
+        <div id="textarea-container">
+          <div class="textarea-pieces">
+            <h3>1080p screen, 13 font size</h3>
+            <textarea name="" id="" cols="40" rows="8" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
@@ -59,9 +61,11 @@
   "editor.padding.top": 4,
   "editor.mouseWheelScrollSensitivity": 1.32,
 }</textarea
-        >
-        <h2>Theoretical inbetweener setting (ideal IMO)</h2>
-        <textarea name="" id="" cols="40" rows="8">
+            >
+          </div>
+          <div class="textarea-pieces">
+            <h3>Theoretical 13 font size setting</h3>
+            <textarea name="" id="" cols="40" rows="8">
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13.5,
@@ -70,16 +74,20 @@
   "editor.padding.top": 5,
   "editor.mouseWheelScrollSensitivity": 1.38,
 }</textarea
-        >
-        <h2>(1440p screen, 14 font size)</h2>
-        <textarea name="" id="" cols="40" rows="6" readonly>
+            >
+          </div>
+          <div class="textarea-pieces">
+            <h3>1440p screen, 14 font size</h3>
+            <textarea name="" id="" cols="40" rows="6" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.letterSpacing": 0.4,
   "editor.lineHeight": 24,
   "editor.mouseWheelScrollSensitivity": 1.152,
 }</textarea
-        >
+            >
+          </div>
+        </div>
       </section>
       <fieldset id="homepage-videos">
         <legend><h2>FEATURED VIDEOS</h2></legend>

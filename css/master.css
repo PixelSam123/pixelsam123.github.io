@@ -104,9 +104,6 @@ fieldset {
   color: white;
   text-decoration: none;
 }
-h2 {
-  text-align: center;
-}
 #featured-article {
   text-align: justify;
 }
@@ -114,9 +111,19 @@ textarea {
   resize: none;
 }
 #pro-tip h2 {
-  text-align: left;
+  text-align: center;
 }
 #homepage-videos {
   min-width: 0;
   overflow-x: auto;
+}
+#textarea-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.textarea-pieces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
 }

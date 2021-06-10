@@ -61,46 +61,50 @@ function replaceHeaderImage(headerImage) {
   );
 }
 function toHeaderContent(contentNumber) {
-  currentContentNumber = contentNumber;
-  contentBar[1].textContent = "◦";
-  contentBar[3].textContent = "◦";
-  contentBar[5].textContent = "◦";
-  contentBar[7].textContent = "◦";
-  switch (contentNumber) {
-    case 0:
-      replaceHeaderImage(headerImage1);
-      contentBar[1].textContent = "•";
-      break;
-    case 1:
-      replaceHeaderImage(headerImage2);
-      contentBar[3].textContent = "•";
-      break;
-    case 2:
-      replaceHeaderImage(headerImage3);
-      contentBar[5].textContent = "•";
-      break;
-    case 3:
-      replaceHeaderImage(headerImage4);
-      contentBar[7].textContent = "•";
-      break;
+  if (contentNumber != currentContentNumber) {
+    currentContentNumber = contentNumber;
+    contentBar[1].textContent = "◦";
+    contentBar[3].textContent = "◦";
+    contentBar[5].textContent = "◦";
+    contentBar[7].textContent = "◦";
+    switch (contentNumber) {
+      case 0:
+        replaceHeaderImage(headerImage1);
+        contentBar[1].textContent = "•";
+        break;
+      case 1:
+        replaceHeaderImage(headerImage2);
+        contentBar[3].textContent = "•";
+        break;
+      case 2:
+        replaceHeaderImage(headerImage3);
+        contentBar[5].textContent = "•";
+        break;
+      case 3:
+        replaceHeaderImage(headerImage4);
+        contentBar[7].textContent = "•";
+        break;
+    }
   }
 }
 function cycleHeaderContent(cycleTo) {
+  let contentNumber = currentContentNumber;
   switch (cycleTo) {
     case "next":
-      currentContentNumber += 1;
-      if (currentContentNumber > 3) {
-        currentContentNumber = 0;
+      contentNumber += 1;
+      if (contentNumber > 3) {
+        contentNumber = 0;
       }
       break;
     case "previous":
-      currentContentNumber -= 1;
-      if (currentContentNumber < 0) {
-        currentContentNumber = 3;
+      contentNumber -= 1;
+      if (contentNumber < 0) {
+        contentNumber = 3;
       }
       break;
   }
-  toHeaderContent(currentContentNumber);
+  toHeaderContent(contentNumber);
+  currentContentNumber = contentNumber;
 }
 
 darkModeIsOn = false;

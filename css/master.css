@@ -93,6 +93,7 @@ fieldset {
   user-select: none;
 }
 #header-content-bar a {
+  font-family: Arial, Helvetica, monospace;
   font-size: 2em;
   color: white;
   text-decoration: none;

@@ -124,6 +124,7 @@ textarea {
 #textarea-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .textarea-pieces {
   display: flex;

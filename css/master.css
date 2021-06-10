@@ -28,6 +28,7 @@ nav a:hover {
 }
 nav input {
   height: 3.9em;
+  width: 10em;
   position: absolute;
   right: 0;
 }

@@ -108,7 +108,19 @@ function toggleDarkMode() {
   darkModeIsOn = !darkModeIsOn;
   if (darkModeIsOn) {
     body.getElementsByTagName("main")[0].setAttribute("id", "dark-mode");
+    for (let index = 0; index < 3; index++) {
+      body
+        .getElementsByClassName("textarea-pieces")
+        [index].getElementsByTagName("textarea")[0]
+        .setAttribute("id", "darker-mode");
+    }
   } else {
     body.getElementsByTagName("main")[0].setAttribute("id", "");
+    for (let index = 0; index < 3; index++) {
+      body
+        .getElementsByClassName("textarea-pieces")
+        [index].getElementsByTagName("textarea")[0]
+        .setAttribute("id", "");
+    }
   }
 }

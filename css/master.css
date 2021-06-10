@@ -11,6 +11,10 @@ main {
   background: #25293a;
   color: lightgrey;
 }
+#darker-mode {
+  background: black;
+  color: lightgrey;
+}
 body {
   background: black;
 }

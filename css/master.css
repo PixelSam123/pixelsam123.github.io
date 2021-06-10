@@ -85,6 +85,9 @@ fieldset {
 .section-container img {
   margin-right: 0.5em;
 }
+.section-text p {
+  text-align: justify;
+}
 #header-content-cycle {
   width: calc(100vw - 2.5em);
   justify-self: flex-start;

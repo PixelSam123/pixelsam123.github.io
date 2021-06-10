@@ -9,7 +9,7 @@ main {
 }
 #dark-mode {
   background: #25293a;
-  color: white;
+  color: lightgrey;
 }
 body {
   background: black;

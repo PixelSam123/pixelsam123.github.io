@@ -53,7 +53,7 @@ let headerElement = document.getElementById("header-image");
 
 let currentContentNumber = 0;
 function replaceHeaderImage(headerImage) {
-  headerElement.parentNode.appendChild(headerImage);
+  body.getElementsByTagName("header")[0].appendChild(headerImage);
   setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
   setTimeout(
     () => (headerElement = document.getElementById("header-image")),

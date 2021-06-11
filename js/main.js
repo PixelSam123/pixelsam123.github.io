@@ -19,10 +19,13 @@ const headerImage4 = loadHeaderImage(
 
 const body = document.body;
 
-fetch("./videos.xml")
+fetch(
+  "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
+)
   .then((response) => response.text())
   .then((text) => new DOMParser().parseFromString(text, "text/xml"))
   .then((youtubeFeedXml) => {
+    console.log(youtubeFeedXml);
     for (let index = 0; index < 4; index++) {
       body
         .getElementsByClassName("section-text")

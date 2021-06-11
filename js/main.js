@@ -25,7 +25,6 @@ fetch(
   .then((response) => response.text())
   .then((text) => new DOMParser().parseFromString(text, "text/xml"))
   .then((youtubeFeedXml) => {
-    console.log(youtubeFeedXml);
     for (let index = 0; index < 4; index++) {
       body
         .getElementsByClassName("section-text")

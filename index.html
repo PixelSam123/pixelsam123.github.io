@@ -76,12 +76,12 @@
       textarea {
         resize: none;
       }
-      #textarea-container {
+      #pro-tip-textarea-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
       }
-      .textarea-pieces {
+      #pro-tip-textarea-container > div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -148,9 +148,8 @@
       <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
       <section id="pro-tip">
         <h2>Pro tip: IntelliJ editor look in VS Code</h2>
-
-        <div id="textarea-container">
-          <div class="textarea-pieces">
+        <div id="pro-tip-textarea-container">
+          <div>
             <h3>1080p screen, 13 font size</h3>
             <textarea title="Font size 13 settings" cols="40" rows="8" readonly>
 {
@@ -163,7 +162,7 @@
 }</textarea
             >
           </div>
-          <div class="textarea-pieces">
+          <div>
             <h3>Theoretical 13.5 font size setting</h3>
             <textarea
               title="Font size 13.5 settings"
@@ -181,7 +180,7 @@
 }</textarea
             >
           </div>
-          <div class="textarea-pieces">
+          <div>
             <h3>1440p screen, 14 font size</h3>
             <textarea title="Font size 14 settings" cols="40" rows="6" readonly>
 {
@@ -225,110 +224,6 @@
           </div>
         </div>
       </fieldset>
-      <section id="image-gallery">
-        <h2>IMAGES</h2>
-      </section>
-      <section id="featured-article">
-        <h2>FEATURED ARTICLE: Minecraft Snapshot 21w16a</h2>
-        <div class="article-container">
-          <article>
-            <p>
-              Snapshot 21w16a introduces some changes to azaleas and dripstone.
-              On top of that, we've tweaked the textures of raw ores. There are
-              also a few additions to the Caves & Cliffs preview datapack.
-            </p>
-            <h3>New Features in 21w16a</h3>
-            <ul>
-              <li>
-                Azalea and Flowering Azalea can now be bonemealed to get an
-                Azalea Tree
-              </li>
-              <li>Added dripstone growth</li>
-            </ul>
-            <h4>Dripstone Growth</h4>
-            <ul>
-              <li>
-                If a stalactite is hanging from a dripstone block with a water
-                source above, it will slowly grow both the stalactite from above
-                and a stalagmite from below
-              </li>
-              <li>
-                Growth speed is random but very slow, a single growth step can
-                take several minecraft days
-              </li>
-              <li>A stalactite will only grow up ot 7 blocks long</li>
-              <li>
-                A stalactite will only cause stalagmite growth if the floor or
-                stalagmite below is within 10 blocks
-              </li>
-              <li>
-                If the stalactite tip is inside water it won't drip, and
-                therefore won't trigger any growth
-              </li>
-              <li>
-                If the stalagmite tip is inside water it won't be grown by a
-                dripping stalactite. Same thing if there is any fluid between
-                the two tips
-              </li>
-              <li>A stalagmite or stalactite will never grow into a fluid</li>
-            </ul>
-            <h3>Changes in 21w16a</h3>
-            <ul>
-              <li>Tweaked the texture of raw ores and raw ore blocks</li>
-            </ul>
-            <h3>Changes to the Caves & Cliffs Preview</h3>
-            <p>
-              Download the updated datapack
-              <a
-                href="https://www.minecraft.net/en-us/article/minecraft-snapshot-21w16a"
-                target="_blank"
-                >here</a
-              >.
-            </p>
-            <ul>
-              <li>
-                Aquifers below height 0 will sometimes be lava aquifers instead
-                of water aquifers
-              </li>
-              <li>Ore veins can now spawn underground</li>
-            </ul>
-            <h4>Ore Veins</h4>
-            <ul>
-              <li>
-                Ore veins are large, rare, snake-like underground ore formations
-              </li>
-              <li>
-                Copper veins form above height 0 and are mixed with granite
-              </li>
-              <li>Iron veins form below height 0 and are mixed with tuff</li>
-            </ul>
-            <h3>Tehnical Changes in 21w16a</h3>
-            <ul>
-              <li>
-                Users who previously permanenetly declined server resource packs
-                will now still be shown the pack prompt if the pack is mandatory
-                (instead of being immediately disconnected)
-              </li>
-              <li>The statistic for play time has been renamed to play_time</li>
-              <li>
-                There is now a statistic for "Time with World Open"
-                (total_world_time) that also includes the time when the game was
-                paused
-              </li>
-            </ul>
-            <h3>Fixed Bugs in 21w16a</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://www.minecraft.net/en-us/article/minecraft-snapshot-21w16a"
-                  target="_blank"
-                  >Visit the article link to view</a
-                >
-              </li>
-            </ul>
-          </article>
-        </div>
-      </section>
     </main>
     <script src="../js/main.js"></script>
   </body>

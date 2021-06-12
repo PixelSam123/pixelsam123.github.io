@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="../css/master.css" />
     <style>
+      /* Hero header */
       header {
         height: calc(100vh - 3.25em);
         display: flex;
@@ -25,10 +26,10 @@
       }
       header h1 {
         text-transform: uppercase;
-        margin: 1em 1em 0;
+        margin: 1em 0.5em 0 0.5em;
       }
       header p {
-        margin: 1em;
+        margin: 1em 0.5em;
       }
       #header-image {
         position: fixed;
@@ -70,11 +71,15 @@
         text-decoration: none;
       }
 
+      /* VSCode pro tip for IntelliJ look */
       #pro-tip h2 {
         text-align: center;
       }
       #pro-tip textarea {
+        width: 370px;
+        max-width: calc(100vw - 3em);
         resize: none;
+        font-family: "JetBrains Mono", monospace;
       }
       #pro-tip-textarea-container {
         display: flex;
@@ -88,8 +93,9 @@
         margin: 0.5em;
       }
 
+      /* Featured videos section */
       #homepage-videos {
-        margin: 0.5em;
+        margin: 0.5em 0;
         min-width: 0;
         overflow-x: auto;
       }
@@ -133,8 +139,6 @@
         <a href="#">Projects</a>
         <a href="#">Videos</a>
       </div>
-
-      <input type="search" placeholder="search (dummy)" size="3" />
     </nav>
     <main>
       <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
@@ -143,7 +147,7 @@
         <div id="pro-tip-textarea-container">
           <div>
             <h3>1080p screen, 13 font size</h3>
-            <textarea title="Font size 13 settings" cols="40" rows="8" readonly>
+            <textarea title="Font size 13 settings" rows="8" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
@@ -156,7 +160,7 @@
           </div>
           <div>
             <h3>Theoretical 13.5 font size setting</h3>
-            <textarea title="Font size 13.5 settings" cols="40" rows="8" readonly>
+            <textarea title="Font size 13.5 settings" rows="8" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13.5,
@@ -169,7 +173,7 @@
           </div>
           <div>
             <h3>1440p screen, 14 font size</h3>
-            <textarea title="Font size 14 settings" cols="40" rows="6" readonly>
+            <textarea title="Font size 14 settings" rows="8" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.letterSpacing": 0.4,

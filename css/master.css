@@ -1,13 +1,6 @@
-/* Universal */
-* {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-main {
-  padding: 1em;
-  background: white;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -24,8 +17,22 @@ main {
   background: black;
   color: lightgrey;
 }
+
+/* Universal styles */
+* {
+  margin: 0;
+}
 body {
   background: black;
+  font-family: "Open Sans", sans-serif;
+}
+main {
+  padding: 1em;
+  background: white;
+}
+h1,
+h2 {
+  font-family: Montserrat, sans-serif;
 }
 nav {
   position: -webkit-sticky;
@@ -37,16 +44,11 @@ nav {
   justify-content: space-between;
   background: black;
 }
-nav div a {
+nav > div a {
   margin: 0 0.75em;
   text-decoration: none;
   color: white;
 }
-nav a:hover {
+nav > div a:hover {
   text-decoration: underline;
-}
-nav input {
-  height: 2em;
-  max-width: 9em;
-  flex-grow: 1;
 }

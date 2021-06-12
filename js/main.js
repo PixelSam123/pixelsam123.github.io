@@ -25,19 +25,17 @@ fetch(
   .then((response) => response.text())
   .then((text) => new DOMParser().parseFromString(text, "text/xml"))
   .then((youtubeFeedXml) => {
+    function replaceTitleOrDescription(index, elementToReplace, replaceSourceElement) {
+      body
+        .getElementsByClassName("video-section-container")
+        [index].getElementsByTagName("div")[0]
+        .getElementsByTagName(elementToReplace)[0].innerText = youtubeFeedXml
+        .getElementsByTagName("entry")
+        [index].getElementsByTagName(replaceSourceElement)[0].textContent;
+    }
     for (let index = 0; index < 4; index++) {
-      body
-        .getElementsByClassName("video-section-container")
-        [index].getElementsByTagName("div")[0]
-        .getElementsByTagName("h3")[0].textContent = youtubeFeedXml
-        .getElementsByTagName("entry")
-        [index].getElementsByTagName("title")[0].textContent;
-      body
-        .getElementsByClassName("video-section-container")
-        [index].getElementsByTagName("div")[0]
-        .getElementsByTagName("p")[0].innerText = youtubeFeedXml
-        .getElementsByTagName("entry")
-        [index].getElementsByTagName("media:description")[0].textContent;
+      replaceTitleOrDescription(index, "h3", "title");
+      replaceTitleOrDescription(index, "p", "media:description");
       body
         .getElementsByClassName("video-section-container")
         [index].getElementsByTagName("img")[0]
@@ -59,10 +57,7 @@ let currentContentNumber = 0;
 function replaceHeaderImage(headerImage) {
   body.getElementsByTagName("header")[0].appendChild(headerImage);
   setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
-  setTimeout(
-    () => (headerElement = document.getElementById("header-image")),
-    300
-  );
+  setTimeout(() => (headerElement = document.getElementById("header-image")), 300);
 }
 replaceHeaderImage(headerImage1);
 function toHeaderContent(contentNumber) {

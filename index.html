@@ -25,8 +25,9 @@
       }
       #header-image {
         position: fixed;
-        min-width: 100vw;
-        min-height: calc(100vh - 3.25em);
+        width: 100vw;
+        height: calc(100vh - 3.25em);
+        object-fit: cover;
         z-index: -1;
         animation: fade-in;
         animation-duration: 300ms;
@@ -98,6 +99,11 @@
       }
       .section-container img {
         margin-right: 0.5em;
+        min-width: 160px;
+        min-height: 90px;
+        width: 160px;
+        height: 90px;
+        object-fit: cover;
       }
       .section-text p {
         text-align: justify;
@@ -191,28 +197,28 @@
       <fieldset id="homepage-videos">
         <legend><h2>FEATURED VIDEOS</h2></legend>
         <div class="section-container">
-          <img src="" height="100px" alt="thumbnail" />
+          <img src="" alt="thumbnail" />
           <div class="section-text">
             <h3>Video Title 1</h3>
             <p>Video Description 1</p>
           </div>
         </div>
         <div class="section-container">
-          <img src="" height="100px" alt="thumbnail" />
+          <img src="" alt="thumbnail" />
           <div class="section-text">
             <h3>Video Title 2</h3>
             <p>Video Description 2</p>
           </div>
         </div>
         <div class="section-container">
-          <img src="" height="100px" alt="thumbnail" />
+          <img src="" alt="thumbnail" />
           <div class="section-text">
             <h3>Video Title 3</h3>
             <p>Video Description 3</p>
           </div>
         </div>
         <div class="section-container">
-          <img src="" height="100px" alt="thumbnail" />
+          <img src="" alt="thumbnail" />
           <div class="section-text">
             <h3>Video Title 4</h3>
             <p>Video Description 4</p>

@@ -27,13 +27,15 @@ fetch(
   .then((youtubeFeedXml) => {
     for (let index = 0; index < 4; index++) {
       body
-        .getElementsByClassName("section-text")
-        [index].getElementsByTagName("h3")[0].textContent = youtubeFeedXml
+        .getElementsByClassName("section-container")
+        [index].getElementsByTagName("div")[0]
+        .getElementsByTagName("h3")[0].textContent = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("title")[0].textContent;
       body
-        .getElementsByClassName("section-text")
-        [index].getElementsByTagName("p")[0].innerText = youtubeFeedXml
+        .getElementsByClassName("section-container")
+        [index].getElementsByTagName("div")[0]
+        .getElementsByTagName("p")[0].innerText = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("media:description")[0].textContent;
       body
@@ -115,18 +117,18 @@ function toggleDarkMode() {
   if (darkModeIsOn) {
     body.getElementsByTagName("main")[0].setAttribute("id", "dark-mode");
     for (let index = 0; index < 3; index++) {
-      body
-        .getElementsByClassName("textarea-pieces")
-        [index].getElementsByTagName("textarea")[0]
-        .setAttribute("id", "darker-mode");
+      document
+        .getElementById("pro-tip-textarea-container")
+        .getElementsByTagName("textarea")
+        [index].setAttribute("id", "darker-mode");
     }
   } else {
     body.getElementsByTagName("main")[0].setAttribute("id", "");
     for (let index = 0; index < 3; index++) {
-      body
-        .getElementsByClassName("textarea-pieces")
-        [index].getElementsByTagName("textarea")[0]
-        .setAttribute("id", "");
+      document
+        .getElementById("pro-tip-textarea-container")
+        .getElementsByTagName("textarea")
+        [index].setAttribute("id", "");
     }
   }
 }

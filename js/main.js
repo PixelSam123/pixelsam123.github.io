@@ -27,19 +27,19 @@ fetch(
   .then((youtubeFeedXml) => {
     for (let index = 0; index < 4; index++) {
       body
-        .getElementsByClassName("section-container")
+        .getElementsByClassName("video-section-container")
         [index].getElementsByTagName("div")[0]
         .getElementsByTagName("h3")[0].textContent = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("title")[0].textContent;
       body
-        .getElementsByClassName("section-container")
+        .getElementsByClassName("video-section-container")
         [index].getElementsByTagName("div")[0]
         .getElementsByTagName("p")[0].innerText = youtubeFeedXml
         .getElementsByTagName("entry")
         [index].getElementsByTagName("media:description")[0].textContent;
       body
-        .getElementsByClassName("section-container")
+        .getElementsByClassName("video-section-container")
         [index].getElementsByTagName("img")[0]
         .setAttribute(
           "src",
@@ -64,6 +64,7 @@ function replaceHeaderImage(headerImage) {
     300
   );
 }
+replaceHeaderImage(headerImage1);
 function toHeaderContent(contentNumber) {
   if (contentNumber != currentContentNumber) {
     currentContentNumber = contentNumber;

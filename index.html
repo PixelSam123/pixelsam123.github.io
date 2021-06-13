@@ -35,7 +35,7 @@
         margin: 1em 0.5em 0 0.5em;
       }
       header p {
-        margin: 1em 0.5em;
+        margin: 0.5em 0.5em 1em;
       }
       #header-image {
         position: fixed;
@@ -55,7 +55,7 @@
         user-select: none;
       }
       #header-content-cycle a {
-        padding: 0 0.125em 0.2em;
+        padding: 0 0.125em 0.25em;
         color: white;
         text-decoration: none;
         font-size: 5em;
@@ -67,14 +67,13 @@
         transition: all 150ms;
       }
       #header-content-bar {
+        margin-bottom: 1em;
         -webkit-user-select: none;
         user-select: none;
       }
-      #header-content-bar a {
-        font-family: Arial, Helvetica, monospace;
-        font-size: 2em;
-        color: white;
-        text-decoration: none;
+      #header-content-bar input {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
       }
 
       /* VSCode pro tip for IntelliJ look */
@@ -131,12 +130,11 @@
       <h1>EVERYTHING YOU SEE IS PLACEHOLDER CONTENT</h1>
       <p>I repeat, everything you see is placeholder content.</p>
       <div id="header-content-bar">
-        <a href="javascript:toHeaderContent(0);">&#8226;</a>
-        <a href="javascript:toHeaderContent(1);">&#9702;</a>
-        <a href="javascript:toHeaderContent(2);">&#9702;</a>
-        <a href="javascript:toHeaderContent(3);">&#9702;</a>
+        <input type="radio" name="header-content-chooser" onclick="toHeaderContent(0);" />
+        <input type="radio" name="header-content-chooser" onclick="toHeaderContent(1);" />
+        <input type="radio" name="header-content-chooser" onclick="toHeaderContent(2);" />
+        <input type="radio" name="header-content-chooser" onclick="toHeaderContent(3);" />
       </div>
-      <img id="header-image" src="" alt="Header background" />
     </header>
     <nav>
       <div>

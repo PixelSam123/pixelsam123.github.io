@@ -2,6 +2,7 @@ function loadHeaderImage(src) {
   headerImage = new Image();
   headerImage.src = src;
   headerImage.id = "header-image";
+  headerImage.setAttribute("title", "Header image");
   return headerImage;
 }
 const headerImage1 = loadHeaderImage(
@@ -49,44 +50,42 @@ fetch(
     }
   });
 
-const contentBar = document.getElementById("header-content-bar").childNodes;
+const contentBar = document
+  .getElementById("header-content-bar")
+  .getElementsByTagName("input");
 const homepageHeader = document.getElementsByTagName("header")[0];
 let headerElement = document.getElementById("header-image");
 
-let currentContentNumber = 0;
+let currentContentNumber;
 function replaceHeaderImage(headerImage) {
   body.getElementsByTagName("header")[0].appendChild(headerImage);
   setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
   setTimeout(() => (headerElement = document.getElementById("header-image")), 300);
 }
-replaceHeaderImage(headerImage1);
 function toHeaderContent(contentNumber) {
   if (contentNumber != currentContentNumber) {
     currentContentNumber = contentNumber;
-    contentBar[1].textContent = "◦";
-    contentBar[3].textContent = "◦";
-    contentBar[5].textContent = "◦";
-    contentBar[7].textContent = "◦";
     switch (contentNumber) {
       case 0:
         replaceHeaderImage(headerImage1);
-        contentBar[1].textContent = "•";
+        contentBar[0].checked = true;
         break;
       case 1:
         replaceHeaderImage(headerImage2);
-        contentBar[3].textContent = "•";
+        contentBar[1].checked = true;
         break;
       case 2:
         replaceHeaderImage(headerImage3);
-        contentBar[5].textContent = "•";
+        contentBar[2].checked = true;
         break;
       case 3:
         replaceHeaderImage(headerImage4);
-        contentBar[7].textContent = "•";
+        contentBar[3].checked = true;
         break;
     }
   }
 }
+toHeaderContent(0);
 function cycleHeaderContent(cycleTo) {
   let contentNumber = currentContentNumber;
   switch (cycleTo) {

@@ -1,3 +1,5 @@
+/* https://fonts.google.com/share?selection.family=JetBrains%20Mono%7CMontserrat:wght@700%7COpen%20Sans:ital,wght@0,400;0,700;1,400 */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -29,22 +31,37 @@ main {
 }
 h1,
 h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 3.25em;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background: black;
+  min-height: 3.3em;
 }
-nav > div a {
-  margin: 0 0.75em;
+nav > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav > div a:first-child {
+  margin-right: 0.8em;
+  width: 3.3em;
+  height: 3.3em;
+}
+nav > div a img {
+  width: 3.3em;
+  height: 3.3em;
+}
+nav > div a:not(:first-child) {
+  margin: 0 0.8em;
   text-decoration: none;
   color: white;
+  font-family: "Montserrat";
 }
 nav > div a:hover {
   text-decoration: underline;

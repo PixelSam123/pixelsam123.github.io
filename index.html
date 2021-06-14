@@ -76,12 +76,6 @@
       #pro-tip h2 {
         text-align: center;
       }
-      #pro-tip textarea {
-        width: 370px;
-        max-width: calc(100vw - 3em);
-        resize: none;
-        font-family: "JetBrains Mono", monospace;
-      }
       #pro-tip-textarea-container {
         display: flex;
         flex-wrap: wrap;
@@ -93,7 +87,28 @@
         align-items: center;
         margin: 0.5em;
       }
-
+      #pro-tip-textarea-container > div textarea {
+        width: 420px;
+        height: 184px;
+        max-width: calc(100vw - 3em);
+        resize: none;
+        font-family: "JetBrains Mono", monospace;
+      }
+      #pro-tip-textarea-container > div:nth-of-type(1) textarea {
+        font-size: 13.5px;
+        letter-spacing: -0.1px;
+        line-height: 22px;
+      }
+      #pro-tip-textarea-container > div:nth-of-type(2) textarea {
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 23px;
+      }
+      #pro-tip-textarea-container > div:nth-of-type(3) textarea {
+        font-size: 14.5px;
+        letter-spacing: 0.1px;
+        line-height: 24px;
+      }
       /* Featured videos section */
       #homepage-videos {
         margin: 0.5em 0;
@@ -147,7 +162,7 @@
         <div id="pro-tip-textarea-container">
           <div>
             <h3>1080p screen, 13 font size</h3>
-            <textarea title="Font size 13 settings" rows="8" readonly>
+            <textarea title="Font size 13 settings" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
@@ -159,8 +174,8 @@
             >
           </div>
           <div>
-            <h3>Theoretical 13.5 font size setting</h3>
-            <textarea title="Font size 13.5 settings" rows="8" readonly>
+            <h3>1080p screen, 13.5 font size</h3>
+            <textarea title="Font size 13.5 settings" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13.5,
@@ -173,7 +188,7 @@
           </div>
           <div>
             <h3>1440p screen, 14 font size</h3>
-            <textarea title="Font size 14 settings" rows="8" readonly>
+            <textarea title="Font size 14 settings" readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.letterSpacing": 0.4,

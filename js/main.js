@@ -19,4 +19,4 @@ function toggleDarkMode() {
   applyLookMode();
 }
 
-setTimeout(() => applyLookMode(), 1);
+applyLookMode()

@@ -1,16 +1,27 @@
 function setLookMode(lookMode, secondaryLookMode) {
-  document.body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
-  for (let index = 0; index < 3; index++) {
-    document
-      .getElementById("pro-tip-textarea-container")
-      .getElementsByTagName("textarea")
-      [index].setAttribute("id", secondaryLookMode);
+  body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
+  textareaElements = body.getElementsByTagName("textarea");
+  textAreaElementsCount = textareaElements.length;
+  if (textareaElements.length != 0) {
+    for (let index = 0; index < textareaElements.length; index++) {
+      textareaElements[index].setAttribute("id", secondaryLookMode);
+    }
   }
 }
 function applyLookMode() {
-  sessionStorage.darkmode == "true"
-    ? setLookMode("dark-mode", "darker-mode")
-    : setLookMode("", "");
+  if (sessionStorage.darkmode == "true") {
+    setLookMode("dark-mode", "darker-mode");
+    body
+      .getElementsByTagName("nav")[0]
+      .getElementsByTagName("button")[0]
+      .getElementsByClassName("material-icons-outlined")[0].textContent = "dark_mode";
+  } else {
+    setLookMode("", "");
+    body
+      .getElementsByTagName("nav")[0]
+      .getElementsByTagName("button")[0]
+      .getElementsByClassName("material-icons-outlined")[0].textContent = "light_mode";
+  }
 }
 function toggleDarkMode() {
   sessionStorage.darkmode == "true"
@@ -19,4 +30,4 @@ function toggleDarkMode() {
   applyLookMode();
 }
 
-applyLookMode()
+applyLookMode();

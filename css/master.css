@@ -50,7 +50,6 @@ nav > div {
   flex-wrap: wrap;
 }
 nav > div a:first-child {
-  margin-right: 1em;
   width: 3.5em;
   height: 3.5em;
 }
@@ -59,7 +58,7 @@ nav > div a img {
   height: 3.5em;
 }
 nav > div a:not(:first-child) {
-  margin: 0 1em;
+  margin-left: 1.5em;
   text-decoration: none;
   color: white;
   font-family: "Montserrat";
@@ -68,13 +67,15 @@ nav > div a:hover {
   text-decoration: underline;
 }
 nav button {
-  height: 4.2em;
-  width: 4.2em;
-  border: 2px solid lightgrey;
+  height: 24px;
+  margin-right: 0.7em;
+  border: none;
   background: black;
-  color: lightgrey;
+  color: white;
 }
 nav button:active {
-  border: 2px solid grey;
   color: grey;
+}
+nav button .material-icons-outlined {
+  font-size: 24px;
 }

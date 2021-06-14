@@ -232,6 +232,7 @@
       </fieldset>
     </main>
     <script>
+      const body = document.body;
       function loadHeaderImage(src) {
         headerImage = new Image();
         headerImage.src = src;
@@ -251,8 +252,6 @@
       const headerImage4 = loadHeaderImage(
         "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg"
       );
-
-      const body = document.body;
 
       fetch(
         "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"

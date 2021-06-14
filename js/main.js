@@ -7,9 +7,15 @@ function setLookMode(lookMode, secondaryLookMode) {
       [index].setAttribute("id", secondaryLookMode);
   }
 }
+function applyLookMode() {
+  sessionStorage.darkmode == "true"
+    ? setLookMode("dark-mode", "darker-mode")
+    : setLookMode("", "");
+}
 
-darkModeIsOn = false;
 function toggleDarkMode() {
-  darkModeIsOn = !darkModeIsOn;
-  darkModeIsOn ? setLookMode("dark-mode", "darker-mode") : setLookMode("", "");
+  sessionStorage.darkmode == "true"
+    ? (sessionStorage.darkmode = "false")
+    : (sessionStorage.darkmode = "true");
+  applyLookMode();
 }

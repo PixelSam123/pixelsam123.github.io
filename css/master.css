@@ -40,6 +40,7 @@ nav {
   top: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: black;
   min-height: 3.5em;
 }
@@ -65,4 +66,15 @@ nav > div a:not(:first-child) {
 }
 nav > div a:hover {
   text-decoration: underline;
+}
+nav button {
+  height: 4.2em;
+  width: 4.2em;
+  border: 2px solid lightgrey;
+  background: black;
+  color: lightgrey;
+}
+nav button:active {
+  border: 2px solid grey;
+  color: grey;
 }

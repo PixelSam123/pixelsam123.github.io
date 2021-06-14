@@ -1,9 +1,10 @@
+"use strict";
 function setLookMode(lookMode, secondaryLookMode) {
   body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
-  textareaElements = body.getElementsByTagName("textarea");
-  textAreaElementsCount = textareaElements.length;
-  if (textareaElements.length != 0) {
-    for (let index = 0; index < textareaElements.length; index++) {
+  const textareaElements = body.getElementsByTagName("textarea");
+  const textAreaElementsCount = textareaElements.length;
+  if (textAreaElementsCount != 0) {
+    for (let index = 0; index < textAreaElementsCount; index++) {
       textareaElements[index].setAttribute("id", secondaryLookMode);
     }
   }

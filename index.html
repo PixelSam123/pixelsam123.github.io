@@ -206,41 +206,56 @@
         </div>
       </section>
       <fieldset id="homepage-videos">
-        <legend><h2>FEATURED VIDEOS</h2></legend>
+        <legend><h2>LATEST VIDEOS</h2></legend>
         <div class="video-section-container">
-          <img src="" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <h3>Video Title 1</h3>
+            <a href="#"><h3>Video Title 1</h3></a>
             <p>Video Description 1</p>
           </div>
         </div>
         <div class="video-section-container">
-          <img src="" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <h3>Video Title 2</h3>
+            <a href="#"><h3>Video Title 2</h3></a>
             <p>Video Description 2</p>
           </div>
         </div>
         <div class="video-section-container">
-          <img src="" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <h3>Video Title 3</h3>
+            <a href="#"><h3>Video Title 3</h3></a>
             <p>Video Description 3</p>
           </div>
         </div>
         <div class="video-section-container">
-          <img src="" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <h3>Video Title 4</h3>
+            <a href="#"><h3>Video Title 4</h3></a>
             <p>Video Description 4</p>
+          </div>
+        </div>
+        <div class="video-section-container">
+          <img alt="thumbnail" />
+          <div>
+            <a href="#"><h3>Video Title 5</h3></a>
+            <p>Video Description 5</p>
+          </div>
+        </div>
+        <div class="video-section-container">
+          <img alt="thumbnail" />
+          <div>
+            <a href="#"><h3>Video Title 6</h3></a>
+            <p>Video Description 6</p>
           </div>
         </div>
       </fieldset>
     </main>
     <script>
+      "use strict";
       const body = document.body;
       function loadHeaderImage(src) {
-        headerImage = new Image();
+        const headerImage = new Image();
         headerImage.src = src;
         headerImage.id = "header-image";
         headerImage.setAttribute("title", "Header image");
@@ -265,31 +280,36 @@
         .then((response) => response.text())
         .then((text) => new DOMParser().parseFromString(text, "text/xml"))
         .then((youtubeFeedXml) => {
-          function replaceTitleOrDescription(
+          const videoSectionContainer = body.getElementsByClassName(
+            "video-section-container"
+          );
+          function replaceTitleAndDescription(
             index,
             elementToReplace,
             replaceSourceElement
           ) {
-            body
-              .getElementsByClassName("video-section-container")
-              [index].getElementsByTagName("div")[0]
+            videoSectionContainer[index]
+              .getElementsByTagName("div")[0]
               .getElementsByTagName(elementToReplace)[0].innerText = youtubeFeedXml
               .getElementsByTagName("entry")
               [index].getElementsByTagName(replaceSourceElement)[0].textContent;
           }
-          for (let index = 0; index < 4; index++) {
-            replaceTitleOrDescription(index, "h3", "title");
-            replaceTitleOrDescription(index, "p", "media:description");
-            body
-              .getElementsByClassName("video-section-container")
-              [index].getElementsByTagName("img")[0]
-              .setAttribute(
-                "src",
-                youtubeFeedXml
-                  .getElementsByTagName("entry")
-                  [index].getElementsByTagName("media:thumbnail")[0]
-                  .getAttribute("url")
-              );
+          for (let index = 0; index < videoSectionContainer.length; index++) {
+            replaceTitleAndDescription(index, "h3", "title");
+            replaceTitleAndDescription(index, "p", "media:description");
+            // Replace links
+            videoSectionContainer[index]
+              .getElementsByTagName("div")[0]
+              .getElementsByTagName("a")[0].href = youtubeFeedXml
+              .getElementsByTagName("entry")
+              [index].getElementsByTagName("link")[0]
+              .getAttribute("href");
+            // Replace thumbnails
+            videoSectionContainer[index].getElementsByTagName("img")[0].src =
+              youtubeFeedXml
+                .getElementsByTagName("entry")
+                [index].getElementsByTagName("media:thumbnail")[0]
+                .getAttribute("url");
           }
         });
 

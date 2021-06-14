@@ -12,7 +12,7 @@ function applyLookMode() {
     ? setLookMode("dark-mode", "darker-mode")
     : setLookMode("", "");
 }
-applyLookMode();
+setTimeout(() => applyLookMode(), 5);
 function toggleDarkMode() {
   sessionStorage.darkmode == "true"
     ? (sessionStorage.darkmode = "false")

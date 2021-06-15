@@ -90,6 +90,42 @@
         background: #505050;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+      }
+      .windows10-window-header-buttons-container {
+        display: flex;
+        align-items: center;
+      }
+      .windows10-window-header-buttons {
+        color: gainsboro;
+      }
+      .windows10-window-header-buttons:not(:first-of-type) {
+        margin-left: 36px;
+      }
+      .windows10-window-header-buttons:last-of-type {
+        margin-right: 13px;
+      }
+      .windows10-window-header-buttons:nth-of-type(1) {
+        background: gainsboro;
+        width: 10px;
+        height: 1px;
+      }
+      .windows10-window-header-buttons:nth-of-type(2) {
+        border: 1px solid gainsboro;
+        width: 8px;
+        height: 7px;
+      }
+      .windows10-window-header-buttons-close-stroke {
+        background: gainsboro;
+        width: 13px;
+        height: 1px;
+      }
+      .windows10-window-header-buttons-close-stroke:nth-of-type(1) {
+        position: absolute;
+        transform: rotate(45deg);
+      }
+      .windows10-window-header-buttons-close-stroke:nth-of-type(2) {
+        transform: rotate(-45deg);
       }
       .windows10-window-title {
         font-size: 12.5px;
@@ -218,10 +254,15 @@
 
       <div class="windows10-window">
         <div class="windows10-window-header">
-          <div class="windows10-window-header-buttons"></div>
-          <div class="windows10-window-header-buttons"></div>
-          <div class="windows10-window-header-buttons"></div>
           <h3 class="windows10-window-title">1080p screen, 13 font size</h3>
+          <div class="windows10-window-header-buttons-container">
+            <div class="windows10-window-header-buttons"></div>
+            <div class="windows10-window-header-buttons"></div>
+            <div class="windows10-window-header-buttons">
+              <div class="windows10-window-header-buttons-close-stroke"></div>
+              <div class="windows10-window-header-buttons-close-stroke"></div>
+            </div>
+          </div>
         </div>
         <div class="windows10-window-content">
           <p>

@@ -3,25 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>stuff</title>
+
+    <link rel="stylesheet" href="../css/master.css" />
     <style>
-      input {
-        width: 2em;
-        height: 2em;
-        filter: grayscale(1);
+      /* Overall window */
+      .macos-window {
+        width: max-content;
+      }
+      /* Window header */
+      .macos-window-header {
+        border-radius: 14px 14px 0 0;
+        padding: 14px;
+        background: lightgrey;
+        display: flex;
+        align-items: center;
+      }
+      .macos-window-header-buttons {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+      }
+      .macos-window-header-buttons:not(:first-of-type) {
+        margin-left: 7px;
+      }
+      .macos-window-header-buttons:nth-of-type(1) {
+        background: red;
+      }
+      .macos-window-header-buttons:nth-of-type(2) {
+        background: orange;
+      }
+      .macos-window-header-buttons:nth-of-type(3) {
+        background: green;
+      }
+      .macos-window-title {
+        margin-left: 7px;
+        font-size: 1em;
+      }
+      /* Window content */
+      .macos-window-content {
+        display: flex;
+      }
+      .macos-window-content textarea {
+        height: 184px;
+        resize: none;
+        font-family: "JetBrains Mono", monospace;
+      }
+      .macos-window-content textarea:nth-of-type(1) {
+        text-align: center;
+        width: 40px;
+        border-right: none;
+        border-radius: 0 0 0 14px;
+        overflow-x: hidden;
+      }
+      .macos-window-content textarea:nth-of-type(2) {
+        width: 405px;
+        border-left: none;
+        border-radius: 0 0 14px 0px;
+      }
+
+      /* Overall window */
+      .windows10-window {
+        width: max-content;
+      }
+      /* Window header */
+      .windows10-window-header {
+        padding: 5px;
+        background: lightgrey;
+        display: flex;
+        align-items: center;
+      }
+      .windows10-window-title {
+        font-size: 0.7125em;
+        font-weight: normal;
+      }
+      /* Window content */
+      .windows10-window-content {
+        display: flex;
+      }
+      .windows10-window-content textarea {
+        height: 184px;
+        resize: none;
+        font-family: "JetBrains Mono", monospace;
+      }
+      .windows10-window-content textarea:nth-of-type(1) {
+        text-align: center;
+        width: 40px;
+        border-right: none;
+        overflow-x: hidden;
+      }
+      .windows10-window-content textarea:nth-of-type(2) {
+        width: 405px;
+        border-left: none;
       }
     </style>
   </head>
-  <style>
-    * {
-      margin: 0;
-    }
-  </style>
   <body>
-    <fieldset>
-      <legend>henlo</legend>
-      aaa
-    </fieldset>
-    <input type="radio" />
+    <main>
+      <div class="macos-window">
+        <div class="macos-window-header">
+          <div class="macos-window-header-buttons"></div>
+          <div class="macos-window-header-buttons"></div>
+          <div class="macos-window-header-buttons"></div>
+          <h3 class="macos-window-title">1080p screen, 13 font size</h3>
+        </div>
+        <div class="macos-window-content">
+          <textarea readonly>
+1
+2
+3
+4
+5
+6
+7
+8
+          </textarea>
+          <textarea readonly>
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 22,
+  "editor.padding.top": 4,
+  "editor.mouseWheelScrollSensitivity": 1.32,
+}</textarea
+          >
+        </div>
+      </div>
+      <div class="windows10-window">
+        <div class="windows10-window-header">
+          <div class="windows10-window-header-buttons"></div>
+          <div class="windows10-window-header-buttons"></div>
+          <div class="windows10-window-header-buttons"></div>
+          <h3 class="windows10-window-title">1080p screen, 13 font size</h3>
+        </div>
+        <div class="windows10-window-content">
+          <textarea readonly>
+1
+2
+3
+4
+5
+6
+7
+8
+          </textarea>
+          <textarea readonly>
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 22,
+  "editor.padding.top": 4,
+  "editor.mouseWheelScrollSensitivity": 1.32,
+}</textarea
+          >
+        </div>
+      </div>
+    </main>
   </body>
 </html>

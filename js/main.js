@@ -11,7 +11,7 @@ function setLookMode(lookMode, secondaryLookMode) {
     }
   }
   /* a links */
-  const aElements = body.getElementsByTagName("a");
+  const aElements = body.getElementsByTagName("main")[0].getElementsByTagName("a");
   const aElementsCount = aElements.length;
   if (aElementsCount != 0) {
     for (let index = 0; index < aElementsCount; index++) {

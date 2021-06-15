@@ -11,6 +11,8 @@
       /* Overall window */
       .macos-window {
         width: max-content;
+        border-radius: 11px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
       }
       /* Window header */
       .macos-window-header {
@@ -19,7 +21,6 @@
         background: #353333;
         display: flex;
         align-items: center;
-
       }
       .macos-window-header-buttons {
         width: 12px;
@@ -40,10 +41,10 @@
       }
       .macos-window-title {
         margin-left: 12px;
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: "Helvetica Neue", sans-serif;
         font-size: 14px;
         font-weight: normal;
-        color: white;
+        color: whitesmoke;
       }
       /* Window content */
       .macos-window-content {
@@ -54,12 +55,12 @@
         height: 184px;
         resize: none;
         font-family: "JetBrains Mono", monospace;
+        color: whitesmoke;
+        background: #1f1e1e;
         /* Temporary font settings from index.html */
         font-size: 13.5px;
         letter-spacing: -0.1px;
         line-height: 22px;
-        color: white;
-        background: #1f1e1e
       }
       .macos-window-content textarea:nth-of-type(1) {
         text-align: center;
@@ -77,34 +78,93 @@
       /* Overall window */
       .windows10-window {
         width: max-content;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
       }
       /* Window header */
       .windows10-window-header {
-        padding: 5px;
-        background: lightgrey;
+        padding: 5.5px;
+        background: #505050;
         display: flex;
         align-items: center;
       }
       .windows10-window-title {
-        font-size: 0.7125em;
+        font-size: 12.5px;
+        font-family: "Segoe UI", sans-serif;
         font-weight: normal;
+        color: gainsboro;
       }
       /* Window content */
       .windows10-window-content {
         display: flex;
       }
       .windows10-window-content textarea {
+        border: none;
+        border-radius: 0;
         height: 184px;
         resize: none;
         font-family: "JetBrains Mono", monospace;
+        color: whitesmoke;
+        background: #2b2b2b;
+        /* Temporary font settings from index.html */
+        font-size: 13.5px;
+        letter-spacing: -0.1px;
+        line-height: 22px;
       }
       .windows10-window-content textarea:nth-of-type(1) {
         text-align: center;
         width: 40px;
         border-right: none;
-        overflow-x: hidden;
+        overflow: hidden;
+        color: darkgrey;
       }
       .windows10-window-content textarea:nth-of-type(2) {
+        width: 405px;
+        border-left: none;
+      }
+
+      /* Overall window */
+      .linux-window {
+        width: max-content;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
+      }
+      /* Window header */
+      .linux-window-header {
+        padding: 5.5px;
+        background: #505050;
+        display: flex;
+        align-items: center;
+      }
+      .linux-window-title {
+        font-size: 12.5px;
+        font-family: "Segoe UI", sans-serif;
+        font-weight: normal;
+        color: gainsboro;
+      }
+      /* Window content */
+      .linux-window-content {
+        display: flex;
+      }
+      .linux-window-content textarea {
+        border: none;
+        border-radius: 0;
+        height: 184px;
+        resize: none;
+        font-family: "JetBrains Mono", monospace;
+        color: whitesmoke;
+        background: #2b2b2b;
+        /* Temporary font settings from index.html */
+        font-size: 13.5px;
+        letter-spacing: -0.1px;
+        line-height: 22px;
+      }
+      .linux-window-content textarea:nth-of-type(1) {
+        text-align: center;
+        width: 40px;
+        border-right: none;
+        overflow: hidden;
+        color: darkgrey;
+      }
+      .linux-window-content textarea:nth-of-type(2) {
         width: 405px;
         border-left: none;
       }
@@ -142,6 +202,10 @@
           >
         </div>
       </div>
+
+      <br />
+      <br />
+
       <div class="windows10-window">
         <div class="windows10-window-header">
           <div class="windows10-window-header-buttons"></div>
@@ -150,6 +214,40 @@
           <h3 class="windows10-window-title">1080p screen, 13 font size</h3>
         </div>
         <div class="windows10-window-content">
+          <textarea readonly>
+1
+2
+3
+4
+5
+6
+7
+8
+          </textarea>
+          <textarea readonly>
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "editor.letterSpacing": 0.2,
+  "editor.lineHeight": 22,
+  "editor.padding.top": 4,
+  "editor.mouseWheelScrollSensitivity": 1.32,
+}</textarea
+          >
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <div class="linux-window">
+        <div class="linux-window-header">
+          <div class="linux-window-header-buttons"></div>
+          <div class="linux-window-header-buttons"></div>
+          <div class="linux-window-header-buttons"></div>
+          <h3 class="linux-window-title">1080p screen, 13 font size</h3>
+        </div>
+        <div class="linux-window-content">
           <textarea readonly>
 1
 2

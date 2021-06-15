@@ -50,6 +50,7 @@
       .macos-window-content {
         display: flex;
       }
+      .macos-window-content p,
       .macos-window-content textarea {
         border: none;
         height: 184px;
@@ -62,15 +63,18 @@
         letter-spacing: -0.1px;
         line-height: 22px;
       }
-      .macos-window-content textarea:nth-of-type(1) {
+      .macos-window-content p {
+        padding-top: 2px;
+        padding-bottom: 2px;
         text-align: center;
         width: 40px;
         border-right: none;
         border-radius: 0 0 0 11px;
-        overflow: hidden;
         color: darkgrey;
+        -webkit-user-select: none;
+        user-select: none;
       }
-      .macos-window-content textarea:nth-of-type(2) {
+      .macos-window-content textarea {
         width: 405px;
         border-radius: 0 0 11px 0;
       }
@@ -97,6 +101,7 @@
       .windows10-window-content {
         display: flex;
       }
+      .windows10-window-content p,
       .windows10-window-content textarea {
         border: none;
         border-radius: 0;
@@ -110,14 +115,16 @@
         letter-spacing: -0.1px;
         line-height: 22px;
       }
-      .windows10-window-content textarea:nth-of-type(1) {
+      .windows10-window-content p {
+        padding-top: 2px;
+        padding-bottom: 2px;
         text-align: center;
         width: 40px;
-        border-right: none;
-        overflow: hidden;
         color: darkgrey;
+        -webkit-user-select: none;
+        user-select: none;
       }
-      .windows10-window-content textarea:nth-of-type(2) {
+      .windows10-window-content textarea {
         width: 405px;
         border-left: none;
       }
@@ -144,6 +151,7 @@
       .linux-window-content {
         display: flex;
       }
+      .linux-window-content p,
       .linux-window-content textarea {
         border: none;
         border-radius: 0;
@@ -157,14 +165,16 @@
         letter-spacing: -0.1px;
         line-height: 22px;
       }
-      .linux-window-content textarea:nth-of-type(1) {
+      .linux-window-content p {
+        padding-top: 2px;
+        padding-bottom: 2px;
         text-align: center;
         width: 40px;
-        border-right: none;
-        overflow: hidden;
         color: darkgrey;
+        -webkit-user-select: none;
+        user-select: none;
       }
-      .linux-window-content textarea:nth-of-type(2) {
+      .linux-window-content textarea {
         width: 405px;
         border-left: none;
       }
@@ -180,16 +190,16 @@
           <h3 class="macos-window-title">1080p screen, 13 font size</h3>
         </div>
         <div class="macos-window-content">
-          <textarea readonly>
-1
-2
-3
-4
-5
-6
-7
-8
-          </textarea>
+          <p>
+            1<br />
+            2<br />
+            3<br />
+            4<br />
+            5<br />
+            6<br />
+            7<br />
+            8<br />
+          </p>
           <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
@@ -214,16 +224,16 @@
           <h3 class="windows10-window-title">1080p screen, 13 font size</h3>
         </div>
         <div class="windows10-window-content">
-          <textarea readonly>
-1
-2
-3
-4
-5
-6
-7
-8
-          </textarea>
+          <p>
+            1<br />
+            2<br />
+            3<br />
+            4<br />
+            5<br />
+            6<br />
+            7<br />
+            8<br />
+          </p>
           <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
@@ -248,16 +258,16 @@
           <h3 class="linux-window-title">1080p screen, 13 font size</h3>
         </div>
         <div class="linux-window-content">
-          <textarea readonly>
-1
-2
-3
-4
-5
-6
-7
-8
-          </textarea>
+          <p>
+            1<br />
+            2<br />
+            3<br />
+            4<br />
+            5<br />
+            6<br />
+            7<br />
+            8<br />
+          </p>
           <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",

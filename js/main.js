@@ -1,11 +1,21 @@
 "use strict";
 function setLookMode(lookMode, secondaryLookMode) {
+  /* Page background and text color */
   body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
+  /* Textarea elements */
   const textareaElements = body.getElementsByTagName("textarea");
   const textAreaElementsCount = textareaElements.length;
   if (textAreaElementsCount != 0) {
     for (let index = 0; index < textAreaElementsCount; index++) {
       textareaElements[index].setAttribute("id", secondaryLookMode);
+    }
+  }
+  /* a links */
+  const aElements = body.getElementsByTagName("a");
+  const aElementsCount = aElements.length;
+  if (aElementsCount != 0) {
+    for (let index = 0; index < aElementsCount; index++) {
+      aElements[index].setAttribute("id", lookMode);
     }
   }
 }

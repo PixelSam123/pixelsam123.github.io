@@ -141,29 +141,29 @@ nav button .material-icons-outlined {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.375);
 }
 /* Window header */
-.window-header.macos {
+.window.macos .window-header {
   padding: 11px 13px;
   border-radius: 11px 11px 0 0;
   background: #353333;
 }
-.window-header-buttons.macos {
+.window.macos .window-header-buttons {
   width: 12px;
   height: 12px;
   border-radius: 6px;
 }
-.window-header-buttons.macos:not(:first-of-type) {
+.window.macos .window-header-buttons:not(:first-of-type) {
   margin-left: 8px;
 }
-.window-header-buttons.macos:nth-of-type(1) {
+.window.macos .window-header-buttons:nth-of-type(1) {
   background: #ff5b5b;
 }
-.window-header-buttons.macos:nth-of-type(2) {
+.window.macos .window-header-buttons:nth-of-type(2) {
   background: #fdbe11;
 }
-.window-header-buttons.macos:nth-of-type(3) {
+.window.macos .window-header-buttons:nth-of-type(3) {
   background: #4bc932;
 }
-.window-title.macos {
+.window.macos .window-title {
   margin-left: 12px;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -171,16 +171,16 @@ nav button .material-icons-outlined {
   color: whitesmoke;
 }
 /* Window content */
-.window-content.macos p,
-.window-content.macos textarea {
+.window.macos .window-content p,
+.window.macos .window-content textarea {
   color: whitesmoke;
   background: #1f1e1e;
 }
-.window-content.macos p {
+.window.macos .window-content p {
   border-radius: 0 0 0 11px;
   color: darkgrey;
 }
-.window-content.macos textarea {
+.window.macos .window-content textarea {
   border-radius: 0 0 11px 0;
 }
 
@@ -190,46 +190,46 @@ nav button .material-icons-outlined {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
 }
 /* Window header */
-.window-header.windows10 {
+.window.windows10 .window-header {
   padding: 5.5px;
   justify-content: space-between;
   background: #505050;
 }
-.window-header-buttons.windows10 {
+.window.windows10 .window-header-buttons {
   display: flex;
   align-items: center;
 }
-.window-header-buttons.windows10 img {
+.window.windows10 .window-header-buttons img {
   height: 10.25px;
   width: 10.25px;
   object-fit: cover;
   -webkit-user-select: none;
   user-select: none;
 }
-.window-header-buttons.windows10 img:nth-of-type(1) {
+.window.windows10 .window-header-buttons img:nth-of-type(1) {
   object-position: 0% 50%;
 }
-.window-header-buttons.windows10 img:nth-of-type(2) {
+.window.windows10 .window-header-buttons img:nth-of-type(2) {
   object-position: 50% 50%;
   margin: 0 35px;
 }
-.window-header-buttons.windows10 img:nth-of-type(3) {
+.window.windows10 .window-header-buttons img:nth-of-type(3) {
   object-position: 100% 50%;
   margin-right: 12px;
 }
-.window-title.windows10 {
+.window.windows10 .window-title {
   font-size: 12.5px;
   font-family: "Segoe UI", sans-serif;
   font-weight: normal;
   color: #dcdcdc;
 }
 /* Window content */
-.window-content.windows10 p,
-.window-content.windows10 textarea {
+.window.windows10 .window-content p,
+.window.windows10 .window-content textarea {
   border-radius: 0;
   color: whitesmoke;
   background: #2b2b2b;
 }
-.window-content.windows10 p {
+.window.windows10 .window-content p {
   color: darkgrey;
 }

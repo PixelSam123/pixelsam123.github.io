@@ -1,9 +1,9 @@
 "use strict";
 // Page look mode
-function setLookMode(lookMode, secondaryLookMode) {
-  // Page background and text color
+function setLookMode(lookMode) {
+  // Page background and text color look
   body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
-  // a links
+  // a links look
   const aElements = body.getElementsByTagName("main")[0].getElementsByTagName("a");
   const aElementsCount = aElements.length;
   if (aElementsCount != 0) {
@@ -11,7 +11,7 @@ function setLookMode(lookMode, secondaryLookMode) {
       aElements[index].setAttribute("id", lookMode);
     }
   }
-  // Dark mode toggle button
+  // Dark mode toggle button look
   body
     .getElementsByTagName("nav")[0]
     .getElementsByTagName("button")[0]
@@ -19,9 +19,9 @@ function setLookMode(lookMode, secondaryLookMode) {
 }
 function applyLookMode() {
   if (sessionStorage.darkmode == "true") {
-    setLookMode("dark_mode", "darker_mode");
+    setLookMode("dark_mode");
   } else {
-    setLookMode("light_mode", "");
+    setLookMode("light_mode");
   }
 }
 function toggleDarkMode() {
@@ -32,4 +32,6 @@ function toggleDarkMode() {
 }
 applyLookMode();
 
-// Text formatting for fake windows
+// Choose window style for IntelliJ look pro tip
+if (navigator.appVersion.indexOf("Win") != -1) {
+}

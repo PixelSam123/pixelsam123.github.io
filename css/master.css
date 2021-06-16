@@ -12,9 +12,11 @@
   background: #25293a;
   color: lightgrey;
 }
-#darker_mode {
+.dark_mode_inverted {
+  background: lightgrey;
+}
+.light_mode_inverted {
   background: black;
-  color: lightgrey;
 }
 
 /* Universal styles */
@@ -80,6 +82,14 @@ nav button .material-icons-outlined {
   font-size: 24px;
 }
 
+/* IMPORTABLE STUFF */
+.small-separator {
+  width: 30px;
+  height: 4px;
+  margin: 0.5em auto;
+  border-radius: 2px;
+}
+
 /* FAKE WINDOWS (styling will be reorganized later) */
 
 /* Global style */
@@ -103,7 +113,7 @@ nav button .material-icons-outlined {
 }
 .window-content p,
 .window-content textarea {
-  height: 193px;
+  height: 180px;
   font-family: "JetBrains Mono", monospace;
 }
 .window-content.size-13 p,

@@ -1,6 +1,6 @@
 "use strict";
 // Page look mode
-function setLookMode(lookMode) {
+function setLookMode(lookMode, invertedLookMode) {
   // Page background and text color look
   body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
   // a links look
@@ -16,12 +16,16 @@ function setLookMode(lookMode) {
     .getElementsByTagName("nav")[0]
     .getElementsByTagName("button")[0]
     .getElementsByClassName("material-icons-outlined")[0].textContent = lookMode;
+  // Inverted look mode objects (for example, lines should be white on a dark background)
+  body.getElementsByClassName(
+    "small-separator"
+  )[0].className = `small-separator ${invertedLookMode}`;
 }
 function applyLookMode() {
   if (sessionStorage.darkmode == "true") {
-    setLookMode("dark_mode");
+    setLookMode("dark_mode", "dark_mode_inverted");
   } else {
-    setLookMode("light_mode");
+    setLookMode("light_mode", "light_mode_inverted");
   }
 }
 function toggleDarkMode() {

@@ -7,212 +7,18 @@
     <title>Sneak Peeks</title>
 
     <link rel="stylesheet" href="../css/master.css" />
-    <style>
-      /* Overall window */
-      .macos-window {
-        width: max-content;
-        border-radius: 11px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-      }
-      /* Window header */
-      .macos-window-header {
-        border-radius: 11px 11px 0 0;
-        padding: 11px 13px;
-        background: #353333;
-        display: flex;
-        align-items: center;
-      }
-      .macos-window-header-buttons {
-        width: 12px;
-        height: 12px;
-        border-radius: 6px;
-      }
-      .macos-window-header-buttons:not(:first-of-type) {
-        margin-left: 8px;
-      }
-      .macos-window-header-buttons:nth-of-type(1) {
-        background: #ff5b5b;
-      }
-      .macos-window-header-buttons:nth-of-type(2) {
-        background: #fdbe11;
-      }
-      .macos-window-header-buttons:nth-of-type(3) {
-        background: #4bc932;
-      }
-      .macos-window-title {
-        margin-left: 12px;
-        font-family: "Helvetica Neue", sans-serif;
-        font-size: 14px;
-        font-weight: normal;
-        color: whitesmoke;
-      }
-      /* Window content */
-      .macos-window-content {
-        display: flex;
-      }
-      .macos-window-content p,
-      .macos-window-content textarea {
-        border: none;
-        height: 184px;
-        resize: none;
-        font-family: "JetBrains Mono", monospace;
-        color: whitesmoke;
-        background: #1f1e1e;
-        /* Temporary font settings from index.html */
-        font-size: 13.5px;
-        letter-spacing: -0.1px;
-        line-height: 22px;
-      }
-      .macos-window-content p {
-        padding-top: 2px;
-        padding-bottom: 2px;
-        text-align: center;
-        width: 40px;
-        border-right: none;
-        border-radius: 0 0 0 11px;
-        color: darkgrey;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      .macos-window-content textarea {
-        width: 405px;
-        border-radius: 0 0 11px 0;
-      }
-
-      /* Overall window */
-      .windows10-window {
-        width: max-content;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
-      }
-      /* Window header */
-      .windows10-window-header {
-        padding: 5.5px;
-        background: #505050;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .windows10-window-header-buttons {
-        display: flex;
-        align-items: center;
-      }
-      .windows10-window-header-buttons img {
-        height: 10.5px;
-        width: 10.5px;
-        object-fit: cover;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      .windows10-window-header-buttons img:nth-of-type(1) {
-        object-position: 0% 50%;
-      }
-      .windows10-window-header-buttons img:nth-of-type(2) {
-        object-position: 50% 50%;
-        margin: 0 36px;
-      }
-      .windows10-window-header-buttons img:nth-of-type(3) {
-        object-position: 100% 50%;
-        margin-right: 12px;
-      }
-      .windows10-window-title {
-        font-size: 12.5px;
-        font-family: "Segoe UI", sans-serif;
-        font-weight: normal;
-        color: #dcdcdc;
-      }
-      /* Window content */
-      .windows10-window-content {
-        display: flex;
-      }
-      .windows10-window-content p,
-      .windows10-window-content textarea {
-        border: none;
-        border-radius: 0;
-        height: 184px;
-        resize: none;
-        font-family: "JetBrains Mono", monospace;
-        color: whitesmoke;
-        background: #2b2b2b;
-        /* Temporary font settings from index.html */
-        font-size: 13.5px;
-        letter-spacing: -0.1px;
-        line-height: 22px;
-      }
-      .windows10-window-content p {
-        padding-top: 2px;
-        padding-bottom: 2px;
-        text-align: center;
-        width: 40px;
-        color: darkgrey;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      .windows10-window-content textarea {
-        width: 405px;
-        border-left: none;
-      }
-
-      /* Overall window */
-      .linux-window {
-        width: max-content;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
-      }
-      /* Window header */
-      .linux-window-header {
-        padding: 5.5px;
-        background: #505050;
-        display: flex;
-        align-items: center;
-      }
-      .linux-window-title {
-        font-size: 12.5px;
-        font-family: "Segoe UI", sans-serif;
-        font-weight: normal;
-        color: gainsboro;
-      }
-      /* Window content */
-      .linux-window-content {
-        display: flex;
-      }
-      .linux-window-content p,
-      .linux-window-content textarea {
-        border: none;
-        border-radius: 0;
-        height: 184px;
-        resize: none;
-        font-family: "JetBrains Mono", monospace;
-        color: whitesmoke;
-        background: #2b2b2b;
-        /* Temporary font settings from index.html */
-        font-size: 13.5px;
-        letter-spacing: -0.1px;
-        line-height: 22px;
-      }
-      .linux-window-content p {
-        padding-top: 2px;
-        padding-bottom: 2px;
-        text-align: center;
-        width: 40px;
-        color: darkgrey;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      .linux-window-content textarea {
-        width: 405px;
-        border-left: none;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <main>
-      <div class="macos-window">
-        <div class="macos-window-header">
-          <div class="macos-window-header-buttons"></div>
-          <div class="macos-window-header-buttons"></div>
-          <div class="macos-window-header-buttons"></div>
-          <h3 class="macos-window-title">1080p screen, 13 font size</h3>
+      <div class="window macos">
+        <div class="window-header macos">
+          <div class="window-header-buttons macos"></div>
+          <div class="window-header-buttons macos"></div>
+          <div class="window-header-buttons macos"></div>
+          <h3 class="window-title macos">1080p screen, 13 font size</h3>
         </div>
-        <div class="macos-window-content">
+        <div class="window-content macos size-13">
           <p>
             1<br />
             2<br />
@@ -239,50 +45,16 @@
       <br />
       <br />
 
-      <div class="windows10-window">
-        <div class="windows10-window-header">
-          <h3 class="windows10-window-title">1080p screen, 13 font size</h3>
-          <div class="windows10-window-header-buttons">
+      <div class="window windows10">
+        <div class="window-header windows10">
+          <h3 class="window-title windows10">1080p screen, 13 font size</h3>
+          <div class="window-header-buttons windows10">
             <img src="../images/minimize_maximize_close_icons-white.svg" alt="" />
             <img src="../images/minimize_maximize_close_icons-white.svg" alt="" />
             <img src="../images/minimize_maximize_close_icons-white.svg" alt="" />
           </div>
         </div>
-        <div class="windows10-window-content">
-          <p>
-            1<br />
-            2<br />
-            3<br />
-            4<br />
-            5<br />
-            6<br />
-            7<br />
-            8<br />
-          </p>
-          <textarea readonly>
-{
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 13,
-  "editor.letterSpacing": 0.2,
-  "editor.lineHeight": 22,
-  "editor.padding.top": 4,
-  "editor.mouseWheelScrollSensitivity": 1.32,
-}</textarea
-          >
-        </div>
-      </div>
-
-      <br />
-      <br />
-
-      <div class="linux-window">
-        <div class="linux-window-header">
-          <div class="linux-window-header-buttons"></div>
-          <div class="linux-window-header-buttons"></div>
-          <div class="linux-window-header-buttons"></div>
-          <h3 class="linux-window-title">1080p screen, 13 font size</h3>
-        </div>
-        <div class="linux-window-content">
+        <div class="window-content windows10 size-13">
           <p>
             1<br />
             2<br />

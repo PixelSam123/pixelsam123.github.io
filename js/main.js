@@ -1,16 +1,9 @@
 "use strict";
+// Page look mode
 function setLookMode(lookMode, secondaryLookMode) {
-  /* Page background and text color */
+  // Page background and text color
   body.getElementsByTagName("main")[0].setAttribute("id", lookMode);
-  /* Textarea elements */
-  const textareaElements = body.getElementsByTagName("textarea");
-  const textAreaElementsCount = textareaElements.length;
-  if (textAreaElementsCount != 0) {
-    for (let index = 0; index < textAreaElementsCount; index++) {
-      textareaElements[index].setAttribute("id", secondaryLookMode);
-    }
-  }
-  /* a links */
+  // a links
   const aElements = body.getElementsByTagName("main")[0].getElementsByTagName("a");
   const aElementsCount = aElements.length;
   if (aElementsCount != 0) {
@@ -18,20 +11,17 @@ function setLookMode(lookMode, secondaryLookMode) {
       aElements[index].setAttribute("id", lookMode);
     }
   }
+  // Dark mode toggle button
+  body
+    .getElementsByTagName("nav")[0]
+    .getElementsByTagName("button")[0]
+    .getElementsByClassName("material-icons-outlined")[0].textContent = lookMode;
 }
 function applyLookMode() {
   if (sessionStorage.darkmode == "true") {
-    setLookMode("dark-mode", "darker-mode");
-    body
-      .getElementsByTagName("nav")[0]
-      .getElementsByTagName("button")[0]
-      .getElementsByClassName("material-icons-outlined")[0].textContent = "dark_mode";
+    setLookMode("dark_mode", "darker_mode");
   } else {
-    setLookMode("", "");
-    body
-      .getElementsByTagName("nav")[0]
-      .getElementsByTagName("button")[0]
-      .getElementsByClassName("material-icons-outlined")[0].textContent = "light_mode";
+    setLookMode("light_mode", "");
   }
 }
 function toggleDarkMode() {
@@ -40,5 +30,6 @@ function toggleDarkMode() {
     : (sessionStorage.darkmode = "true");
   applyLookMode();
 }
-
 applyLookMode();
+
+// Text formatting for fake windows

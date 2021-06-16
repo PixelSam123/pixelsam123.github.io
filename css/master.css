@@ -8,11 +8,11 @@
     opacity: 1;
   }
 }
-#dark-mode {
+#dark_mode {
   background: #25293a;
   color: lightgrey;
 }
-#darker-mode {
+#darker_mode {
   background: black;
   color: lightgrey;
 }
@@ -78,4 +78,158 @@ nav button:active {
 }
 nav button .material-icons-outlined {
   font-size: 24px;
+}
+
+/* FAKE WINDOWS (styling will be reorganized later) */
+
+/* Global style */
+/* Overall window */
+.window {
+  width: max-content;
+  max-width: calc(100vw - 1em);
+}
+/* Window header */
+.window-header {
+  display: flex;
+  align-items: center;
+}
+/* Window content */
+.window-content {
+  display: flex;
+}
+.window-content p,
+.window-content textarea {
+  height: 193px;
+  font-family: "JetBrains Mono", monospace;
+}
+.window-content.size-13 p,
+.window-content.size-13 textarea {
+  font-size: 13.5px;
+  letter-spacing: -0.1px;
+  line-height: 22px;
+}
+.window-content.size-13\.5 p,
+.window-content.size-13\.5 textarea {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+.window-content.size-14 p,
+.window-content.size-14 textarea {
+  font-size: 14.5px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.window-content p {
+  width: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.window-content textarea {
+  width: 410px;
+  border: none;
+  resize: none;
+}
+
+/* macOS exclusive */
+/* Overall window */
+.window.macos {
+  border-radius: 11px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.375);
+}
+/* Window header */
+.window-header.macos {
+  padding: 11px 13px;
+  border-radius: 11px 11px 0 0;
+  background: #353333;
+}
+.window-header-buttons.macos {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+.window-header-buttons.macos:not(:first-of-type) {
+  margin-left: 8px;
+}
+.window-header-buttons.macos:nth-of-type(1) {
+  background: #ff5b5b;
+}
+.window-header-buttons.macos:nth-of-type(2) {
+  background: #fdbe11;
+}
+.window-header-buttons.macos:nth-of-type(3) {
+  background: #4bc932;
+}
+.window-title.macos {
+  margin-left: 12px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: whitesmoke;
+}
+/* Window content */
+.window-content.macos p,
+.window-content.macos textarea {
+  color: whitesmoke;
+  background: #1f1e1e;
+}
+.window-content.macos p {
+  border-radius: 0 0 0 11px;
+  color: darkgrey;
+}
+.window-content.macos textarea {
+  border-radius: 0 0 11px 0;
+}
+
+/* Windows 10 exclusive */
+/* Overall window */
+.window.windows10 {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.175);
+}
+/* Window header */
+.window-header.windows10 {
+  padding: 5.5px;
+  justify-content: space-between;
+  background: #505050;
+}
+.window-header-buttons.windows10 {
+  display: flex;
+  align-items: center;
+}
+.window-header-buttons.windows10 img {
+  height: 10.25px;
+  width: 10.25px;
+  object-fit: cover;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.window-header-buttons.windows10 img:nth-of-type(1) {
+  object-position: 0% 50%;
+}
+.window-header-buttons.windows10 img:nth-of-type(2) {
+  object-position: 50% 50%;
+  margin: 0 35px;
+}
+.window-header-buttons.windows10 img:nth-of-type(3) {
+  object-position: 100% 50%;
+  margin-right: 12px;
+}
+.window-title.windows10 {
+  font-size: 12.5px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: normal;
+  color: #dcdcdc;
+}
+/* Window content */
+.window-content.windows10 p,
+.window-content.windows10 textarea {
+  border-radius: 0;
+  color: whitesmoke;
+  background: #2b2b2b;
+}
+.window-content.windows10 p {
+  color: darkgrey;
 }

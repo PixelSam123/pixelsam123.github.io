@@ -85,33 +85,8 @@
         flex-wrap: wrap;
         justify-content: center;
       }
-      #pro-tip-textarea-container > div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0.5em;
-      }
-      #pro-tip-textarea-container > div textarea {
-        width: 405px;
-        height: 184px;
-        max-width: calc(100vw - 3em);
-        resize: none;
-        font-family: "JetBrains Mono", monospace;
-      }
-      #pro-tip-textarea-container > div:nth-of-type(1) textarea {
-        font-size: 13.5px;
-        letter-spacing: -0.1px;
-        line-height: 22px;
-      }
-      #pro-tip-textarea-container > div:nth-of-type(2) textarea {
-        font-size: 14px;
-        letter-spacing: 0;
-        line-height: 23px;
-      }
-      #pro-tip-textarea-container > div:nth-of-type(3) textarea {
-        font-size: 14.5px;
-        letter-spacing: 0.1px;
-        line-height: 24px;
+      #pro-tip-textarea-container .window {
+        margin: 15px;
       }
       /* Featured videos section */
       #homepage-videos {
@@ -166,9 +141,25 @@
       <section id="pro-tip">
         <h2>Pro tip: IntelliJ editor look in VS Code</h2>
         <div id="pro-tip-textarea-container">
-          <div>
-            <h3>1080p screen, 13 font size</h3>
-            <textarea title="Font size 13 settings" readonly>
+          <div class="window macos">
+            <div class="window-header macos">
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <h3 class="window-title macos">1080p screen, 13 font size</h3>
+            </div>
+            <div class="window-content macos size-13">
+              <p>
+                1<br />
+                2<br />
+                3<br />
+                4<br />
+                5<br />
+                6<br />
+                7<br />
+                8<br />
+              </p>
+              <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
@@ -177,11 +168,28 @@
   "editor.padding.top": 4,
   "editor.mouseWheelScrollSensitivity": 1.32,
 }</textarea
-            >
+              >
+            </div>
           </div>
-          <div>
-            <h3>1080p screen, 13.5 font size</h3>
-            <textarea title="Font size 13.5 settings" readonly>
+          <div class="window macos">
+            <div class="window-header macos">
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <h3 class="window-title macos">1080p screen, 13.5 font size</h3>
+            </div>
+            <div class="window-content macos size-13.5">
+              <p>
+                1<br />
+                2<br />
+                3<br />
+                4<br />
+                5<br />
+                6<br />
+                7<br />
+                8<br />
+              </p>
+              <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13.5,
@@ -190,18 +198,34 @@
   "editor.padding.top": 5,
   "editor.mouseWheelScrollSensitivity": 1.38,
 }</textarea
-            >
+              >
+            </div>
           </div>
-          <div>
-            <h3>1440p screen, 14 font size</h3>
-            <textarea title="Font size 14 settings" readonly>
+          <div class="window macos">
+            <div class="window-header macos">
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <div class="window-header-buttons macos"></div>
+              <h3 class="window-title macos">1440p screen, 14 font size</h3>
+            </div>
+            <div class="window-content macos size-14">
+              <p>
+                1<br />
+                2<br />
+                3<br />
+                4<br />
+                5<br />
+                6<br />
+              </p>
+              <textarea readonly>
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.letterSpacing": 0.4,
   "editor.lineHeight": 24,
   "editor.mouseWheelScrollSensitivity": 1.152,
 }</textarea
-            >
+              >
+            </div>
           </div>
         </div>
       </section>

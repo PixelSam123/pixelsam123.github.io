@@ -93,6 +93,10 @@ nav button .material-icons-outlined {
   display: flex;
   align-items: center;
 }
+.window-header-buttons-container {
+  display: flex;
+  align-items: center;
+}
 /* Window content */
 .window-content {
   display: flex;
@@ -194,28 +198,25 @@ nav button .material-icons-outlined {
   padding: 5.5px;
   justify-content: space-between;
   background: #505050;
+  flex-direction: row-reverse;
 }
 .window.windows10 .window-header-buttons {
-  display: flex;
-  align-items: center;
+  height: 10px;
+  width: 10px;
+  background: url("../images/minimize_maximize_close_icons-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.window.windows10 .window-header-buttons img {
-  height: 10.25px;
-  width: 10.25px;
-  object-fit: cover;
-  -webkit-user-select: none;
-  user-select: none;
+.window.windows10 .window-header-buttons:nth-of-type(1) {
+  background-position: 0% 50%;
 }
-.window.windows10 .window-header-buttons img:nth-of-type(1) {
-  object-position: 0% 50%;
+.window.windows10 .window-header-buttons:nth-of-type(2) {
+  background-position: 50% 50%;
+  margin: 0 36px;
 }
-.window.windows10 .window-header-buttons img:nth-of-type(2) {
-  object-position: 50% 50%;
-  margin: 0 35px;
-}
-.window.windows10 .window-header-buttons img:nth-of-type(3) {
-  object-position: 100% 50%;
-  margin-right: 12px;
+.window.windows10 .window-header-buttons:nth-of-type(3) {
+  background-position: 100% 50%;
+  margin-right: 14px;
 }
 .window.windows10 .window-title {
   font-size: 12.5px;

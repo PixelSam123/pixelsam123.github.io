@@ -37,8 +37,6 @@ h2 {
 }
 
 nav {
-  max-width: 56em;
-  margin: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;

@@ -6,6 +6,7 @@
 
     <title>Second Site Test</title>
 
+    <link rel="stylesheet" href="../css/tailwind.css" />
     <link rel="stylesheet" href="../css/master.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -13,20 +14,44 @@
     />
   </head>
   <body>
-    <nav>
-      <div>
-        <a href=".." title="Home"
-          ><img src="../images/fadhsquared-logo.png" alt="FADHsquared logo"
+    <nav
+      class="
+        sticky
+        top-0
+        h-14
+        sm:w-max
+        sm:m-auto
+        flex
+        justify-between
+        items-center
+        bg-gray-50 bg-opacity-90
+        dark:bg-gray-900 dark:bg-opacity-90
+        text-black
+        dark:text-white
+        sm:rounded
+        shadow
+        backdrop-filter backdrop-blur
+      "
+    >
+      <div class="flex items-center flex-wrap">
+        <a class="w-14 h-14" href="../index.html"
+          ><img
+            class="w-14 h-14 sm:rounded-l"
+            src="../images/fadhsquared-logo.png"
+            alt="FADHsquared logo"
         /></a>
-        <a href="#">Updates</a>
-        <a href="#">Downloads</a>
-        <a href="#">Misc.</a>
+        <a class="ml-6 no-underline hover:underline" href="#">Updates</a>
+        <a class="ml-6 no-underline hover:underline" href="#">Downloads</a>
+        <a class="ml-6 no-underline hover:underline" href="#">Misc.</a>
       </div>
-      <button onclick="toggleDarkMode()">
-        <span class="material-icons-outlined">dark_mode</span>
+      <button
+        class="h-6 mx-4 border-none active:text-gray-500"
+        onclick="toggleDarkMode()"
+      >
+        <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main>
+    <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-200">
       <p>
         Sometimes<br />
         Something beautiful happens in Minecraftia<br />

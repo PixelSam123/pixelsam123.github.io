@@ -8,7 +8,7 @@
 /* Overall window */
 .window {
   width: max-content;
-  max-width: 100%;
+  max-width: 100vw;
 }
 /* Window header */
 .window-header {
@@ -157,10 +157,17 @@
   color: darkgrey;
 }
 
-/* DISABLE WINDOW SHADOWS (For embedding) */
+/* DISABLE WINDOW SHADOWS (For embedding, currently not used) */
 .window.macos.no-shadow {
   box-shadow: none;
 }
 .window.windows10.no-shadow {
   box-shadow: none;
+}
+/* CENTER WINDOW (For embedding) */
+.center-content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

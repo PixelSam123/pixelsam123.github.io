@@ -12,7 +12,3 @@ if (navigator.appVersion.indexOf("Win") != -1) {
     }
   }
 }
-// Disable window shadows (I assume embedding if this script is run inside the fake window HTML)
-for (let index = 0; index < windowElementsCount; index++) {
-  windowElements[index].classList.add("no-shadow");
-}

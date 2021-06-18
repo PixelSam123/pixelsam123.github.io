@@ -6,15 +6,22 @@
 
     <title>FADHsquared</title>
 
-    <meta name="description" content="Currently full of placeholders but you can come and have a look!" />
+    <meta
+      name="description"
+      content="Currently full of placeholders but you can come and have a look!"
+    />
     <meta name="keywords" content="downloads, fadh, portfolio" />
 
     <link rel="stylesheet" href="css/tailwind.css" />
     <link rel="stylesheet" href="css/master.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <style>
+      /* Hero header */
       header {
-        height: calc(100vh - 3.5em);
+        height: calc(100vh - 3.5rem);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -34,6 +41,15 @@
         -webkit-user-select: none;
         user-select: none;
       }
+      /* Featured videos section */
+      .thumbnail-info-group img {
+        margin-right: 0.5rem;
+        width: 128px;
+        height: 72px;
+        min-width: 128px;
+        min-height: 72px;
+        object-fit: cover;
+      }
     </style>
   </head>
   <body>
@@ -41,97 +57,231 @@
     <header>
       <div class="w-full justify-self-start flex justify-between select-none">
         <a
-          class="ml-3 px-2 pb-4 text-white no-underline text-7xl transition-all hover:bg-gray-50 hover:bg-opacity-20"
+          class="
+            ml-3
+            px-2
+            pb-4
+            text-white
+            no-underline
+            text-7xl
+            transition-all
+            hover:bg-gray-50 hover:bg-opacity-20
+          "
           href="javascript:cycleHeaderContent('prev');"
           >&lsaquo;</a
         >
         <a
-          class="mr-3 px-2 pb-4 text-white no-underline text-7xl transition-all hover:bg-gray-50 hover:bg-opacity-20"
+          class="
+            mr-3
+            px-2
+            pb-4
+            text-white
+            no-underline
+            text-7xl
+            transition-all
+            hover:bg-gray-50 hover:bg-opacity-20
+          "
           href="javascript:cycleHeaderContent('next');"
           >&rsaquo;</a
         >
       </div>
-      <h1 class="mt-14 mx-2 text-3xl uppercase">Everything YOU SEE IS PLACEHOLDER CONTENT</h1>
-      <p class="mx-2 mt-2 mb-4">I repeat, everything you see is placeholder content.</p>
+      <h1 class="mt-14 mx-2 text-3xl uppercase">Header Title</h1>
+      <p class="mx-2 mt-2 mb-4">Header Description</p>
       <div id="header-content-bar" class="mb-4 select-none">
-        <input class="mx-0.5 filter grayscale" type="radio" name="header-content-chooser" onclick="toHeaderContent(0);" />
-        <input class="mx-0.5 filter grayscale" type="radio" name="header-content-chooser" onclick="toHeaderContent(1);" />
-        <input class="mx-0.5 filter grayscale" type="radio" name="header-content-chooser" onclick="toHeaderContent(2);" />
-        <input class="mx-0.5 filter grayscale" type="radio" name="header-content-chooser" onclick="toHeaderContent(3);" />
+        <input
+          class="mx-0.5 filter grayscale"
+          type="radio"
+          name="header-content-chooser"
+          onclick="toHeaderContent(0);"
+        />
+        <input
+          class="mx-0.5 filter grayscale"
+          type="radio"
+          name="header-content-chooser"
+          onclick="toHeaderContent(1);"
+        />
+        <input
+          class="mx-0.5 filter grayscale"
+          type="radio"
+          name="header-content-chooser"
+          onclick="toHeaderContent(2);"
+        />
+        <input
+          class="mx-0.5 filter grayscale"
+          type="radio"
+          name="header-content-chooser"
+          onclick="toHeaderContent(3);"
+        />
       </div>
     </header>
-    <nav class="sticky top-0 flex justify-between items-center bg-black h-14">
+    <nav
+      class="
+        sticky
+        top-0
+        h-14
+        sm:w-max
+        sm:m-auto
+        flex
+        justify-between
+        items-center
+        bg-gray-900 bg-opacity-90
+        backdrop-filter backdrop-blur
+      "
+    >
       <div class="flex items-center flex-wrap">
-        <a class="w-14 h-14" href="#"><img class="w-14 h-14" src="images/fadhsquared-logo.png" alt="FADHsquared logo" /></a>
-        <a class="ml-6 no-underline text-white hover:underline" href="html/second-site-test.html">Updates</a>
-        <a class="ml-6 no-underline text-white hover:underline" href="#">Downloads</a>
-        <a class="ml-6 no-underline text-white hover:underline" href="html/scratch.html">Misc.</a>
+        <a class="w-14 h-14" href="#"
+          ><img
+            class="w-14 h-14"
+            src="images/fadhsquared-logo.png"
+            alt="FADHsquared logo"
+        /></a>
+        <a
+          class="ml-6 no-underline text-white hover:underline"
+          href="html/second-site-test.html"
+          >Updates</a
+        >
+        <a class="ml-6 no-underline text-white hover:underline" href="#"
+          >Downloads</a
+        >
+        <a
+          class="ml-6 no-underline text-white hover:underline"
+          href="html/scratch.html"
+          >Misc.</a
+        >
       </div>
-      <button class="h-6 mr-3 border-none bg-black text-white active:text-gray-500" onclick="toggleDarkMode()">
+      <button
+        class="h-6 mx-4 border-none text-white active:text-gray-500"
+        onclick="toggleDarkMode()"
+      >
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-300">
+    <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-200">
       <!-- VSCode pro tip for IntelliJ look -->
       <section id="pro-tip">
-        <h2 class="text-center text-2xl">Pro tip: IntelliJ editor look in VS Code</h2>
-        <div class="small-separator w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-300"></div>
-        <div id="pro-tip-textarea-container" class="flex flex-wrap justify-center">
-          <embed class="m-3 shadow-lg" src="html/fake-windows/font-size-13.html" type="text/html" width="454px" height="216.8px" />
-          <embed class="m-3 shadow-lg" src="html/fake-windows/font-size-13.5.html" type="text/html" width="454px" height="216.8px" />
-          <embed class="m-3 shadow-lg" src="html/fake-windows/font-size-14.html" type="text/html" width="454px" height="216.8px" />
+        <h2 class="text-center text-2xl">
+          Pro tip: IntelliJ editor look in VS Code
+        </h2>
+        <div
+          class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"
+        ></div>
+        <div
+          id="pro-tip-textarea-container"
+          class="flex flex-wrap justify-center"
+        >
+          <embed
+            class="m-3 shadow-lg"
+            src="html/fake-windows/font-size-13.html"
+            type="text/html"
+            width="454px"
+            height="216.8px"
+          />
+          <embed
+            class="m-3 shadow-lg"
+            src="html/fake-windows/font-size-13.5.html"
+            type="text/html"
+            width="454px"
+            height="216.8px"
+          />
+          <embed
+            class="m-3 shadow-lg"
+            src="html/fake-windows/font-size-14.html"
+            type="text/html"
+            width="454px"
+            height="216.8px"
+          />
         </div>
       </section>
       <!-- Featured videos section -->
-      <fieldset class="min-w-0 overflow-x-auto">
-        <legend><h2>LATEST VIDEOS</h2></legend>
+      <section class="min-w-0 overflow-x-auto">
+        <h2 class="text-center text-2xl">Latest Videos</h2>
+        <div
+          class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"
+        ></div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 1</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 1
+              </h3></a
+            >
             <p class="text-justify">Video Description 1</p>
           </div>
         </div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 2</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 2
+              </h3></a
+            >
             <p class="text-justify">Video Description 2</p>
           </div>
         </div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 3</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 3
+              </h3></a
+            >
             <p class="text-justify">Video Description 3</p>
           </div>
         </div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 4</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 4
+              </h3></a
+            >
             <p class="text-justify">Video Description 4</p>
           </div>
         </div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 5</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 5
+              </h3></a
+            >
             <p class="text-justify">Video Description 5</p>
           </div>
         </div>
         <div class="thumbnail-info-group my-2 flex">
-          <img class="mr-2 w-32 h-20 object-cover" alt="thumbnail" />
+          <img alt="thumbnail" />
           <div>
-            <a href="#" target="_blank"><h3>Video Title 6</h3></a>
+            <a href="#" target="_blank"
+              ><h3
+                class="text-lg font-bold hover:underline active:text-gray-500"
+              >
+                Video Title 6
+              </h3></a
+            >
             <p class="text-justify">Video Description 6</p>
           </div>
         </div>
-      </fieldset>
+      </section>
     </main>
     <script>
       "use strict";
       const body = document.body;
+
       function loadHeaderImage(src) {
         const headerImage = new Image();
         headerImage.src = src;
@@ -139,48 +289,88 @@
         headerImage.setAttribute("title", "Header image");
         return headerImage;
       }
-      const headerImage1 = loadHeaderImage("https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_GlowSquid.jpg");
-      const headerImage2 = loadHeaderImage("https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg");
-      const headerImage3 = loadHeaderImage("https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg");
-      const headerImage4 = loadHeaderImage("https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg");
+      const headerImage1 = loadHeaderImage(
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_GlowSquid.jpg"
+      );
+      const headerImage2 = loadHeaderImage(
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg"
+      );
+      const headerImage3 = loadHeaderImage(
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg"
+      );
+      const headerImage4 = loadHeaderImage(
+        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg"
+      );
 
-      function replaceTitleAndDescription(xmlSource, classesToReplace, elementToReplace, replaceSourceElement) {
+      function replaceTitleAndDescription(
+        xmlSource,
+        classesToReplace,
+        elementToReplace,
+        replaceSourceElement
+      ) {
         for (let index = 0; index < classesToReplace.length; index++) {
-          classesToReplace[index].getElementsByTagName("div")[0].getElementsByTagName(elementToReplace)[0].innerText = xmlSource
+          classesToReplace[index]
+            .getElementsByTagName("div")[0]
+            .getElementsByTagName(elementToReplace)[0].innerText = xmlSource
             .getElementsByTagName("entry")
             [index].getElementsByTagName(replaceSourceElement)[0].textContent;
         }
       }
-      fetch("https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA")
+      fetch(
+        "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
+      )
         .then((response) => response.text())
         .then((text) => new DOMParser().parseFromString(text, "text/xml"))
         .then((youtubeFeedXml) => {
-          const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
-          replaceTitleAndDescription(youtubeFeedXml, thumbnailInfoGroup, "h3", "title");
-          replaceTitleAndDescription(youtubeFeedXml, thumbnailInfoGroup, "p", "media:description");
+          const thumbnailInfoGroup = body.getElementsByClassName(
+            "thumbnail-info-group"
+          );
+          replaceTitleAndDescription(
+            youtubeFeedXml,
+            thumbnailInfoGroup,
+            "h3",
+            "title"
+          );
+          replaceTitleAndDescription(
+            youtubeFeedXml,
+            thumbnailInfoGroup,
+            "p",
+            "media:description"
+          );
           for (let index = 0; index < thumbnailInfoGroup.length; index++) {
             // Replace links
-            thumbnailInfoGroup[index].getElementsByTagName("div")[0].getElementsByTagName("a")[0].href = youtubeFeedXml
+            thumbnailInfoGroup[index]
+              .getElementsByTagName("div")[0]
+              .getElementsByTagName("a")[0].href = youtubeFeedXml
               .getElementsByTagName("entry")
               [index].getElementsByTagName("link")[0]
               .getAttribute("href");
             // Replace thumbnails
-            thumbnailInfoGroup[index].getElementsByTagName("img")[0].src = youtubeFeedXml
-              .getElementsByTagName("entry")
-              [index].getElementsByTagName("media:thumbnail")[0]
-              .getAttribute("url");
+            thumbnailInfoGroup[index].getElementsByTagName("img")[0].src =
+              youtubeFeedXml
+                .getElementsByTagName("entry")
+                [index].getElementsByTagName("media:thumbnail")[0]
+                .getAttribute("url");
           }
         });
 
-      const contentBar = document.getElementById("header-content-bar").getElementsByTagName("input");
+      const contentBar = document
+        .getElementById("header-content-bar")
+        .getElementsByTagName("input");
       const homepageHeader = document.getElementsByTagName("header")[0];
       let headerElement = document.getElementById("header-image");
 
       let currentContentNumber;
       function replaceHeaderImage(headerImage) {
         body.getElementsByTagName("header")[0].appendChild(headerImage);
-        setTimeout(() => headerElement.parentNode.removeChild(headerElement), 300);
-        setTimeout(() => (headerElement = document.getElementById("header-image")), 300);
+        setTimeout(
+          () => headerElement.parentNode.removeChild(headerElement),
+          300
+        );
+        setTimeout(
+          () => (headerElement = document.getElementById("header-image")),
+          300
+        );
       }
       function toHeaderContent(contentNumber) {
         if (contentNumber != currentContentNumber) {

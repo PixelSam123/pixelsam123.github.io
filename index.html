@@ -344,25 +344,22 @@
       "use strict";
       const body = document.body;
 
-      function loadHeaderImage(url) {
+      function loadHeaderImage(number) {
         const headerImage = new Image();
-        headerImage.src = url;
+        fetch("resources/header-text.json")
+          .then((response) => response.json())
+          .then((headerTextObject) => {
+            headerImage.src = headerTextObject[number].imageURL;
+          });
         headerImage.id = "header-image";
         headerImage.setAttribute("title", "Header image");
         return headerImage;
       }
-      const headerImage1 = loadHeaderImage(
-        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_GlowSquid.jpg"
-      );
-      const headerImage2 = loadHeaderImage(
-        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg"
-      );
-      const headerImage3 = loadHeaderImage(
-        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg"
-      );
-      const headerImage4 = loadHeaderImage(
-        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg"
-      );
+      const headerImages = [];
+      headerImages[0] = loadHeaderImage(0);
+      headerImages[1] = loadHeaderImage(1);
+      headerImages[2] = loadHeaderImage(2);
+      headerImages[3] = loadHeaderImage(3);
 
       function replaceTitleAndDescription(
         xmlSource,
@@ -453,7 +450,7 @@
         if (headerNumber != currentHeaderNumber) {
           currentHeaderNumber = headerNumber;
           headerCycleButtons[headerNumber].checked = true;
-          fetch("resources/text/header-text.json")
+          fetch("resources/header-text.json")
             .then((response) => response.json())
             .then((headerTextObject) => {
               document.getElementById("header-title").textContent =
@@ -464,19 +461,19 @@
           switch (headerNumber) {
             case 0:
               sessionStorage.currentHeaderImage = "0";
-              replaceHeaderImage(headerImage1, animationDuration);
+              replaceHeaderImage(headerImages[0], animationDuration);
               break;
             case 1:
               sessionStorage.currentHeaderImage = "1";
-              replaceHeaderImage(headerImage2, animationDuration);
+              replaceHeaderImage(headerImages[1], animationDuration);
               break;
             case 2:
               sessionStorage.currentHeaderImage = "2";
-              replaceHeaderImage(headerImage3, animationDuration);
+              replaceHeaderImage(headerImages[2], animationDuration);
               break;
             case 3:
               sessionStorage.currentHeaderImage = "3";
-              replaceHeaderImage(headerImage4, animationDuration);
+              replaceHeaderImage(headerImages[3], animationDuration);
               break;
           }
         }

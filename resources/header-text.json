@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Glow Squids!",
+    "description": "Learn more about the features of glow squids here.",
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_GlowSquid.jpg"
+  },
+  {
+    "title": "Axolotls!",
+    "description": "Learn more about the features of axolotls here.",
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg"
+  },
+  {
+    "title": "Copper Ore!",
+    "description": "Copper ore can be used to make many things, learn about them here.",
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg"
+  },
+  {
+    "title": "Lush Blocks!",
+    "description": "Lush cave bloks can be used to make many things, learn about them here.",
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg"
+  }
+]

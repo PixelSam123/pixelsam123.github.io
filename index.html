@@ -36,8 +36,6 @@
         height: 100vh;
         object-fit: cover;
         z-index: -1;
-        animation: fade-in;
-        animation-duration: 300ms;
         -webkit-user-select: none;
         user-select: none;
       }
@@ -52,65 +50,73 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-white dark:bg-gray-800">
     <!-- Hero header -->
     <header>
       <div class="w-full justify-self-start flex justify-between select-none">
-        <a
+        <button
           class="
             ml-3
             px-2
             pb-4
             text-white
+            overflow-hidden
             no-underline
             text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
+            rounded
           "
-          href="javascript:cycleHeaderContent('prev');"
-          >&lsaquo;</a
+          onclick="cycleHeader('prev')"
         >
-        <a
+          &lsaquo;
+        </button>
+        <button
           class="
             mr-3
             px-2
             pb-4
             text-white
+            overflow-hidden
             no-underline
             text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
+            rounded
           "
-          href="javascript:cycleHeaderContent('next');"
-          >&rsaquo;</a
+          onclick="cycleHeader('next')"
         >
+          &rsaquo;
+        </button>
       </div>
-      <h1 class="mt-14 mx-2 text-3xl uppercase">Header Title</h1>
-      <p class="mx-2 mt-2 mb-4">Header Description</p>
+      <h1 class="mt-14 mx-2 text-3xl uppercase" id="header-title">
+        Header Title
+      </h1>
+      <p class="mx-2 mt-2 mb-4" id="header-description">Header Description</p>
       <div id="header-content-bar" class="mb-4 select-none">
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
           name="header-content-chooser"
-          onclick="toHeaderContent(0);"
+          onclick="switchHeader(0);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
           name="header-content-chooser"
-          onclick="toHeaderContent(1);"
+          onclick="switchHeader(1);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
           name="header-content-chooser"
-          onclick="toHeaderContent(2);"
+          onclick="switchHeader(2);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
           name="header-content-chooser"
-          onclick="toHeaderContent(3);"
+          onclick="switchHeader(3);"
         />
       </div>
     </header>
@@ -137,7 +143,7 @@
         <a class="w-14 h-14" href="#"
           ><img
             class="w-14 h-14 sm:rounded-l"
-            src="images/fadhsquared-logo.png"
+            src="resources/images/fadhsquared-logo.png"
             alt="FADHsquared logo"
         /></a>
         <a
@@ -338,9 +344,9 @@
       "use strict";
       const body = document.body;
 
-      function loadHeaderImage(src) {
+      function loadHeaderImage(url) {
         const headerImage = new Image();
-        headerImage.src = src;
+        headerImage.src = url;
         headerImage.id = "header-image";
         headerImage.setAttribute("title", "Header image");
         return headerImage;
@@ -410,66 +416,89 @@
           }
         });
 
-      const contentBar = document
+      const headerCycleButtons = document
         .getElementById("header-content-bar")
         .getElementsByTagName("input");
-      const homepageHeader = document.getElementsByTagName("header")[0];
       let headerElement = document.getElementById("header-image");
 
-      let currentContentNumber;
-      function replaceHeaderImage(headerImage) {
+      function replaceHeaderImage(headerImage, animationDuration) {
         body.getElementsByTagName("header")[0].appendChild(headerImage);
-        setTimeout(
-          () => headerElement.parentNode.removeChild(headerElement),
-          300
+        headerImage.animate(
+          {
+            opacity: [0, 1],
+            easing: ["ease-out"],
+          },
+          animationDuration
         );
+        setTimeout(() => {
+          try {
+            headerElement.parentNode.removeChild(headerElement);
+          } catch (TypeError) {
+            console.log(
+              "Header element can't be removed because it does not exist yet (page just loaded/refreshed. This code will be changed later)"
+            );
+          }
+        }, animationDuration);
         setTimeout(
           () => (headerElement = document.getElementById("header-image")),
-          300
+          animationDuration
         );
       }
-      function toHeaderContent(contentNumber) {
-        if (contentNumber != currentContentNumber) {
-          currentContentNumber = contentNumber;
-          switch (contentNumber) {
+
+      let currentHeaderNumber;
+      function switchHeader(headerNumber, animationDuration = 300) {
+        if (isNaN(headerNumber)) {
+          headerNumber = 0;
+        }
+        if (headerNumber != currentHeaderNumber) {
+          currentHeaderNumber = headerNumber;
+          headerCycleButtons[headerNumber].checked = true;
+          fetch("resources/text/header-text.json")
+            .then((response) => response.json())
+            .then((headerTextObject) => {
+              document.getElementById("header-title").textContent =
+                headerTextObject[headerNumber].title;
+              document.getElementById("header-description").textContent =
+                headerTextObject[headerNumber].description;
+            });
+          switch (headerNumber) {
             case 0:
-              replaceHeaderImage(headerImage1);
-              contentBar[0].checked = true;
+              sessionStorage.currentHeaderImage = "0";
+              replaceHeaderImage(headerImage1, animationDuration);
               break;
             case 1:
-              replaceHeaderImage(headerImage2);
-              contentBar[1].checked = true;
+              sessionStorage.currentHeaderImage = "1";
+              replaceHeaderImage(headerImage2, animationDuration);
               break;
             case 2:
-              replaceHeaderImage(headerImage3);
-              contentBar[2].checked = true;
+              sessionStorage.currentHeaderImage = "2";
+              replaceHeaderImage(headerImage3, animationDuration);
               break;
             case 3:
-              replaceHeaderImage(headerImage4);
-              contentBar[3].checked = true;
+              sessionStorage.currentHeaderImage = "3";
+              replaceHeaderImage(headerImage4, animationDuration);
               break;
           }
         }
       }
-      toHeaderContent(0);
-      function cycleHeaderContent(cycleTo) {
-        let contentNumber = currentContentNumber;
+      switchHeader(parseInt(sessionStorage.currentHeaderImage), 0);
+      function cycleHeader(cycleTo) {
+        let headerNumber = currentHeaderNumber;
         switch (cycleTo) {
           case "next":
-            contentNumber += 1;
-            if (contentNumber > 3) {
-              contentNumber = 0;
-            }
+            headerNumber += 1;
             break;
           case "prev":
-            contentNumber -= 1;
-            if (contentNumber < 0) {
-              contentNumber = 3;
-            }
+            headerNumber -= 1;
             break;
         }
-        toHeaderContent(contentNumber);
-        currentContentNumber = contentNumber;
+        if (headerNumber > 3) {
+          headerNumber = 0;
+        } else if (headerNumber < 0) {
+          headerNumber = 3;
+        }
+        switchHeader(headerNumber);
+        currentHeaderNumber = headerNumber;
       }
     </script>
     <script src="js/main.js"></script>

@@ -126,7 +126,7 @@
 .window.windows10 .window-header-buttons {
   height: 10px;
   width: 10px;
-  background: url("../../images/minimize_maximize_close_icons-white.svg");
+  background: url("../resources/images/minimize_maximize_close_icons-white.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }

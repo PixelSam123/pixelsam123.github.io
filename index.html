@@ -89,31 +89,46 @@
           &rsaquo;
         </button>
       </div>
-      <h1 class="mt-14 mx-2 text-3xl uppercase" id="header-title">Header Title</h1>
-      <p class="mx-2 mt-2 mb-4" id="header-description">Header Description</p>
-      <div id="header-content-bar" class="mb-4 select-none">
+      <div
+        class="
+          mt-14
+          mx-2
+          mb-3
+          p-3
+          rounded
+          bg-gray-900 bg-opacity-70
+          backdrop-filter backdrop-blur-sm
+        "
+      >
+        <h1 class="text-3xl uppercase" id="header-title">Header Title</h1>
+        <p class="mt-2">
+          <span id="header-description">Header Description</span>
+          <a id="header-link" class="underline" href="#">Read article...</a>
+        </p>
+      </div>
+      <div id="header-radio-button-group" class="mb-3 select-none">
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
-          name="header-content-chooser"
+          name="header-radio-button"
           onclick="switchHeader(0);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
-          name="header-content-chooser"
+          name="header-radio-button"
           onclick="switchHeader(1);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
-          name="header-content-chooser"
+          name="header-radio-button"
           onclick="switchHeader(2);"
         />
         <input
           class="mx-0.5 filter grayscale"
           type="radio"
-          name="header-content-chooser"
+          name="header-radio-button"
           onclick="switchHeader(3);"
         />
       </div>
@@ -331,11 +346,11 @@
             // Replace description
             thumbnailInfoGroup[index].getElementsByTagName("p")[0].innerText =
               youtubeFeedEntry[index].getElementsByTagName("media:description")[0].textContent;
-            // Replace links
+            // Replace link
             thumbnailInfoGroup[index].getElementsByTagName("a")[0].href = youtubeFeedEntry[index]
               .getElementsByTagName("link")[0]
               .getAttribute("href");
-            // Replace thumbnails
+            // Replace thumbnail
             thumbnailInfoGroup[index].getElementsByTagName("img")[0].src = youtubeFeedEntry[index]
               .getElementsByTagName("media:thumbnail")[0]
               .getAttribute("url");
@@ -360,7 +375,7 @@
       /* Function for switching the hero header image (animated with a smooth transition), title and description.
       Bound to radio buttons at the bottom of the header. */
       const headerCycleRadioButtons = document
-        .getElementById("header-content-bar")
+        .getElementById("header-radio-button-group")
         .getElementsByTagName("input");
       let headerElement = document.getElementById("header-image");
       let currentHeaderNumber;
@@ -383,6 +398,8 @@
                 headerTextObject[headerNumber].title;
               document.getElementById("header-description").textContent =
                 headerTextObject[headerNumber].description;
+              document.getElementById("header-link").href =
+                headerTextObject[headerNumber].articleURL;
             });
           // Switch header image
           const headerImage = headerImages[headerNumber];

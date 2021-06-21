@@ -1,22 +1,26 @@
 [
   {
-    "title": "Glow Squids!",
-    "description": "Learn more about the features of glow squids here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_GlowSquid.jpg"
+    "title": "Minecraft 1.17.1 Pre-release 1",
+    "description": "The first Minecraft 1.17.1 pre-release is out, fixing several issues including a crucial one regarding ender pearls.",
+    "imageURL": "resources/images/Axolotl_concept_art.jpg",
+    "articleURL": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-1"
   },
   {
     "title": "Axolotls!",
     "description": "Learn more about the features of axolotls here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg"
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg",
+    "articleURL": "#"
   },
   {
     "title": "Copper Ore!",
     "description": "Copper ore can be used to make many things, learn about them here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg"
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg",
+    "articleURL": "#"
   },
   {
     "title": "Lush Blocks!",
     "description": "Lush cave bloks can be used to make many things, learn about them here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg"
+    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg",
+    "articleURL": "#"
   }
 ]

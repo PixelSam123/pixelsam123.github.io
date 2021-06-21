@@ -39,15 +39,6 @@
         -webkit-user-select: none;
         user-select: none;
       }
-      /* Latest videos section */
-      .thumbnail-info-group img {
-        margin-right: 0.5rem;
-        width: 128px;
-        height: 72px;
-        min-width: 128px;
-        min-height: 72px;
-        object-fit: cover;
-      }
     </style>
   </head>
   <body class="bg-white dark:bg-gray-800">
@@ -208,7 +199,10 @@
             hover:shadow
           "
         >
-          <img alt="thumbnail" />
+          <img
+            class="mr-2 w-[128px] h-[72px] min-w-[128px] min-h-[72px] object-cover"
+            alt="thumbnail"
+          />
           <div>
             <a href="#" target="_blank"
               ><h3 class="text-lg font-bold hover:underline active:text-gray-500">

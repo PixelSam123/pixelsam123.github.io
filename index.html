@@ -359,17 +359,20 @@
       }
       /* Function for switching the hero header image (animated with a smooth transition), title and description.
       Bound to radio buttons at the bottom of the header. */
-      let headerElement = document.getElementById("header-image");
-      let currentHeaderNumber;
       const headerCycleRadioButtons = document
         .getElementById("header-content-bar")
         .getElementsByTagName("input");
+      let headerElement = document.getElementById("header-image");
+      let currentHeaderNumber;
+      let animationIsOngoing = false;
       function switchHeader(headerNumber, animationDuration = 300) {
         // Fix NaN header image number stored in sessionStorage on webpage first load
         if (isNaN(headerNumber)) {
           headerNumber = 0;
         }
-        if (headerNumber != currentHeaderNumber) {
+        if (animationIsOngoing) {
+          headerCycleRadioButtons[currentHeaderNumber].checked = true;
+        } else if (headerNumber != currentHeaderNumber) {
           currentHeaderNumber = headerNumber;
           headerCycleRadioButtons[headerNumber].checked = true;
           // Switch title and description
@@ -384,6 +387,7 @@
           // Switch header image
           const headerImage = headerImages[headerNumber];
           body.getElementsByTagName("header")[0].appendChild(headerImage);
+          animationIsOngoing = true;
           headerImage.animate(
             {
               opacity: [0, 1],
@@ -400,6 +404,7 @@
               );
             }
             headerElement = document.getElementById("header-image");
+            animationIsOngoing = false;
           }, animationDuration);
           sessionStorage.currentHeaderImage = String(headerNumber);
         }
@@ -424,7 +429,6 @@
           headerNumber = 3;
         }
         switchHeader(headerNumber);
-        currentHeaderNumber = headerNumber;
       }
     </script>
     <script src="js/main.js"></script>

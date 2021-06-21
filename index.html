@@ -39,7 +39,7 @@
         -webkit-user-select: none;
         user-select: none;
       }
-      /* Featured videos section */
+      /* Latest videos section */
       .thumbnail-info-group img {
         margin-right: 0.5rem;
         width: 128px;
@@ -193,8 +193,8 @@
           />
         </div>
       </section>
-      <!-- Featured videos section -->
-      <section class="min-w-0 overflow-x-auto">
+      <!-- Latest videos section -->
+      <section id="latest-videos-container" class="min-w-0 overflow-x-auto">
         <h2 class="text-center text-2xl">Latest Videos</h2>
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
         <div
@@ -212,115 +212,10 @@
           <div>
             <a href="#" target="_blank"
               ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 1
+                Video Title
               </h3></a
             >
-            <p class="text-justify">Video Description 1</p>
-          </div>
-        </div>
-        <div
-          class="
-            thumbnail-info-group
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img alt="thumbnail" />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 2
-              </h3></a
-            >
-            <p class="text-justify">Video Description 2</p>
-          </div>
-        </div>
-        <div
-          class="
-            thumbnail-info-group
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img alt="thumbnail" />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 3
-              </h3></a
-            >
-            <p class="text-justify">Video Description 3</p>
-          </div>
-        </div>
-        <div
-          class="
-            thumbnail-info-group
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img alt="thumbnail" />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 4
-              </h3></a
-            >
-            <p class="text-justify">Video Description 4</p>
-          </div>
-        </div>
-        <div
-          class="
-            thumbnail-info-group
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img alt="thumbnail" />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 5
-              </h3></a
-            >
-            <p class="text-justify">Video Description 5</p>
-          </div>
-        </div>
-        <div
-          class="
-            thumbnail-info-group
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img alt="thumbnail" />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="text-lg font-bold hover:underline active:text-gray-500">
-                Video Title 6
-              </h3></a
-            >
-            <p class="text-justify">Video Description 6</p>
+            <p class="text-justify">Video Description</p>
           </div>
         </div>
       </section>
@@ -330,7 +225,7 @@
       "use strict";
       const body = document.body;
 
-      // Grabbing & displaying six latest published videos from the YouTube channel
+      // Grabbing & displaying latest published videos from the YouTube channel
       const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
       fetch(
         "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
@@ -339,6 +234,12 @@
         .then((text) => new DOMParser().parseFromString(text, "text/xml"))
         .then((youtubeFeedXml) => {
           const youtubeFeedEntry = youtubeFeedXml.getElementsByTagName("entry");
+          // Duplicate the thumbnail-info-group div as much as needed
+          for (let index = 1; index < youtubeFeedEntry.length; index++) {
+            document
+              .getElementById("latest-videos-container")
+              .appendChild(thumbnailInfoGroup[0].cloneNode(true));
+          }
           for (let index = 0; index < thumbnailInfoGroup.length; index++) {
             // Replace title
             thumbnailInfoGroup[index].getElementsByTagName("h3")[0].innerText =

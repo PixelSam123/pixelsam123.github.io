@@ -10,6 +10,6 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
-nav > div a:not(:first-child) {
+nav > div a {
   font-family: "Montserrat";
 }

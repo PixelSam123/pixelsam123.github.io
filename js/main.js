@@ -1,5 +1,5 @@
 "use strict";
-// Page look mode
+
 function setLookMode(lookMode) {
   // Primary look class switching
   if (lookMode == "dark_mode") {
@@ -8,7 +8,10 @@ function setLookMode(lookMode) {
     document.getElementsByTagName("html")[0].className = "";
   }
   // Dark mode toggle button look
-  body.getElementsByTagName("nav")[0].getElementsByTagName("button")[0].getElementsByClassName("material-icons-outlined")[0].textContent = lookMode;
+  body
+    .getElementsByTagName("nav")[0]
+    .getElementsByTagName("button")[0]
+    .getElementsByClassName("material-icons-outlined")[0].textContent = lookMode;
 }
 function applyLookMode() {
   if (sessionStorage.darkmode == "true") {
@@ -18,7 +21,9 @@ function applyLookMode() {
   }
 }
 function toggleDarkMode() {
-  sessionStorage.darkmode == "true" ? (sessionStorage.darkmode = "false") : (sessionStorage.darkmode = "true");
+  sessionStorage.darkmode == "true"
+    ? (sessionStorage.darkmode = "false")
+    : (sessionStorage.darkmode = "true");
   applyLookMode();
 }
 applyLookMode();

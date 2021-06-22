@@ -14,16 +14,16 @@ function setLookMode(lookMode) {
     .getElementsByClassName("material-icons-outlined")[0].textContent = lookMode;
 }
 function applyLookMode() {
-  if (sessionStorage.darkmode == "true") {
+  if (localStorage.darkmode == "true") {
     setLookMode("dark_mode");
   } else {
     setLookMode("light_mode");
   }
 }
 function toggleDarkMode() {
-  sessionStorage.darkmode == "true"
-    ? (sessionStorage.darkmode = "false")
-    : (sessionStorage.darkmode = "true");
+  localStorage.darkmode == "true"
+    ? (localStorage.darkmode = "false")
+    : (localStorage.darkmode = "true");
   applyLookMode();
 }
 applyLookMode();

@@ -6,21 +6,15 @@
     "articleURL": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-1"
   },
   {
-    "title": "Axolotls!",
-    "description": "Learn more about the features of axolotls here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_Axolotl.jpg",
-    "articleURL": "#"
+    "title": "Hermitcraft 8 Launch",
+    "description": "That was unexpected! The new Hermitcraft season seems to have started out of the blue. Find coverage from hermit members in Hypno's site here:",
+    "imageURL": "https://i.redd.it/8w6uy60q98671.png",
+    "articleURL": "https://hermitcraft.com/"
   },
   {
-    "title": "Copper Ore!",
-    "description": "Copper ore can be used to make many things, learn about them here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_CopperOre.jpg",
-    "articleURL": "#"
-  },
-  {
-    "title": "Lush Blocks!",
-    "description": "Lush cave bloks can be used to make many things, learn about them here.",
-    "imageURL": "https://www.minecraft.net/content/dam/games/minecraft/screenshots/CC_anounce_LushCaveBlocks.jpg",
-    "articleURL": "#"
+    "title": "Tailwind CSS Color Pallete",
+    "description": "Even if you're not a fan of Tailwind CSS, their color pallete is a great reference to rely on if you just want colors that work!",
+    "imageURL": "https://s3-alpha.figma.com/hub/file/527815647/19509761-f407-45c3-9aa2-c0c8328aa639-cover.png",
+    "articleURL": "https://tailwindcss.com/docs/customizing-colors#color-palette-reference"
   }
 ]

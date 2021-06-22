@@ -29,16 +29,6 @@
         color: white;
         text-align: center;
       }
-      #header-image {
-        position: fixed;
-        top: 0;
-        width: 100vw;
-        height: 100vh;
-        object-fit: cover;
-        z-index: -1;
-        -webkit-user-select: none;
-        user-select: none;
-      }
     </style>
   </head>
   <body class="bg-white dark:bg-gray-800">
@@ -50,13 +40,15 @@
             ml-3
             px-2
             pb-4
-            text-white
+            text-yellow-400
             overflow-hidden
             no-underline
             text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
             rounded
+            filter
+            drop-shadow
           "
           onclick="cycleHeader('prev')"
         >
@@ -67,62 +59,36 @@
             mr-3
             px-2
             pb-4
-            text-white
+            text-yellow-400
             overflow-hidden
             no-underline
             text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
             rounded
+            filter
+            drop-shadow
           "
           onclick="cycleHeader('next')"
         >
           &rsaquo;
         </button>
       </div>
-      <div
-        class="
-          mt-14
-          mx-2
-          mb-3
-          p-3
-          rounded
-          bg-gray-900 bg-opacity-70
-          backdrop-filter backdrop-blur-sm
-        "
-      >
+      <div class="mt-14 mx-2 p-3 rounded bg-black bg-opacity-60 backdrop-filter backdrop-blur-md">
         <h1 class="text-3xl uppercase" id="header-title">Header Title</h1>
         <p class="mt-2">
           <span id="header-description">Header Description</span>
-          <a id="header-link" class="underline" href="#">Read article...</a>
+          <a id="header-link" class="underline" href="#" target="_blank">Read article...</a>
         </p>
       </div>
-      <div id="header-radio-button-group" class="mb-3 select-none">
-        <input
-          class="mx-0.5 filter grayscale"
-          type="radio"
-          name="header-radio-button"
-          onclick="switchHeader(0);"
-        />
-        <input
-          class="mx-0.5 filter grayscale"
-          type="radio"
-          name="header-radio-button"
-          onclick="switchHeader(1);"
-        />
-        <input
-          class="mx-0.5 filter grayscale"
-          type="radio"
-          name="header-radio-button"
-          onclick="switchHeader(2);"
-        />
-        <input
-          class="mx-0.5 filter grayscale"
-          type="radio"
-          name="header-radio-button"
-          onclick="switchHeader(3);"
-        />
+      <div id="header-radio-button-group" class="table my-3 select-none">
+        <input class="mx-1 filter grayscale" type="radio" name="header-radio-button" />
       </div>
+      <img
+        id="header-image"
+        class="fixed top-0 w-screen h-screen object-cover select-none z-[-10]"
+        title="Header image"
+      />
     </header>
     <nav
       class="
@@ -160,10 +126,10 @@
     </nav>
     <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-200">
       <!-- VSCode pro tip for IntelliJ look -->
-      <section id="pro-tip">
+      <section>
         <h2 class="text-center text-2xl">Pro tip: IntelliJ editor look in VS Code</h2>
         <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-200"></div>
-        <div id="pro-tip-textarea-container" class="flex flex-wrap justify-center">
+        <div class="flex flex-wrap justify-center">
           <embed
             src="html/fake-windows/font-size-13.html"
             type="text/html"
@@ -185,7 +151,7 @@
         </div>
       </section>
       <!-- Latest videos section -->
-      <section id="latest-videos-container" class="min-w-0 overflow-x-auto">
+      <section class="min-w-0 overflow-x-auto">
         <h2 class="text-center text-2xl">Latest Videos</h2>
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
         <div
@@ -218,55 +184,13 @@
       // Comment structure: Comments describe code below them.
       "use strict";
       const body = document.body;
+      // Reusable functions
+      function duplicateElement(sourceElement, duplicateCount) {
+        for (let index = 1; index <= duplicateCount; index++) {
+          sourceElement.parentNode.appendChild(sourceElement.cloneNode(true));
+        }
+      }
 
-      // Grabbing & displaying latest published videos from the YouTube channel
-      const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
-      fetch(
-        "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
-      )
-        .then((response) => response.text())
-        .then((text) => new DOMParser().parseFromString(text, "text/xml"))
-        .then((youtubeFeedXml) => {
-          const youtubeFeedEntry = youtubeFeedXml.getElementsByTagName("entry");
-          // Duplicate the thumbnail-info-group div as much as needed
-          for (let index = 1; index < youtubeFeedEntry.length; index++) {
-            document
-              .getElementById("latest-videos-container")
-              .appendChild(thumbnailInfoGroup[0].cloneNode(true));
-          }
-          for (let index = 0; index < thumbnailInfoGroup.length; index++) {
-            // Replace title
-            thumbnailInfoGroup[index].getElementsByTagName("h3")[0].innerText =
-              youtubeFeedEntry[index].getElementsByTagName("title")[0].textContent;
-            // Replace description
-            thumbnailInfoGroup[index].getElementsByTagName("p")[0].innerText =
-              youtubeFeedEntry[index].getElementsByTagName("media:description")[0].textContent;
-            // Replace link
-            thumbnailInfoGroup[index].getElementsByTagName("a")[0].href = youtubeFeedEntry[index]
-              .getElementsByTagName("link")[0]
-              .getAttribute("href");
-            // Replace thumbnail
-            thumbnailInfoGroup[index].getElementsByTagName("img")[0].src = youtubeFeedEntry[index]
-              .getElementsByTagName("media:thumbnail")[0]
-              .getAttribute("url");
-          }
-        });
-      // Preload images for hero header
-      function loadHeaderImage(number) {
-        const headerImage = new Image();
-        fetch("resources/header-text.json")
-          .then((response) => response.json())
-          .then((headerTextObject) => {
-            headerImage.src = headerTextObject[number].imageURL;
-          });
-        headerImage.id = "header-image";
-        headerImage.setAttribute("title", "Header image");
-        return headerImage;
-      }
-      const headerImages = [];
-      for (let index = 0; index < 4; index++) {
-        headerImages[index] = loadHeaderImage(index);
-      }
       /* Function for switching the hero header image (animated with a smooth transition), title and description.
       Bound to radio buttons at the bottom of the header. */
       const headerCycleRadioButtons = document
@@ -275,7 +199,7 @@
       let headerElement = document.getElementById("header-image");
       let currentHeaderNumber;
       let animationIsOngoing = false;
-      function switchHeader(headerNumber, animationDuration = 300) {
+      function switchHeader(headerNumber, animationDuration = 250) {
         // Fix NaN header image number stored in sessionStorage on webpage first load
         if (isNaN(headerNumber)) {
           headerNumber = 0;
@@ -307,25 +231,34 @@
             },
             animationDuration
           );
-          setTimeout(() => {
-            try {
-              headerElement.parentNode.removeChild(headerElement);
-            } catch (TypeError) {
-              console.log(
-                "Header element can't be removed because it does not exist yet (page just loaded/refreshed. This code will be changed later)"
-              );
-            }
+          setTimeout(function () {
+            headerElement.parentNode.removeChild(headerElement);
             headerElement = document.getElementById("header-image");
             animationIsOngoing = false;
           }, animationDuration);
           sessionStorage.currentHeaderImage = String(headerNumber);
         }
       }
-      switchHeader(parseInt(sessionStorage.currentHeaderImage), 0);
+      // Preload images for hero header, adding radio buttons as much as needed
+      const headerImages = [];
+      fetch("resources/header-text.json")
+        .then((response) => response.json())
+        .then((headerTextObject) => {
+          duplicateElement(headerCycleRadioButtons[0], headerTextObject.length - 1);
+          for (let index = 0; index < headerTextObject.length; index++) {
+            headerImages[index] = headerElement.cloneNode(true);
+            headerImages[index].src = headerTextObject[index].imageURL;
+            headerCycleRadioButtons[index].addEventListener("click", function () {
+              switchHeader(index);
+            });
+          }
+          switchHeader(parseInt(sessionStorage.currentHeaderImage), 0);
+        });
       /* Function for cycling to the previous or the next hero header image, title and description.
       Bound to next and previous buttons above the header title.
       Calls the switchHeader function above. */
       function cycleHeader(cycleTo) {
+        const maxHeaderNumber = headerCycleRadioButtons.length - 1;
         let headerNumber = currentHeaderNumber;
         switch (cycleTo) {
           case "next":
@@ -335,13 +268,41 @@
             headerNumber -= 1;
             break;
         }
-        if (headerNumber > 3) {
+        if (headerNumber > maxHeaderNumber) {
           headerNumber = 0;
         } else if (headerNumber < 0) {
-          headerNumber = 3;
+          headerNumber = maxHeaderNumber;
         }
         switchHeader(headerNumber);
       }
+      // Grabbing & displaying latest published videos from the YouTube channel
+      const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
+      fetch(
+        "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
+      )
+        .then((response) => response.text())
+        .then((text) => new DOMParser().parseFromString(text, "text/xml"))
+        .then((youtubeFeedXml) => {
+          const youtubeFeedEntry = youtubeFeedXml.getElementsByTagName("entry");
+          // Duplicate the thumbnail-info-group div as much as needed
+          duplicateElement(thumbnailInfoGroup[0], youtubeFeedEntry.length - 1);
+          for (let index = 0; index < thumbnailInfoGroup.length; index++) {
+            // Replace title
+            thumbnailInfoGroup[index].getElementsByTagName("h3")[0].innerText =
+              youtubeFeedEntry[index].getElementsByTagName("title")[0].textContent;
+            // Replace description
+            thumbnailInfoGroup[index].getElementsByTagName("p")[0].innerText =
+              youtubeFeedEntry[index].getElementsByTagName("media:description")[0].textContent;
+            // Replace link
+            thumbnailInfoGroup[index].getElementsByTagName("a")[0].href = youtubeFeedEntry[index]
+              .getElementsByTagName("link")[0]
+              .getAttribute("href");
+            // Replace thumbnail
+            thumbnailInfoGroup[index].getElementsByTagName("img")[0].src = youtubeFeedEntry[index]
+              .getElementsByTagName("media:thumbnail")[0]
+              .getAttribute("url");
+          }
+        });
     </script>
     <script src="js/main.js"></script>
   </body>

@@ -15,6 +15,7 @@
   </head>
   <body class="bg-white dark:bg-gray-800">
     <nav
+      id="nav"
       class="
         sticky
         top-0
@@ -33,22 +34,25 @@
         backdrop-filter backdrop-blur
       "
     >
-      <div class="flex items-center flex-wrap">
-        <a class="w-14 h-14" href="../index.html"
+      <div class="font-bold flex items-center flex-wrap">
+        <a class="w-14 h-14" href="../index.html#nav"
           ><img
             class="w-14 h-14 sm:rounded-l"
             src="../resources/images/fadhsquared-logo.png"
             alt="FADHsquared logo"
         /></a>
-        <a class="ml-6 no-underline hover:underline" href="#">Updates</a>
-        <a class="ml-6 no-underline hover:underline" href="#">Downloads</a>
-        <a class="ml-6 no-underline hover:underline" href="#">Misc.</a>
+        <a class="ml-6 hover:underline" href="#">Updates</a>
+        <a class="ml-6 hover:underline" href="#">Downloads</a>
+        <a class="ml-6 hover:underline" href="#">Misc.</a>
       </div>
-      <button class="h-6 mx-4 border-none active:text-gray-500" onclick="toggleDarkMode()">
+      <button id="toggle-dark-mode-button" class="h-6 mx-4 border-none active:text-gray-500">
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main class="p-4 dark:text-gray-200">
+    <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-200">
+      <h1 id="article-title" class="font-bold text-3xl text-center">Article Title</h1>
+      <p id="article-title-description" class="mt-2 text-center">Article Title Description</p>
+      <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
       <p>
         Sometimes<br />
         Something beautiful happens in Minecraftia<br />
@@ -71,10 +75,29 @@
         A diamond let me mine it, it literally just happened.<br />
         Mining diamonds can make a strong man of the weakast!
       </p>
+      <br />
+      <p>Never guess where I just came from, I found diamonds!</p>
+      <p>If I had to describe the feeling, it was the best!</p>
+      <p>When I mined the diamonds, man my pickaxe felt great!</p>
+      <p>And I forgot the lyrics ok?</p>
+      <br />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <br />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <br />
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
+      <br />
     </main>
-    <script>
-      const body = document.body;
-    </script>
+    <script src="../js/article-initializer.js"></script>
     <script src="../js/main.js"></script>
   </body>
 </html>

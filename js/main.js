@@ -20,10 +20,10 @@ function applyLookMode() {
     setLookMode("light_mode");
   }
 }
-function toggleDarkMode() {
+document.getElementById("toggle-dark-mode-button").addEventListener("click", function () {
   localStorage.darkmode == "true"
     ? (localStorage.darkmode = "false")
     : (localStorage.darkmode = "true");
   applyLookMode();
-}
+});
 applyLookMode();

@@ -196,16 +196,11 @@
           currentHeaderNumber = headerNumber;
           headerCycleRadioButtons[headerNumber].checked = true;
           // Switch title and description
-          fetch("resources/header-text.json")
-            .then((response) => response.json())
-            .then((headerTextObject) => {
-              document.getElementById("header-title").textContent =
-                headerTextObject[headerNumber].title;
-              document.getElementById("header-description").textContent =
-                headerTextObject[headerNumber].description;
-              document.getElementById("header-link").href =
-                headerTextObject[headerNumber].articleURL;
-            });
+          document.getElementById("header-title").textContent =
+            headerContentList[headerNumber].title;
+          document.getElementById("header-description").textContent =
+            headerContentList[headerNumber].description;
+          document.getElementById("header-link").href = headerContentList[headerNumber].articleURL;
           // Switch header image
           const headerImage = headerImages[headerNumber];
           body.getElementsByTagName("header")[0].appendChild(headerImage);
@@ -225,15 +220,19 @@
           sessionStorage.currentHeaderImage = String(headerNumber);
         }
       }
-      // Preload images for hero header, adding radio buttons as much as needed
+      // Fetch header content list JSON and process it for the interactive header
       const headerImages = [];
-      fetch("resources/header-text.json")
+      let headerContentList;
+      fetch("resources/header-content-list.json")
         .then((response) => response.json())
-        .then((headerTextObject) => {
-          duplicateElement(headerCycleRadioButtons[0], headerTextObject.length - 1);
-          for (let index = 0; index < headerTextObject.length; index++) {
+        .then((fetchedHeaderContentList) => {
+          // Assign fetched JSON to global JS object
+          headerContentList = fetchedHeaderContentList;
+          // Preload images for hero header, adding radio buttons as much as needed
+          duplicateElement(headerCycleRadioButtons[0], fetchedHeaderContentList.length - 1);
+          for (let index = 0; index < fetchedHeaderContentList.length; index++) {
             headerImages[index] = headerElement.cloneNode(true);
-            headerImages[index].src = headerTextObject[index].imageURL;
+            headerImages[index].src = fetchedHeaderContentList[index].imageURL;
             headerCycleRadioButtons[index].addEventListener("click", function () {
               switchHeader(index);
             });

@@ -18,22 +18,12 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
-    <style>
-      /* Hero header */
-      header {
-        height: calc(100vh - 3.5rem);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        color: white;
-        text-align: center;
-      }
-    </style>
   </head>
-  <body class="bg-white dark:bg-gray-800">
+  <body>
     <!-- Hero header -->
-    <header>
+    <header
+      class="h-[calc(100vh-3.5rem)] flex flex-col items-center justify-end text-white text-center"
+    >
       <div class="w-full justify-self-start flex justify-between select-none">
         <button
           class="
@@ -86,7 +76,7 @@
       </div>
       <img
         id="header-image"
-        class="fixed top-0 w-screen h-screen object-cover select-none z-[-10]"
+        class="fixed top-0 w-screen h-screen bg-black object-cover select-none z-[-10]"
         title="Header image"
       />
     </header>
@@ -200,10 +190,6 @@
       let currentHeaderNumber;
       let animationIsOngoing = false;
       function switchHeader(headerNumber, animationDuration = 250) {
-        // Fix NaN header image number stored in sessionStorage on webpage first load
-        if (isNaN(headerNumber)) {
-          headerNumber = 0;
-        }
         if (animationIsOngoing) {
           headerCycleRadioButtons[currentHeaderNumber].checked = true;
         } else if (headerNumber != currentHeaderNumber) {
@@ -251,6 +237,10 @@
             headerCycleRadioButtons[index].addEventListener("click", function () {
               switchHeader(index);
             });
+          }
+          // Fix nonexistent header image number stored in sessionStorage on webpage first load
+          if (!("currentHeaderImage" in sessionStorage)) {
+            sessionStorage.currentHeaderImage = "0";
           }
           switchHeader(parseInt(sessionStorage.currentHeaderImage), 0);
         });

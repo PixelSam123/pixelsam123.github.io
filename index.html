@@ -90,32 +90,30 @@
         sticky
         top-0
         h-14
-        sm:w-max
-        sm:m-auto
+        sm:w-max sm:m-auto
         flex
         justify-between
         items-center
         bg-gray-50 bg-opacity-90
-        dark:bg-gray-900 dark:bg-opacity-90
         text-black
-        dark:text-white
+        dark:bg-gray-900 dark:bg-opacity-90 dark:text-white
         sm:rounded
         shadow
         backdrop-filter backdrop-blur
       "
     >
-      <div class="font-bold flex items-center flex-wrap">
-        <a class="w-14 h-14" href="#"
+      <div class="font-bold flex items-center overflow-x-auto">
+        <a class="w-14 h-14 flex-shrink-0" href="#"
           ><img
             class="w-14 h-14 sm:rounded-l"
             src="resources/images/fadhsquared-logo.png"
             alt="FADHsquared logo"
         /></a>
-        <a class="ml-6 hover:underline" href="html/second-site-test.html">Updates</a>
-        <a class="ml-6 hover:underline" href="#">Downloads</a>
-        <a class="ml-6 hover:underline" href="#">Misc.</a>
+        <a class="ml-5 hover:underline" href="html/second-site-test.html">Updates</a>
+        <a class="ml-5 hover:underline" href="#">Downloads</a>
+        <a class="ml-5 hover:underline" href="#">Misc.</a>
       </div>
-      <button id="toggle-dark-mode-button" class="h-6 mx-4 border-none active:text-gray-500">
+      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:text-gray-500">
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
@@ -171,8 +169,7 @@
               mr-2
               w-[128px]
               h-[72px]
-              lg:w-[160px]
-              lg:h-[90px]
+              lg:w-[160px] lg:h-[90px]
               object-cover
             "
             alt="thumbnail"

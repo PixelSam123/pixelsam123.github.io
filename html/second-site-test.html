@@ -7,17 +7,21 @@
     <title>Second Site Test</title>
 
     <link rel="stylesheet" href="../css/tailwind.css" />
-    <link rel="stylesheet" href="../css/master.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body class="bg-white dark:bg-gray-800">
+    <!-- Reinsert sticky into nav later -->
     <nav
       id="nav"
       class="
-        sticky
         top-0
         h-14
         sm:w-max
@@ -49,55 +53,26 @@
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main class="p-4 bg-white dark:bg-gray-800 dark:text-gray-200">
-      <h1 id="article-title" class="font-bold text-3xl text-center">Article Title</h1>
-      <p id="article-title-description" class="mt-2 text-center">Article Title Description</p>
-      <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
-      <p>
-        Sometimes<br />
-        Something beautiful happens in Minecraftia<br />
-        You don't know how to express yourself so<br />
-        You just gotta sing!
-      </p>
-      <br />
-      <p>
-        I just found diamonds!<br />
-        And it felt so good! (felt so good)<br />
-        A diamond let me put my pickaxe inside of it!<br />
-        I just found diamonds!<br />
-        And I'll never go back (Never go back)<br />
-        to the not having diamond ways of the past
-      </p>
-      <br />
-      <p>
-        Have you ever found diamonds? I have, it felt great!<br />
-        It felt so good when I mined it with my pickaxe!<br />
-        A diamond let me mine it, it literally just happened.<br />
-        Mining diamonds can make a strong man of the weakast!
-      </p>
-      <br />
-      <p>Never guess where I just came from, I found diamonds!</p>
-      <p>If I had to describe the feeling, it was the best!</p>
-      <p>When I mined the diamonds, man my pickaxe felt great!</p>
-      <p>And I forgot the lyrics ok?</p>
-      <br />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <br />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <br />
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, saepe?</p>
-      <br />
+    <main class="px-4 bg-white dark:bg-gray-800 dark:text-gray-200">
+      <div id="article-header">
+        <img class="mb-2 mx-auto w-full max-w-screen-xl" alt="Article header image" />
+        <h1 class="font-bold text-3xl text-center">Article Title</h1>
+        <p class="my-2 text-center">Article Title Description</p>
+        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
+      </div>
+      <div class="flex m-auto max-w-screen-2xl">
+        <div class="self-start flex-shrink-0 sticky top-14 mr-2">
+          <a class="subheader-link block" href="#">Subheader link</a>
+        </div>
+        <article class="pl-2 border-l border-gray-500">
+          <div id="" class="article-section">
+            <h2 class="font-bold text-2xl">Article Subheader</h2>
+            <p class="my-2 text-justify">Article Paragraph</p>
+          </div>
+        </article>
+      </div>
     </main>
-    <script src="../js/article-initializer.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/article-initializer.js"></script>
   </body>
 </html>

@@ -1,4 +1,5 @@
 "use strict";
+const body = document.body;
 
 function setLookMode(lookMode) {
   // Primary look class switching
@@ -27,3 +28,10 @@ document.getElementById("toggle-dark-mode-button").addEventListener("click", fun
   applyLookMode();
 });
 applyLookMode();
+
+// Reusable functions
+function duplicateElement(sourceElement, duplicateCount) {
+  for (let index = 1; index <= duplicateCount; index++) {
+    sourceElement.parentNode.appendChild(sourceElement.cloneNode(true));
+  }
+}

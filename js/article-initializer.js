@@ -34,4 +34,21 @@ fetch("../resources/article-content-list.json")
           fetchedArticleSections[sectionIndex].paragraphs[paragraphIndex];
       }
     }
+
+    let executionIsAllowed = true;
+    subheaderLinks[0].classList.add("font-bold");
+    document.addEventListener("scroll", function () {
+      if (executionIsAllowed) {
+        let currentHeaderIndexInView = 0;
+        for (let sectionIndex = 0; sectionIndex < articleSections.length; sectionIndex++) {
+          subheaderLinks[sectionIndex].classList.remove("font-bold");
+          if (Math.ceil(window.scrollY) >= articleSections[sectionIndex].offsetTop) {
+            currentHeaderIndexInView = sectionIndex;
+          }
+        }
+        subheaderLinks[currentHeaderIndexInView].classList.add("font-bold");
+        executionIsAllowed = false;
+      }
+    });
+    setInterval(() => (executionIsAllowed = true), 20);
   });

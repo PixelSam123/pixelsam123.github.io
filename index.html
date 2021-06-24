@@ -109,7 +109,7 @@
             src="resources/images/fadhsquared-logo.png"
             alt="FADHsquared logo"
         /></a>
-        <a class="ml-5 hover:underline" href="html/second-site-test.html">Updates</a>
+        <a class="ml-5 hover:underline" href="html/hermitcraft-8-launch.html">Updates</a>
         <a class="ml-5 hover:underline" href="#">Downloads</a>
         <a class="ml-5 hover:underline" href="#">Misc.</a>
       </div>
@@ -118,11 +118,27 @@
       </button>
     </nav>
     <main class="px-4 bg-white dark:bg-gray-800 dark:text-gray-200">
+      <!-- Latest articles section-->
+      <section class="pt-2">
+        <h2 class="font-bold text-center text-2xl">Latest Articles</h2>
+        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
+        <div class="flex flex-wrap justify-center">
+          <div class="article-snippet flex flex-col mt-2 w-60 lg:w-96">
+            <img class="flex-shrink-0 self-center object-cover" alt="article image" />
+            <div class="text-center mt-1">
+              <a href="#"
+                ><h3 class="font-bold lg:text-lg hover:underline active:text-gray-500">
+                  Article Snippet Title
+                </h3></a
+              >
+              <p class="text-sm lg:text-base">Article Snippet Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- VSCode pro tip for IntelliJ look -->
-      <section>
-        <h2 class="pt-4 font-bold text-center text-2xl">
-          Pro tip: IntelliJ editor look in VS Code
-        </h2>
+      <section class="pt-4">
+        <h2 class="font-bold text-center text-2xl">Pro tip: IntelliJ editor look in VS Code</h2>
         <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-200"></div>
         <div class="flex flex-wrap justify-center">
           <embed
@@ -276,6 +292,28 @@
         .getElementsByTagName("button");
       headerCycleButtons[0].addEventListener("click", () => cycleHeader("prev"));
       headerCycleButtons[1].addEventListener("click", () => cycleHeader("next"));
+      // Grabbing & displaying articles from article-content-list.json
+      const articleSnippets = body.getElementsByClassName("article-snippet");
+      fetch("resources/article-content-list.json")
+        .then((response) => response.json())
+        .then((fetchedArticleContentList) => {
+          // Duplicate the article-snippet div as much as needed
+          duplicateElement(articleSnippets[0], fetchedArticleContentList.length - 1);
+          for (let index = 0; index < articleSnippets.length; index++) {
+            // Replace title
+            articleSnippets[index].getElementsByTagName("h3")[0].innerText =
+              fetchedArticleContentList[index].header_title;
+            // Replace description
+            articleSnippets[index].getElementsByTagName("p")[0].innerText =
+              fetchedArticleContentList[index].header_description;
+            // Replace link
+            articleSnippets[index].getElementsByTagName("a")[0].href =
+              fetchedArticleContentList[index].article_url;
+            // Replace article image
+            articleSnippets[index].getElementsByTagName("img")[0].src =
+              fetchedArticleContentList[index].header_image_url;
+          }
+        });
       // Grabbing & displaying latest published videos from the YouTube channel
       const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
       fetch(

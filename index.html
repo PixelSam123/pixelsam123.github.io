@@ -25,17 +25,14 @@
     >
       <div
         id="header-cycle-button-container"
-        class="w-full justify-self-start flex justify-between select-none"
+        class="w-full justify-self-start flex justify-between select-none text-7xl text-yellow-400"
       >
         <button
           class="
             ml-3
             px-2
-            pb-4
-            text-yellow-400
+            pb-5
             overflow-hidden
-            no-underline
-            text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
             rounded
@@ -49,11 +46,8 @@
           class="
             mr-3
             px-2
-            pb-4
-            text-yellow-400
+            pb-5
             overflow-hidden
-            no-underline
-            text-7xl
             transition-all
             hover:bg-gray-50 hover:bg-opacity-20
             rounded
@@ -312,8 +306,9 @@
               youtubeFeedEntries[index].querySelector("title").textContent;
             thumbnailInfoGroup[index].querySelector("p").innerText =
               youtubeFeedEntries[index].querySelector("description").textContent;
-            thumbnailInfoGroup[index].querySelector("a").href =
-              youtubeFeedEntries[index].querySelector("link").href;
+            thumbnailInfoGroup[index].querySelector("a").href = youtubeFeedEntries[index]
+              .querySelector("link")
+              .getAttribute("href");
             thumbnailInfoGroup[index].querySelector("img").src = youtubeFeedEntries[index]
               .querySelector("thumbnail")
               .getAttribute("url");

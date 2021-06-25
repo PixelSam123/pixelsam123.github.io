@@ -58,7 +58,7 @@
           &rsaquo;
         </button>
       </div>
-      <div class="mt-14 mx-2 p-3 rounded bg-black bg-opacity-60 backdrop-filter backdrop-blur-md">
+      <div class="mt-14 mx-2 p-3 rounded bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg">
         <h1 class="font-bold text-3xl uppercase" id="header-title">Header Title</h1>
         <p class="mt-2">
           <span id="header-description">Header Description</span>
@@ -93,7 +93,7 @@
         dark:bg-gray-900 dark:bg-opacity-90 dark:text-white
         sm:rounded
         shadow
-        backdrop-filter backdrop-blur
+        backdrop-filter backdrop-blur-md
       "
     >
       <div class="font-bold flex items-center overflow-x-auto">
@@ -107,21 +107,21 @@
         <a class="ml-5 hover:underline" href="#">Downloads</a>
         <a class="ml-5 hover:underline" href="#">Misc.</a>
       </div>
-      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:text-gray-500">
+      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:opacity-60">
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main class="px-4 bg-white dark:bg-gray-800 dark:text-gray-200">
+    <main class="px-4 bg-white dark:bg-gray-800 dark:text-gray-100">
       <!-- Latest articles section-->
       <section class="pt-2">
         <h2 class="font-bold text-center text-2xl">Latest Articles</h2>
-        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
+        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
         <div class="flex flex-wrap justify-center">
           <div class="article-snippet flex flex-col mx-1 mt-2 w-60 lg:w-96">
             <img class="flex-shrink-0 self-center object-cover" alt="article image" />
             <div class="text-center mt-1">
               <a href="#"
-                ><h3 class="font-bold lg:text-lg hover:underline active:text-gray-500">
+                ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
                   Article Snippet Title
                 </h3></a
               >
@@ -133,7 +133,7 @@
       <!-- VSCode pro tip for IntelliJ look -->
       <section class="pt-4">
         <h2 class="font-bold text-center text-2xl">Pro tip: IntelliJ editor look in VS Code</h2>
-        <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-200"></div>
+        <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-100"></div>
         <div class="flex flex-wrap justify-center">
           <embed
             src="html/fake-windows/font-size-13.html"
@@ -156,41 +156,43 @@
         </div>
       </section>
       <!-- Latest videos section -->
-      <section class="min-w-0 w-max max-w-full mx-auto overflow-x-auto">
+      <section>
         <h2 class="font-bold text-center text-2xl">Latest Videos</h2>
-        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
-        <div
-          class="
-            thumbnail-info-group
-            p-1
-            pr-1.5
-            my-2
-            flex
-            rounded
-            hover:bg-gray-50
-            dark:hover:bg-gray-900
-            hover:shadow
-          "
-        >
-          <img
+        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
+        <div class="min-w-0 w-max max-w-full mx-auto overflow-x-auto">
+          <div
             class="
-              flex-shrink-0
-              self-center
-              mr-2
-              w-[128px]
-              h-[72px]
-              lg:w-[160px] lg:h-[90px]
-              object-cover
+              thumbnail-info-group
+              p-1
+              pr-1.5
+              my-2
+              flex
+              rounded
+              hover:bg-gray-50
+              dark:hover:bg-gray-900
+              hover:shadow
             "
-            alt="thumbnail"
-          />
-          <div>
-            <a href="#" target="_blank"
-              ><h3 class="font-bold lg:text-lg hover:underline active:text-gray-500">
-                Video Title
-              </h3></a
-            >
-            <p class="text-justify text-sm lg:text-base">Video Description</p>
+          >
+            <img
+              class="
+                flex-shrink-0
+                self-center
+                mr-2
+                w-[128px]
+                h-[72px]
+                lg:w-[160px] lg:h-[90px]
+                object-cover
+              "
+              alt="thumbnail"
+            />
+            <div>
+              <a href="#" target="_blank"
+                ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
+                  Video Title
+                </h3></a
+              >
+              <p class="text-justify text-sm lg:text-base">Video Description</p>
+            </div>
           </div>
         </div>
       </section>

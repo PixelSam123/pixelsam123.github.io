@@ -3,13 +3,10 @@
 fetch("../resources/article-content-list.json")
   .then((response) => response.json())
   .then((fetchedArticleContentList) => {
-    const articleHeader = document.getElementById("article-header");
-    articleHeader.getElementsByTagName("h1")[0].innerText =
-      fetchedArticleContentList[0].header_title;
-    articleHeader.getElementsByTagName("p")[0].innerText =
-      fetchedArticleContentList[0].header_description;
-    articleHeader.getElementsByTagName("img")[0].src =
-      fetchedArticleContentList[0].header_image_url;
+    const articleHeader = body.querySelector("#article-header");
+    articleHeader.querySelector("h1").innerText = fetchedArticleContentList[0].header_title;
+    articleHeader.querySelector("p").innerText = fetchedArticleContentList[0].header_description;
+    articleHeader.querySelector("img").src = fetchedArticleContentList[0].header_image_url;
 
     const articleSections = body.getElementsByClassName("article-section");
     const subheaderLinks = body.getElementsByClassName("subheader-link");
@@ -21,10 +18,10 @@ fetch("../resources/article-content-list.json")
       subheaderLinks[sectionIndex].innerText = fetchedArticleSections[sectionIndex].subheader;
       subheaderLinks[sectionIndex].href = `#subheader-${sectionIndex}`;
       articleSections[sectionIndex].id = `subheader-${sectionIndex}`;
-      articleSections[sectionIndex].getElementsByTagName("h2")[0].innerText =
+      articleSections[sectionIndex].querySelector("h2").innerText =
         fetchedArticleSections[sectionIndex].subheader;
       duplicateElement(
-        articleSections[sectionIndex].getElementsByTagName("p")[0],
+        articleSections[sectionIndex].querySelector("p"),
         fetchedArticleSections[sectionIndex].paragraphs.length - 1
       );
       for (

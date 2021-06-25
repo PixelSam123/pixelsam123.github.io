@@ -2,19 +2,19 @@
   {
     "title": "Minecraft 1.17.1 Pre-release 1",
     "description": "The first Minecraft 1.17.1 pre-release is out, fixing several issues including a crucial one regarding ender pearls.",
-    "imageURL": "resources/images/Axolotl_concept_art.jpg",
-    "articleURL": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-1"
+    "image_url": "resources/images/Axolotl_concept_art.jpg",
+    "article_url": "https://www.minecraft.net/en-us/article/minecraft-1-17-1-pre-release-1"
   },
   {
     "title": "Hermitcraft 8 Launch",
     "description": "That was unexpected! The new Hermitcraft season seems to have started out of the blue. Check out this article which contains the official coverage link:",
-    "imageURL": "https://i.redd.it/8w6uy60q98671.png",
-    "articleURL": "html/hermitcraft-8-launch.html"
+    "image_url": "https://i.redd.it/8w6uy60q98671.png",
+    "article_url": "html/hermitcraft-8-launch.html"
   },
   {
     "title": "Tailwind CSS Color Pallete",
     "description": "Even if you're not a fan of Tailwind CSS, their color pallete is a great reference to rely on if you just want colors that work!",
-    "imageURL": "https://s3-alpha.figma.com/hub/file/527815647/19509761-f407-45c3-9aa2-c0c8328aa639-cover.png",
-    "articleURL": "https://tailwindcss.com/docs/customizing-colors#color-palette-reference"
+    "image_url": "https://s3-alpha.figma.com/hub/file/527815647/19509761-f407-45c3-9aa2-c0c8328aa639-cover.png",
+    "article_url": "https://tailwindcss.com/docs/customizing-colors#color-palette-reference"
   }
 ]

@@ -123,7 +123,7 @@
         <h2 class="font-bold text-center text-2xl">Latest Articles</h2>
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-200"></div>
         <div class="flex flex-wrap justify-center">
-          <div class="article-snippet flex flex-col mt-2 w-60 lg:w-96">
+          <div class="article-snippet flex flex-col mx-1 mt-2 w-60 lg:w-96">
             <img class="flex-shrink-0 self-center object-cover" alt="article image" />
             <div class="text-center mt-1">
               <a href="#"
@@ -203,118 +203,101 @@
     </main>
     <script src="js/main.js"></script>
     <script>
-      // Comment structure: Comments describe code below them.
       "use strict";
 
-      /* Function for switching the hero header image (animated with a smooth transition), title and description.
-      Bound to radio buttons at the bottom of the header. */
-      const headerRadioButtons = document
-        .getElementById("header-radio-button-group")
+      const headerRadioButtons = body
+        .querySelector("#header-radio-button-group")
         .getElementsByTagName("input");
-      let headerElement = document.getElementById("header-image");
+      let headerImageElement = body.querySelector("#header-image");
       let currentHeaderNumber;
-      let animationIsOngoing = false;
-      function switchHeader(headerNumber, animationDuration = 250) {
-        if (animationIsOngoing) {
+      let headerSwitchAnimationIsOngoing = false;
+      // switchHeader event listeners bound to header radio buttons
+      const switchHeader = function (requestedHeaderNumber, headerSwitchAnimationDuration = 250) {
+        if (headerSwitchAnimationIsOngoing) {
           headerRadioButtons[currentHeaderNumber].checked = true;
-        } else if (headerNumber != currentHeaderNumber) {
-          currentHeaderNumber = headerNumber;
-          headerRadioButtons[headerNumber].checked = true;
-          // Switch title and description
-          document.getElementById("header-title").textContent =
-            headerContentList[headerNumber].title;
-          document.getElementById("header-description").textContent =
-            headerContentList[headerNumber].description;
-          document.getElementById("header-link").href = headerContentList[headerNumber].articleURL;
-          // Switch header image
-          const headerImage = headerImages[headerNumber];
-          body.getElementsByTagName("header")[0].appendChild(headerImage);
-          animationIsOngoing = true;
-          headerImage.animate(
+        } else if (requestedHeaderNumber != currentHeaderNumber) {
+          currentHeaderNumber = requestedHeaderNumber;
+          headerRadioButtons[requestedHeaderNumber].checked = true;
+          body.querySelector("#header-title").textContent =
+            headerContentList[requestedHeaderNumber].title;
+          body.querySelector("#header-description").textContent =
+            headerContentList[requestedHeaderNumber].description;
+          body.querySelector("#header-link").href =
+            headerContentList[requestedHeaderNumber].article_url;
+          const requestedHeaderImageElement = preloadedHeaderImages[requestedHeaderNumber];
+          headerImageElement.parentNode.appendChild(requestedHeaderImageElement);
+          headerSwitchAnimationIsOngoing = true;
+          requestedHeaderImageElement.animate(
             {
               opacity: [0, 1],
               easing: ["ease-out"],
             },
-            animationDuration
+            headerSwitchAnimationDuration
           );
           setTimeout(function () {
-            headerElement.parentNode.removeChild(headerElement);
-            headerElement = document.getElementById("header-image");
-            animationIsOngoing = false;
-          }, animationDuration);
-          sessionStorage.currentHeaderImage = String(headerNumber);
+            headerImageElement.parentNode.removeChild(headerImageElement);
+            headerImageElement = body.querySelector("#header-image");
+            headerSwitchAnimationIsOngoing = false;
+          }, headerSwitchAnimationDuration);
+          sessionStorage.sessionCurrentHeaderNumber = String(requestedHeaderNumber);
         }
-      }
-      // Fetch header content list JSON and process it for the interactive header
-      const headerImages = [];
+      };
+
+      const preloadedHeaderImages = [];
       let headerContentList;
       fetch("resources/header-content-list.json")
         .then((response) => response.json())
         .then((fetchedHeaderContentList) => {
-          // Assign fetched JSON to global JS object
           headerContentList = fetchedHeaderContentList;
-          // Preload images for hero header, adding radio buttons as much as needed
           duplicateElement(headerRadioButtons[0], fetchedHeaderContentList.length - 1);
           for (let index = 0; index < fetchedHeaderContentList.length; index++) {
-            headerImages[index] = headerElement.cloneNode(true);
-            headerImages[index].src = fetchedHeaderContentList[index].imageURL;
+            preloadedHeaderImages[index] = headerImageElement.cloneNode(true);
+            preloadedHeaderImages[index].src = fetchedHeaderContentList[index].image_url;
             headerRadioButtons[index].addEventListener("click", () => switchHeader(index));
           }
-          // Fix nonexistent header image number stored in sessionStorage on webpage first load
-          if (!("currentHeaderImage" in sessionStorage)) {
-            sessionStorage.currentHeaderImage = "0";
+          if (!("sessionCurrentHeaderNumber" in sessionStorage)) {
+            sessionStorage.sessionCurrentHeaderNumber = "0";
           }
-          switchHeader(parseInt(sessionStorage.currentHeaderImage), 0);
+          switchHeader(parseInt(sessionStorage.sessionCurrentHeaderNumber), 0);
         });
-      /* Function for cycling to the previous or the next hero header image, title and description.
-      Bound to next and previous buttons above the header title.
-      Calls the switchHeader function above. */
-      function cycleHeader(cycleTo) {
-        const maxHeaderNumber = headerRadioButtons.length - 1;
+      const cycleHeader = function (cycleTo) {
+        const maximumHeaderNumber = headerRadioButtons.length - 1;
         let headerNumber = currentHeaderNumber;
         switch (cycleTo) {
           case "next":
             headerNumber += 1;
+            if (headerNumber > maximumHeaderNumber) headerNumber = 0;
             break;
           case "prev":
             headerNumber -= 1;
+            if (headerNumber < 0) headerNumber = maximumHeaderNumber;
             break;
         }
-        if (headerNumber > maxHeaderNumber) {
-          headerNumber = 0;
-        } else if (headerNumber < 0) {
-          headerNumber = maxHeaderNumber;
-        }
         switchHeader(headerNumber);
-      }
-      const headerCycleButtons = document
-        .getElementById("header-cycle-button-container")
+      };
+      const headerCycleButtons = body
+        .querySelector("#header-cycle-button-container")
         .getElementsByTagName("button");
       headerCycleButtons[0].addEventListener("click", () => cycleHeader("prev"));
       headerCycleButtons[1].addEventListener("click", () => cycleHeader("next"));
-      // Grabbing & displaying articles from article-content-list.json
+
       const articleSnippets = body.getElementsByClassName("article-snippet");
       fetch("resources/article-content-list.json")
         .then((response) => response.json())
         .then((fetchedArticleContentList) => {
-          // Duplicate the article-snippet div as much as needed
           duplicateElement(articleSnippets[0], fetchedArticleContentList.length - 1);
           for (let index = 0; index < articleSnippets.length; index++) {
-            // Replace title
-            articleSnippets[index].getElementsByTagName("h3")[0].innerText =
+            articleSnippets[index].querySelector("h3").innerText =
               fetchedArticleContentList[index].header_title;
-            // Replace description
-            articleSnippets[index].getElementsByTagName("p")[0].innerText =
+            articleSnippets[index].querySelector("p").innerText =
               fetchedArticleContentList[index].header_description;
-            // Replace link
-            articleSnippets[index].getElementsByTagName("a")[0].href =
+            articleSnippets[index].querySelector("a").href =
               fetchedArticleContentList[index].article_url;
-            // Replace article image
-            articleSnippets[index].getElementsByTagName("img")[0].src =
+            articleSnippets[index].querySelector("img").src =
               fetchedArticleContentList[index].header_image_url;
           }
         });
-      // Grabbing & displaying latest published videos from the YouTube channel
+
       const thumbnailInfoGroup = body.getElementsByClassName("thumbnail-info-group");
       fetch(
         "https://api.allorigins.win/raw?url=https://www.youtube.com/feeds/videos.xml?channel_id=UCkIkjfzUY-32W9K5L56p9jA"
@@ -322,23 +305,17 @@
         .then((response) => response.text())
         .then((text) => new DOMParser().parseFromString(text, "text/xml"))
         .then((youtubeFeedXml) => {
-          const youtubeFeedEntry = youtubeFeedXml.getElementsByTagName("entry");
-          // Duplicate the thumbnail-info-group div as much as needed
-          duplicateElement(thumbnailInfoGroup[0], youtubeFeedEntry.length - 1);
+          const youtubeFeedEntries = youtubeFeedXml.getElementsByTagName("entry");
+          duplicateElement(thumbnailInfoGroup[0], youtubeFeedEntries.length - 1);
           for (let index = 0; index < thumbnailInfoGroup.length; index++) {
-            // Replace title
-            thumbnailInfoGroup[index].getElementsByTagName("h3")[0].innerText =
-              youtubeFeedEntry[index].getElementsByTagName("title")[0].textContent;
-            // Replace description
-            thumbnailInfoGroup[index].getElementsByTagName("p")[0].innerText =
-              youtubeFeedEntry[index].getElementsByTagName("media:description")[0].textContent;
-            // Replace link
-            thumbnailInfoGroup[index].getElementsByTagName("a")[0].href = youtubeFeedEntry[index]
-              .getElementsByTagName("link")[0]
-              .getAttribute("href");
-            // Replace thumbnail
-            thumbnailInfoGroup[index].getElementsByTagName("img")[0].src = youtubeFeedEntry[index]
-              .getElementsByTagName("media:thumbnail")[0]
+            thumbnailInfoGroup[index].querySelector("h3").innerText =
+              youtubeFeedEntries[index].querySelector("title").textContent;
+            thumbnailInfoGroup[index].querySelector("p").innerText =
+              youtubeFeedEntries[index].querySelector("description").textContent;
+            thumbnailInfoGroup[index].querySelector("a").href =
+              youtubeFeedEntries[index].querySelector("link").href;
+            thumbnailInfoGroup[index].querySelector("img").src = youtubeFeedEntries[index]
+              .querySelector("thumbnail")
               .getAttribute("url");
           }
         });

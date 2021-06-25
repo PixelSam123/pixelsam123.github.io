@@ -14,25 +14,20 @@ fetch("../resources/article-content-list.json")
     duplicateElement(articleSections[0], fetchedArticleSections.length - 1);
     duplicateElement(subheaderLinks[0], fetchedArticleSections.length - 1);
 
-    for (let sectionIndex = 0; sectionIndex < fetchedArticleSections.length; sectionIndex++) {
-      subheaderLinks[sectionIndex].innerText = fetchedArticleSections[sectionIndex].subheader;
+    fetchedArticleSections.forEach((section, sectionIndex) => {
+      subheaderLinks[sectionIndex].innerText = section.subheader;
       subheaderLinks[sectionIndex].href = `#subheader-${sectionIndex}`;
       articleSections[sectionIndex].id = `subheader-${sectionIndex}`;
-      articleSections[sectionIndex].querySelector("h2").innerText =
-        fetchedArticleSections[sectionIndex].subheader;
+      articleSections[sectionIndex].querySelector("h2").innerText = section.subheader;
       duplicateElement(
         articleSections[sectionIndex].querySelector("p"),
-        fetchedArticleSections[sectionIndex].paragraphs.length - 1
+        section.paragraphs.length - 1
       );
-      for (
-        let paragraphIndex = 0;
-        paragraphIndex < fetchedArticleSections[sectionIndex].paragraphs.length;
-        paragraphIndex++
-      ) {
+      section.paragraphs.forEach((paragraph, paragraphIndex) => {
         articleSections[sectionIndex].getElementsByTagName("p")[paragraphIndex].innerText =
-          fetchedArticleSections[sectionIndex].paragraphs[paragraphIndex];
-      }
-    }
+          paragraph;
+      });
+    });
 
     let executionIsAllowed = true;
     subheaderLinks[0].classList.add("font-bold");

@@ -31,16 +31,19 @@ fetch("../resources/article-content-list.json")
 
     subheaderLinks[0].classList.add("font-bold");
     subheaderLinks[0].classList.add("underline");
+    let currentHeaderIndexInView = 0;
     document.addEventListener("scroll", function () {
-      let currentHeaderIndexInView = 0;
+      let cachedHeaderIndex = currentHeaderIndexInView;
       for (let sectionIndex = 0; sectionIndex < articleSections.length; sectionIndex++) {
-        subheaderLinks[sectionIndex].classList.remove("font-bold");
-        subheaderLinks[sectionIndex].classList.remove("underline");
         if (Math.ceil(window.scrollY) >= articleSections[sectionIndex].offsetTop - 1) {
           currentHeaderIndexInView = sectionIndex;
         }
       }
-      subheaderLinks[currentHeaderIndexInView].classList.add("font-bold");
-      subheaderLinks[currentHeaderIndexInView].classList.add("underline");
+      if (currentHeaderIndexInView != cachedHeaderIndex) {
+        subheaderLinks[cachedHeaderIndex].classList.remove("font-bold");
+        subheaderLinks[cachedHeaderIndex].classList.remove("underline");
+        subheaderLinks[currentHeaderIndexInView].classList.add("font-bold");
+        subheaderLinks[currentHeaderIndexInView].classList.add("underline");
+      }
     });
   });

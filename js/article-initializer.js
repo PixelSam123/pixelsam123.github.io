@@ -34,7 +34,10 @@ fetch("../resources/article-content-list.json")
     let currentHeaderIndexInView = 0;
     document.addEventListener("scroll", function () {
       let cachedHeaderIndex = currentHeaderIndexInView;
-      for (let sectionIndex = 0; sectionIndex < articleSections.length; sectionIndex++) {
+      if (Math.ceil(window.scrollY) < articleSections[1].offsetTop - 1) {
+        currentHeaderIndexInView = 0;
+      }
+      for (let sectionIndex = 1; sectionIndex < articleSections.length; sectionIndex++) {
         if (Math.ceil(window.scrollY) >= articleSections[sectionIndex].offsetTop - 1) {
           currentHeaderIndexInView = sectionIndex;
         }

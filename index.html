@@ -34,38 +34,18 @@
           justify-between
           select-none
           text-7xl text-yellow-400
+          filter
+          drop-shadow
         "
       >
-        <button
-          class="
-            px-2
-            pb-5
-            overflow-hidden
-            transition-all
-            hover:bg-gray-50 hover:bg-opacity-20
-            rounded
-            filter
-            drop-shadow
-          "
-        >
+        <button class="px-2 pb-5 overflow-hidden transition-all hover:bg-gray-900/25 rounded">
           &lsaquo;
         </button>
-        <button
-          class="
-            px-2
-            pb-5
-            overflow-hidden
-            transition-all
-            hover:bg-gray-50 hover:bg-opacity-20
-            rounded
-            filter
-            drop-shadow
-          "
-        >
+        <button class="px-2 pb-5 overflow-hidden transition-all hover:bg-gray-900/25 rounded">
           &rsaquo;
         </button>
       </div>
-      <div class="mx-2 p-3 rounded bg-black bg-opacity-60 backdrop-filter backdrop-blur-lg">
+      <div class="mx-2 p-3 rounded bg-black/60 shadow backdrop-filter backdrop-blur-lg">
         <h1 class="font-bold text-3xl uppercase" id="header-title">Header Title</h1>
         <p class="mt-2">
           <span id="header-description">Header Description</span>
@@ -95,9 +75,9 @@
         flex
         items-center
         justify-between
-        bg-gray-50 bg-opacity-90
+        bg-gray-50/90
         text-black
-        dark:bg-gray-900 dark:bg-opacity-90 dark:text-white
+        dark:bg-gray-900/90 dark:text-white
         sm:rounded
         shadow
         backdrop-filter backdrop-blur-md
@@ -124,7 +104,7 @@
         <h2 class="font-bold text-center text-2xl">Latest Articles</h2>
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
         <div class="flex flex-wrap justify-center">
-          <div class="article-snippet flex flex-col w-60 lg:w-96 mx-2 mt-2">
+          <div class="article-snippet flex flex-col w-72 lg:w-96 mx-2 mt-2">
             <img class="flex-shrink-0 self-center object-cover" alt="article image" />
             <div class="text-center mt-1">
               <a href="#"

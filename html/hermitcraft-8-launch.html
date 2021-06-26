@@ -22,18 +22,18 @@
     <nav
       id="nav"
       class="
-        top-0
-        h-14
         sm:w-max sm:m-auto
+        h-14
+        top-0
         flex
-        justify-between
         items-center
-        bg-gray-50 bg-opacity-90
+        justify-between
+        bg-gray-50/90
         text-black
-        dark:bg-gray-900 dark:bg-opacity-90 dark:text-white
+        dark:bg-gray-900/90 dark:text-white
         sm:rounded
         shadow
-        backdrop-filter backdrop-blur
+        backdrop-filter backdrop-blur-md
       "
     >
       <div class="font-bold flex items-center overflow-x-auto">
@@ -47,38 +47,48 @@
         <a class="ml-5 hover:underline" href="#">Downloads</a>
         <a class="ml-5 hover:underline" href="#">Misc.</a>
       </div>
-      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:text-gray-500">
+      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:opacity-60">
         <span class="material-icons-outlined text-2xl">dark_mode</span>
       </button>
     </nav>
-    <main class="px-4 bg-white dark:bg-gray-800 dark:text-gray-100">
-      <div id="article-header">
+    <main class="bg-white dark:bg-gray-800 dark:text-gray-100">
+      <div id="article-header" class="mx-4">
         <img class="mb-2 mx-auto w-full max-w-screen-xl" alt="Article header image" />
         <h1 class="font-bold text-3xl text-center">Article Title</h1>
         <p class="my-2 text-center">Article Title Description</p>
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
       </div>
-      <div class="flex flex-col sm:flex-row m-auto max-w-screen-2xl">
+      <div class="flex flex-col sm:flex-row sm:px-4 m-auto max-w-screen-2xl">
         <div
           class="
-            self-start
-            flex-shrink-0
-            sticky
-            top-0
-            py-2
             w-full
             sm:w-48
+            py-2.5
+            sm:py-1.5
+            self-start
+            sticky
+            top-0
+            flex-shrink-0 flex
+            sm:flex-col
+            overflow-x-auto
             bg-white
             dark:bg-gray-800
           "
         >
-          <div class="flex sm:flex-col overflow-x-auto">
-            <a class="subheader-link flex-shrink-0 mr-5 last-of-type:mr-0 sm:mr-0" href="#"
-              >Subheader link</a
-            >
-          </div>
+          <a
+            class="
+              subheader-link
+              flex-shrink-0
+              first-of-type:ml-5
+              sm:first-of-type:ml-0
+              mr-5
+              sm:mr-0
+            "
+            href="#"
+            >Subheader link</a
+          >
         </div>
-        <article class="pl-2 border-l border-gray-500">
+        <article class="pl-2 mx-4 sm:mx-0 border-l border-gray-500">
           <div id="" class="article-section">
             <h2 class="font-bold text-2xl">Article Subheader</h2>
             <p class="my-2 text-justify">Article Paragraph</p>

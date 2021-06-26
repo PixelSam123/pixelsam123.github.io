@@ -9,7 +9,7 @@
 /* Overall window */
 .window {
   width: max-content;
-  max-width: 100vw;
+  max-width: calc(100vw - 1rem);
 }
 /* Window header */
 .window-header {

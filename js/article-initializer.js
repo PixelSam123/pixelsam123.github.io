@@ -6,7 +6,7 @@ fetch("../resources/article-content-list.json")
     const urlParams = new URLSearchParams(window.location.search);
     let selectedArticleContent;
     fetchedArticleContentList.forEach((article) => {
-      if (urlParams.get("name") == article.header_title) {
+      if (urlParams.get("title") == article.header_title) {
         selectedArticleContent = article;
       }
     });

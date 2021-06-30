@@ -81,11 +81,12 @@ fetch("resources/article-content-list.json")
   .then((fetchedArticleContentList) => {
     duplicateElement(articleSnippets[0], fetchedArticleContentList.length - 1);
     for (let index = 0; index < articleSnippets.length; index++) {
-      articleSnippets[index].querySelector("h3").innerText =
-        fetchedArticleContentList[index].header_title;
+      const articleHeaderTitle = fetchedArticleContentList[index].header_title;
+      articleSnippets[index].querySelector("h3").innerText = articleHeaderTitle;
       articleSnippets[index].querySelector("p").innerText =
         fetchedArticleContentList[index].header_description;
-      articleSnippets[index].querySelector("a").href = fetchedArticleContentList[index].article_url;
+      articleSnippets[index].querySelector("a").href =
+        fetchedArticleContentList[index].article_url_header + articleHeaderTitle;
       articleSnippets[index].querySelector("img").src =
         fetchedArticleContentList[index].header_image_url;
     }

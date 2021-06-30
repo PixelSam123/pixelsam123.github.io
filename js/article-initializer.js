@@ -3,14 +3,27 @@
 fetch("../resources/article-content-list.json")
   .then((response) => response.json())
   .then((fetchedArticleContentList) => {
+    const urlParams = new URLSearchParams(window.location.search);
+    let selectedArticleContent;
+    fetchedArticleContentList.forEach((article) => {
+      if (urlParams.get("name") == article.header_title) {
+        selectedArticleContent = article;
+      }
+    });
+
     const articleHeader = body.querySelector("#article-header");
-    articleHeader.querySelector("h1").innerText = fetchedArticleContentList[0].header_title;
-    articleHeader.querySelector("p").innerText = fetchedArticleContentList[0].header_description;
-    articleHeader.querySelector("img").src = fetchedArticleContentList[0].header_image_url;
+    try {
+      articleHeader.querySelector("h1").innerText = selectedArticleContent.header_title;
+    } catch (TypeError) {
+      articleHeader.querySelector("h1").innerText =
+        "Error: Could not find the article based on the given title";
+    }
+    articleHeader.querySelector("p").innerText = selectedArticleContent.header_description;
+    articleHeader.querySelector("img").src = selectedArticleContent.header_image_url;
 
     const articleSections = body.getElementsByClassName("article-section");
     const subheaderLinks = body.getElementsByClassName("subheader-link");
-    const fetchedArticleSections = fetchedArticleContentList[0].sections;
+    const fetchedArticleSections = selectedArticleContent.sections;
     duplicateElement(articleSections[0], fetchedArticleSections.length - 1);
     duplicateElement(subheaderLinks[0], fetchedArticleSections.length - 1);
 

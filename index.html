@@ -105,7 +105,7 @@
         <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
         <div class="flex flex-wrap justify-center">
           <div class="article-snippet flex flex-col w-72 lg:w-96 mx-2 mt-2">
-            <img class="flex-shrink-0 self-center object-cover" alt="article image" />
+            <img class="flex-shrink-0 self-center h-48 object-cover" alt="article image" />
             <div class="text-center mt-1">
               <a href="#"
                 ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
@@ -121,14 +121,13 @@
       <section class="my-2 mx-2">
         <h2 class="font-bold text-center text-2xl">Latest Videos</h2>
         <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-100"></div>
-        <div class="min-w-0 w-max max-w-full mx-auto overflow-x-auto">
+        <div class="min-w-0 w-[304px] sm:w-max max-w-full mx-auto overflow-x-auto">
           <div
             class="
               thumbnail-info-group
-              p-1
-              pr-1.5
               my-2
-              flex
+              flex flex-col
+              sm:flex-row
               rounded
               hover:bg-gray-50
               dark:hover:bg-gray-900
@@ -139,15 +138,15 @@
               class="
                 flex-shrink-0
                 self-center
-                mr-2
-                w-[128px]
-                h-[72px]
+                w-[304px]
+                h-[171px]
+                sm:w-[128px] sm:h-[72px]
                 lg:w-[160px] lg:h-[90px]
                 object-cover
               "
               alt="thumbnail"
             />
-            <div>
+            <div class="px-1 sm:px-2 py-1">
               <a href="#" target="_blank"
                 ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
                   Video Title

@@ -30,5 +30,32 @@
         ]
       }
     ]
+  },
+  {
+    "header_image_url": "https://c.s-microsoft.com/en-id/CMSImages/1920_Panel03_Video_Introducing_new.jpg?version=b1067fd1-f287-adae-d0c8-fed7f26313fa",
+    "header_title": "Windows 11: Should you upgrade early?",
+    "header_description": "Let's see whether or the Windows 11 Dev build is worth the upgrade, or how long you should wait before hopping into the Insider train.",
+    "article_url_header": "html/article.html?title=",
+    "sections": [
+      {
+        "subheader": "Is there anything system-breaking?",
+        "paragraphs": [
+          "Let's first address the most important question. So far, the only slightly \"game-breaking\" issue with the dev build I've encountered is not being able to click the Start button or open Settings. Both issues seem to be related and go away after a system restart. It only happened once - though I've only been on this dev build for two days. If you can't afford restarting to fix a possible Start button woe, you should shy away from the inaugural Windows 11 Dev Build."
+        ]
+      },
+      {
+        "subheader": "What's slightly broken?",
+        "paragraphs": [
+          "Notification shadows seem to render as a normal box instead of a rounded one. This makes the corners of notification pop-ups a bit weird, but it isn't too visually jarring. \nHovering on taskbar icons normally have a smooth slide-in-from-the-bottom animation, but that's not how it is in this Windows 11 build. The hovered panel just pops into place."
+        ]
+      },
+      {
+        "subheader": "Are there enough new features?",
+        "paragraphs": [
+          "If you just want my take - no. This Windows 11 build feels like a Windows 10 reskin with some minor features added in, like a new widgets pane, Microsoft Store redesign and... that's about it!? Really, if you're aiming to get new features by upgrading to Windows 11 you're better off waiting until Android compiler is added, which is currently not here yet. Right now you might be asking - \"why did you even upgrade then!?\" and my answer is really simple:",
+          "I'm really bored with how Windows 10 looks. REALLY bored."
+        ]
+      }
+    ]
   }
 ]

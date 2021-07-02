@@ -54,6 +54,7 @@
   text-align: center;
   -webkit-user-select: none;
   user-select: none;
+  overflow-y: hidden;
 }
 .window-content textarea {
   width: 410px;

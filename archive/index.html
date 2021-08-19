@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FADHsquared</title>
+
+    <meta name="description" content="FADHsquared's update room! And other stuff" />
+    <meta name="keywords" content="downloads, fadh, portfolio" />
+
+    <link rel="stylesheet" href="css/tailwind.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white dark:bg-gray-800">
+    <!-- Hero header -->
+    <header
+      class="h-[calc(100vh-3.5rem)] flex flex-col items-center justify-end text-white text-center"
+    >
+      <div
+        id="header-cycle-button-container"
+        class="
+          w-full
+          px-2
+          mb-14
+          justify-self-start
+          flex
+          justify-between
+          select-none
+          text-7xl text-yellow-400
+          filter
+          drop-shadow
+        "
+      >
+        <button class="px-2 pb-5 overflow-hidden transition-all hover:bg-gray-900/25 rounded">
+          &lsaquo;
+        </button>
+        <button class="px-2 pb-5 overflow-hidden transition-all hover:bg-gray-900/25 rounded">
+          &rsaquo;
+        </button>
+      </div>
+      <div class="mx-2 p-3 rounded bg-black/60 shadow backdrop-filter backdrop-blur-lg">
+        <h1 class="font-bold text-3xl uppercase" id="header-title">Header Title</h1>
+        <p class="mt-2">
+          <span id="header-description">Header Description</span>
+          <a id="header-link" class="underline" href="#" target="_blank">Read article...</a>
+        </p>
+      </div>
+      <div id="header-radio-button-group" class="my-3 mb-4 select-none">
+        <input
+          class="mx-1 text-yellow-500 focus:ring-yellow-500"
+          type="radio"
+          name="header-radio-button"
+        /><!--
+      --></div>
+      <img
+        id="header-image"
+        class="fixed top-0 w-screen h-screen bg-black object-cover select-none z-[-10]"
+        title="Header image"
+      />
+    </header>
+    <nav
+      id="nav"
+      class="
+        sm:w-max sm:m-auto
+        h-14
+        sticky
+        top-0
+        flex
+        items-center
+        justify-between
+        bg-gray-50/90
+        text-black
+        dark:bg-gray-900/90 dark:text-white
+        sm:rounded
+        shadow
+        backdrop-filter backdrop-blur-md
+      "
+    >
+      <div class="font-bold flex items-center overflow-x-auto">
+        <a class="w-14 h-14 flex-shrink-0" href="#"
+          ><img
+            class="w-14 h-14 sm:rounded-l"
+            src="resources/images/fadhsquared-logo.png"
+            alt="FADHsquared logo"
+        /></a>
+        <a class="ml-5 hover:underline" href="#">Updates</a>
+        <a class="ml-5 hover:underline" href="#">Downloads</a>
+        <a class="ml-5 hover:underline" href="#">Misc.</a>
+      </div>
+      <button id="toggle-dark-mode-button" class="h-6 mx-3.5 border-none active:opacity-60">
+        <span class="material-icons-outlined text-2xl">dark_mode</span>
+      </button>
+    </nav>
+    <main class="pt-2 bg-white dark:bg-gray-800 dark:text-gray-100">
+      <!-- Latest articles section-->
+      <section class="mb-2 mx-2">
+        <h2 class="font-bold text-center text-2xl">Latest Articles</h2>
+        <div class="w-8 h-1 mx-auto my-2 rounded-sm bg-black dark:bg-gray-100"></div>
+        <div class="flex flex-wrap justify-center">
+          <div class="article-snippet flex flex-col w-[304px] lg:w-96 mx-2 mt-2">
+            <img class="flex-shrink-0 self-center h-44 object-cover" alt="article image" />
+            <div class="text-center mt-1">
+              <a href="#"
+                ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
+                  Article Snippet Title
+                </h3></a
+              >
+              <p class="text-sm lg:text-base">Article Snippet Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Latest videos section -->
+      <section class="my-2 mx-2">
+        <h2 class="font-bold text-center text-2xl">Latest Videos</h2>
+        <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-100"></div>
+        <div class="min-w-0 w-[304px] sm:w-max max-w-full mx-auto overflow-x-auto">
+          <div
+            class="
+              thumbnail-info-group
+              my-2
+              flex flex-col
+              sm:flex-row
+              rounded
+              hover:bg-gray-50
+              dark:hover:bg-gray-900
+              hover:shadow
+            "
+          >
+            <img
+              class="
+                flex-shrink-0
+                self-center
+                w-[304px]
+                h-[171px]
+                sm:w-[128px] sm:h-[72px]
+                lg:w-[160px] lg:h-[90px]
+                object-cover
+              "
+              alt="thumbnail"
+            />
+            <div class="px-1 sm:px-2 py-1">
+              <a href="#" target="_blank"
+                ><h3 class="font-bold lg:text-lg hover:underline active:opacity-60">
+                  Video Title
+                </h3></a
+              >
+              <p class="text-justify text-sm lg:text-base">Video Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- VSCode pro tip for IntelliJ look -->
+      <section class="mt-2">
+        <h2 class="font-bold text-center text-2xl">Pro tip: IntelliJ editor look in VS Code</h2>
+        <div class="w-8 h-1 mx-auto mt-2 rounded-sm bg-black dark:bg-gray-100"></div>
+        <div class="flex flex-wrap justify-center">
+          <embed
+            src="html/fake-windows/font-size-13.html"
+            type="text/html"
+            width="484px"
+            height="257px"
+          />
+          <embed
+            src="html/fake-windows/font-size-13.5.html"
+            type="text/html"
+            width="484px"
+            height="257px"
+          />
+          <embed
+            src="html/fake-windows/font-size-14.html"
+            type="text/html"
+            width="484px"
+            height="257px"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

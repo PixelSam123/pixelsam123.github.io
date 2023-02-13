@@ -128,7 +128,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -707,7 +707,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-0e0bf0cd.js"
+    "/assets/utils-1d379616.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -998,13 +998,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-0e0bf0cd.js"
+    "/assets/utils-1d379616.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-0e0bf0cd.js"
+    "/assets/utils-1d379616.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-0e0bf0cd.js"
+    "/assets/utils-1d379616.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1519,7 +1519,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/hookable/dist/index.mjs": [
@@ -1619,27 +1619,27 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-d2fdb694.js"
+    "/assets/clock-7972ffbb.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/curly-braces.js": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
@@ -1675,10 +1675,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
@@ -1714,18 +1714,18 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
@@ -1985,47 +1985,47 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/Anagrams.vue": [
-    "/assets/Minigames-7b0626be.js"
+    "/assets/Minigames-a327d022.js"
   ],
   "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-7b0626be.js"
+    "/assets/Minigames-a327d022.js"
   ],
   "src/components/Button.vue": [
-    "/assets/Button-1f128973.js"
+    "/assets/Button-b2339285.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card-5c64e637.js"
+    "/assets/Card-ecb62dc8.js"
   ],
   "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-7cf5d58f.js"
+    "/assets/Notes-487abeb7.js"
   ],
   "src/components/Markdown.vue": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/Markdown.vue?vue&type=style&index=0&scoped=475c271e&lang.postcss": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-39c343d1.js"
+    "/assets/SectionContainer-7cd2e313.js"
   ],
   "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-39c343d1.js"
+    "/assets/SectionContainer-7cd2e313.js"
   ],
   "src/components/VerticalDivider.vue": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "src/main.ts": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2060,48 +2060,48 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/pages/404.vue": [
-    "/assets/404-923a978e.js"
+    "/assets/404-c7894b54.js"
   ],
   "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-923a978e.js"
+    "/assets/404-c7894b54.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-cbe98484.js",
+    "/assets/Home-f8e38953.js",
     "/assets/Home-84115aec.css"
   ],
   "src/pages/Minigames.vue": [
-    "/assets/Minigames-7b0626be.js"
+    "/assets/Minigames-a327d022.js"
   ],
   "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-7b0626be.js"
+    "/assets/Minigames-a327d022.js"
   ],
   "src/pages/Notes.vue": [
-    "/assets/Notes-7cf5d58f.js"
+    "/assets/Notes-487abeb7.js"
   ],
   "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-7cf5d58f.js"
+    "/assets/Notes-487abeb7.js"
   ],
   "src/pages/Repos.vue": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-86179550.js"
+    "/assets/Repos-7ec9ea6b.js"
   ],
   "src/pages/Videos.vue": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-3dcd71ea.js"
+    "/assets/Videos-ab657c4a.js"
   ],
   "src/pages/notes/One.vue": [
-    "/assets/One-5fe76bb2.js"
+    "/assets/One-9162f289.js"
   ],
   "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-5fe76bb2.js"
+    "/assets/One-9162f289.js"
   ],
   "src/style.css": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2136,6 +2136,6 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/utils.ts": [
-    "/assets/utils-0e0bf0cd.js"
+    "/assets/utils-1d379616.js"
   ]
 }

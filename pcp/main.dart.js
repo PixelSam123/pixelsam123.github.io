@@ -23688,14 +23688,11 @@ this.a=b},
 ali:function ali(){},
 a5i:function a5i(a){this.a=a},
 aAO(a){var s=J.am(a),r=s.h(a,"code")
-s.h(a,"result")
-s.h(a,"time")
-s.h(a,"memory")
 s.h(a,"id")
 s.h(a,"challenge_id")
 return new A.hv(A.vk(s.h(a,"user")),r)},
 apr:function apr(){},
-hv:function hv(a,b){this.r=a
+hv:function hv(a,b){this.d=a
 this.a=b},
 vk(a){var s,r,q,p=J.am(a),o=p.h(a,"name")
 p.h(a,"id")
@@ -81634,7 +81631,7 @@ l=A.ae(["Content-Type","application/json","Authorization","Bearer "+A.i(n.a)],m,
 j=A
 i=B.V
 s=3
-return A.aa(A.oJ(k+"/submissions/",B.V.rM(A.ae(["code",p.d.a.a,"result","PENDING","time",0,"memory",0,"user_id",n.b,"challenge_id",p.a.c.c],m,t.X),null),"Failed to create submission for challenge",l),$async$vM)
+return A.aa(A.oJ(k+"/submissions",B.V.rM(A.ae(["code",p.d.a.a,"user_id",n.b,"challenge_id",p.a.c.c],m,t.X),null),"Failed to create submission for challenge",l),$async$vM)
 case 3:q=j.aAO(i.hl(0,b,null))
 s=1
 break
@@ -81680,7 +81677,7 @@ l=A.ae(["Content-Type","application/json","Authorization","Bearer "+A.i(n.a)],m,
 j=A
 i=B.V
 s=3
-return A.aa(A.oJ(k+"/challenge_comments/",B.V.rM(A.ae(["content",p.d.a.a,"user_id",n.b,"challenge_id",p.a.c],m,t.X),null),"Failed to create comment for challenge",l),$async$vL)
+return A.aa(A.oJ(k+"/challenge_comments",B.V.rM(A.ae(["content",p.d.a.a,"user_id",n.b,"challenge_id",p.a.c],m,t.X),null),"Failed to create comment for challenge",l),$async$vL)
 case 3:q=j.ayf(i.hl(0,b,null))
 s=1
 break
@@ -81741,7 +81738,7 @@ l=A.ae(["Content-Type","application/json","Authorization","Bearer "+A.i(n.a)],m,
 j=A
 i=B.V
 s=3
-return A.aa(A.oJ(k+"/challenges/",B.V.rM(A.ae(["name",p.d.a.a,"tier",p.e.a.a,"user_id",n.b,"description",p.f.a.a,"initial_code",p.r.a.a,"test_case",p.w.a.a],m,t.X),null),"Failed to create challenge",l),$async$vK)
+return A.aa(A.oJ(k+"/challenges",B.V.rM(A.ae(["name",p.d.a.a,"tier",p.e.a.a,"user_id",n.b,"description",p.f.a.a,"initial_code",p.r.a.a,"test_case",p.w.a.a],m,t.X),null),"Failed to create challenge",l),$async$vK)
 case 3:q=j.ayg(i.hl(0,b,null))
 s=1
 break
@@ -81886,7 +81883,7 @@ o=t.N
 n=A.ae(["Content-Type","application/x-www-form-urlencoded"],o,o)
 l=B.V
 s=3
-return A.aa(A.oJ(m+"/token/",A.ae(["username",p.d.a.a,"password",p.e.a.a],o,o),"Failed to fetch token (log in)",n),$async$v5)
+return A.aa(A.oJ(m+"/token",A.ae(["username",p.d.a.a,"password",p.e.a.a],o,o),"Failed to fetch token (log in)",n),$async$v5)
 case 3:n=l.hl(0,b,null)
 o=J.am(n)
 m=o.h(n,"access_token")
@@ -81906,7 +81903,7 @@ n=A.ae(["Content-Type","application/json"],o,o)
 l=A
 k=B.V
 s=3
-return A.aa(A.oJ(m+"/users/",B.V.rM(A.ae(["name",p.d.a.a,"password",p.e.a.a],o,o),null),"Failed to create user",n),$async$vN)
+return A.aa(A.oJ(m+"/users",B.V.rM(A.ae(["name",p.d.a.a,"password",p.e.a.a],o,o),null),"Failed to create user",n),$async$vN)
 case 3:q=l.vk(k.hl(0,b,null))
 s=1
 break
@@ -82066,7 +82063,7 @@ A.VS.prototype={
 H(a){return A.d6(J.er(this.c,new A.apu(),t.y_).dl(0),B.X,B.G,B.S)}}
 A.apu.prototype={
 $1(a){var s=null
-return A.HP(new A.c0(B.oa,A.d6(A.a([new A.ql(a.r,s),A.bv(a.a,s,s,s,s,B.y2,s,s)],t.p),B.cP,B.G,B.S),s),s)},
+return A.HP(new A.c0(B.oa,A.d6(A.a([new A.ql(a.d,s),A.bv(a.a,s,s,s,s,B.y2,s,s)],t.p),B.cP,B.G,B.S),s),s)},
 $S:545}
 A.lm.prototype={
 sSd(a){var s,r=this

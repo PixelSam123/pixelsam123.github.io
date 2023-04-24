@@ -10,7 +10,7 @@ _flutter.loader = null;
 (function () {
   "use strict";
 
-  const baseUri = ensureTrailingSlash(getBaseURI());
+  const baseUri = ensureTrailingSlash(getBaseURI()) + 'pcp/';
 
   function getBaseURI() {
     const base = document.querySelector("base");

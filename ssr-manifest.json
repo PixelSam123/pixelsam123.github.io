@@ -128,7 +128,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-7ec9ea6b.js"
+    "/assets/Repos-5aea5d60.js"
   ],
   "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -707,7 +707,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-1d379616.js"
+    "/assets/utils-2047291f.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -998,13 +998,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-1d379616.js"
+    "/assets/utils-2047291f.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-1d379616.js"
+    "/assets/utils-2047291f.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-1d379616.js"
+    "/assets/utils-2047291f.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1102,7 +1102,39 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/@unhead/vue/dist/index.mjs": [
+  "node_modules/@unhead/shared/dist/index.mjs": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@unhead/vue/dist/shared/vue.505b826e.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1519,7 +1551,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/hookable/dist/index.mjs": [
@@ -1554,7 +1586,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/createVueComponent.js": [
+  "node_modules/lucide-vue-next/dist/esm/createLucideIcon.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1619,27 +1651,27 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-7972ffbb.js"
+  "node_modules/lucide-vue-next/dist/esm/icons/braces.js": [
+    "/assets/Repos-5aea5d60.js"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/curly-braces.js": [
-    "/assets/Repos-7ec9ea6b.js"
+  "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
+    "/assets/clock-7f6af9fa.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-7ec9ea6b.js"
+    "/assets/Repos-5aea5d60.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
@@ -1675,10 +1707,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-7ec9ea6b.js"
+    "/assets/Repos-5aea5d60.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
@@ -1714,19 +1746,51 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
+  ],
+  "node_modules/unhead/dist/index.mjs": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1856,38 +1920,6 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
   "src/App.vue": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
@@ -1985,47 +2017,47 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/Anagrams.vue": [
-    "/assets/Minigames-a327d022.js"
+    "/assets/Minigames-93144466.js"
   ],
   "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-a327d022.js"
+    "/assets/Minigames-93144466.js"
   ],
   "src/components/Button.vue": [
-    "/assets/Button-b2339285.js"
+    "/assets/Button-ae0e9ceb.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card-ecb62dc8.js"
+    "/assets/Card-f1755a09.js"
   ],
   "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-487abeb7.js"
+    "/assets/Notes-e93a2883.js"
   ],
   "src/components/Markdown.vue": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/Markdown.vue?vue&type=style&index=0&scoped=475c271e&lang.postcss": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-7cd2e313.js"
+    "/assets/SectionContainer-9b36522f.js"
   ],
   "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-7cd2e313.js"
+    "/assets/SectionContainer-9b36522f.js"
   ],
   "src/components/VerticalDivider.vue": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "src/main.ts": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2060,48 +2092,48 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/pages/404.vue": [
-    "/assets/404-c7894b54.js"
+    "/assets/404-0a6d3343.js"
   ],
   "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-c7894b54.js"
+    "/assets/404-0a6d3343.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-f8e38953.js",
+    "/assets/Home-f59ce4fb.js",
     "/assets/Home-84115aec.css"
   ],
   "src/pages/Minigames.vue": [
-    "/assets/Minigames-a327d022.js"
+    "/assets/Minigames-93144466.js"
   ],
   "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-a327d022.js"
+    "/assets/Minigames-93144466.js"
   ],
   "src/pages/Notes.vue": [
-    "/assets/Notes-487abeb7.js"
+    "/assets/Notes-e93a2883.js"
   ],
   "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-487abeb7.js"
+    "/assets/Notes-e93a2883.js"
   ],
   "src/pages/Repos.vue": [
-    "/assets/Repos-7ec9ea6b.js"
+    "/assets/Repos-5aea5d60.js"
   ],
   "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-7ec9ea6b.js"
+    "/assets/Repos-5aea5d60.js"
   ],
   "src/pages/Videos.vue": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-ab657c4a.js"
+    "/assets/Videos-cb6e337c.js"
   ],
   "src/pages/notes/One.vue": [
-    "/assets/One-9162f289.js"
+    "/assets/One-39c12675.js"
   ],
   "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-9162f289.js"
+    "/assets/One-39c12675.js"
   ],
   "src/style.css": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2136,6 +2168,6 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/utils.ts": [
-    "/assets/utils-1d379616.js"
+    "/assets/utils-2047291f.js"
   ]
 }

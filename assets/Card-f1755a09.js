@@ -1,0 +1,1 @@
+import{_ as r,o,a as s,H as t}from"./app-f05b1bfc.js";const c={},a={class:"p-2 rounded-lg border-[3px] hover:border-black dark:hover:border-slate-300"};function n(e,d){return o(),s("div",a,[t(e.$slots,"default")])}const _=r(c,[["render",n],["__file","C:/Users/pkupr/Documents/repos/self-site/src/components/Card.vue"]]);export{_ as C};

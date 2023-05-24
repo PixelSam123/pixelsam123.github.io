@@ -128,7 +128,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -707,7 +707,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-2047291f.js"
+    "/assets/utils-dd24ac7a.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -998,13 +998,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-2047291f.js"
+    "/assets/utils-dd24ac7a.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-2047291f.js"
+    "/assets/utils-dd24ac7a.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-2047291f.js"
+    "/assets/utils-dd24ac7a.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1551,8 +1551,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/hookable/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1651,28 +1650,25 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/braces.js": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-7f6af9fa.js"
+    "/assets/clock-eb76b50b.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1707,11 +1703,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1746,19 +1741,16 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "node_modules/unhead/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2016,48 +2008,123 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
+  "src/components/AboutMe.vue": [
+    "/assets/Home-17bbde14.js"
+  ],
+  "src/components/AboutMe.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Home-17bbde14.js"
+  ],
   "src/components/Anagrams.vue": [
-    "/assets/Minigames-93144466.js"
+    "/assets/Minigames-bd54825b.js"
   ],
   "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-93144466.js"
+    "/assets/Minigames-bd54825b.js"
   ],
   "src/components/Button.vue": [
-    "/assets/Button-ae0e9ceb.js"
+    "/assets/Button-ee7f01c8.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card-f1755a09.js"
+    "/assets/Card-c98bbf56.js"
   ],
   "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-e93a2883.js"
+    "/assets/Notes-a7d14a02.js"
   ],
   "src/components/Markdown.vue": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
-  "src/components/Markdown.vue?vue&type=style&index=0&scoped=475c271e&lang.postcss": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+  "src/components/Navbar.vue": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/components/Navbar.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/components/RepoPreview.vue": [
+    "/assets/Home-17bbde14.js"
+  ],
+  "src/components/RepoPreview.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Home-17bbde14.js"
+  ],
+  "src/components/Repositories.vue": [
+    "/assets/Repos-2c0fda60.js"
+  ],
+  "src/components/Repositories.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Repos-2c0fda60.js"
   ],
   "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-9b36522f.js"
+    "/assets/SectionContainer-5bed4e3f.js"
   ],
   "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-9b36522f.js"
+    "/assets/SectionContainer-5bed4e3f.js"
   ],
   "src/components/VerticalDivider.vue": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "src/main.ts": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2092,48 +2159,46 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/pages/404.vue": [
-    "/assets/404-0a6d3343.js"
+    "/assets/404-a3326ee7.js"
   ],
   "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-0a6d3343.js"
+    "/assets/404-a3326ee7.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-f59ce4fb.js",
-    "/assets/Home-84115aec.css"
+    "/assets/Home-17bbde14.js"
   ],
   "src/pages/Minigames.vue": [
-    "/assets/Minigames-93144466.js"
+    "/assets/Minigames-bd54825b.js"
   ],
   "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-93144466.js"
+    "/assets/Minigames-bd54825b.js"
   ],
   "src/pages/Notes.vue": [
-    "/assets/Notes-e93a2883.js"
+    "/assets/Notes-a7d14a02.js"
   ],
   "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-e93a2883.js"
+    "/assets/Notes-a7d14a02.js"
   ],
   "src/pages/Repos.vue": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-5aea5d60.js"
+    "/assets/Repos-2c0fda60.js"
   ],
   "src/pages/Videos.vue": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-cb6e337c.js"
+    "/assets/Videos-a352e6b5.js"
   ],
   "src/pages/notes/One.vue": [
-    "/assets/One-39c12675.js"
+    "/assets/One-4de18b1e.js"
   ],
   "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-39c12675.js"
+    "/assets/One-4de18b1e.js"
   ],
   "src/style.css": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2168,6 +2233,6 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/utils.ts": [
-    "/assets/utils-2047291f.js"
+    "/assets/utils-dd24ac7a.js"
   ]
 }

@@ -128,7 +128,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -707,7 +707,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-dd24ac7a.js"
+    "/assets/utils-c8cc5a44.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -998,13 +998,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-dd24ac7a.js"
+    "/assets/utils-c8cc5a44.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-dd24ac7a.js"
+    "/assets/utils-c8cc5a44.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-dd24ac7a.js"
+    "/assets/utils-c8cc5a44.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1551,7 +1551,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/hookable/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1650,25 +1650,25 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/braces.js": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-eb76b50b.js"
+    "/assets/clock-8c5a6e24.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1703,10 +1703,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1741,16 +1741,16 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "node_modules/unhead/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2009,31 +2009,31 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/AboutMe.vue": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/AboutMe.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/Anagrams.vue": [
-    "/assets/Minigames-bd54825b.js"
+    "/assets/Minigames-3db11b7a.js"
   ],
   "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-bd54825b.js"
+    "/assets/Minigames-3db11b7a.js"
   ],
   "src/components/Button.vue": [
-    "/assets/Button-ee7f01c8.js"
+    "/assets/Button-6a6626e1.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card-c98bbf56.js"
+    "/assets/Card-b07deb31.js"
   ],
   "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-a7d14a02.js"
+    "/assets/Notes-8444c507.js"
   ],
   "src/components/Markdown.vue": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/Navbar.vue": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2100,31 +2100,31 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/RepoPreview.vue": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/RepoPreview.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/Repositories.vue": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "src/components/Repositories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-5bed4e3f.js"
+    "/assets/SectionContainer-adad3f97.js"
   ],
   "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-5bed4e3f.js"
+    "/assets/SectionContainer-adad3f97.js"
   ],
   "src/components/VerticalDivider.vue": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "src/main.ts": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2159,46 +2159,46 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/pages/404.vue": [
-    "/assets/404-a3326ee7.js"
+    "/assets/404-1e2d9b68.js"
   ],
   "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-a3326ee7.js"
+    "/assets/404-1e2d9b68.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-17bbde14.js"
+    "/assets/Home-02d51918.js"
   ],
   "src/pages/Minigames.vue": [
-    "/assets/Minigames-bd54825b.js"
+    "/assets/Minigames-3db11b7a.js"
   ],
   "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-bd54825b.js"
+    "/assets/Minigames-3db11b7a.js"
   ],
   "src/pages/Notes.vue": [
-    "/assets/Notes-a7d14a02.js"
+    "/assets/Notes-8444c507.js"
   ],
   "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-a7d14a02.js"
+    "/assets/Notes-8444c507.js"
   ],
   "src/pages/Repos.vue": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-2c0fda60.js"
+    "/assets/Repos-b28e55a2.js"
   ],
   "src/pages/Videos.vue": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-a352e6b5.js"
+    "/assets/Videos-214cba46.js"
   ],
   "src/pages/notes/One.vue": [
-    "/assets/One-4de18b1e.js"
+    "/assets/One-ffef59d3.js"
   ],
   "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-4de18b1e.js"
+    "/assets/One-ffef59d3.js"
   ],
   "src/style.css": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2233,6 +2233,6 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/utils.ts": [
-    "/assets/utils-dd24ac7a.js"
+    "/assets/utils-c8cc5a44.js"
   ]
 }

@@ -128,7 +128,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -707,7 +707,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-3bb1888f.js"
+    "/assets/utils-abcab8ac.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -998,13 +998,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-3bb1888f.js"
+    "/assets/utils-abcab8ac.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-3bb1888f.js"
+    "/assets/utils-abcab8ac.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-3bb1888f.js"
+    "/assets/utils-abcab8ac.js"
   ],
   "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1551,7 +1551,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/hookable/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1650,25 +1650,25 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/braces.js": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-b331b26b.js"
+    "/assets/clock-330356a7.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1703,10 +1703,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1741,16 +1741,16 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "node_modules/unhead/dist/index.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2009,31 +2009,37 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/AboutMe.vue": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/AboutMe.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/Anagrams.vue": [
-    "/assets/Minigames-217af7a1.js"
+    "/assets/Minigames-85c528a3.js"
   ],
   "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-217af7a1.js"
+    "/assets/Minigames-85c528a3.js"
   ],
   "src/components/Button.vue": [
-    "/assets/Button-ce1edef1.js"
+    "/assets/Button-d36a9ffd.js"
   ],
   "src/components/Card.vue": [
-    "/assets/Card-977afe20.js"
+    "/assets/Card-091364a8.js"
   ],
   "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-ec602cc9.js"
+    "/assets/Notes-2715f0d4.js"
+  ],
+  "src/components/Links.vue": [
+    "/assets/Home-5abb5bc5.js"
+  ],
+  "src/components/Links.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/Markdown.vue": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/Navbar.vue": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2100,31 +2106,31 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/RepoPreview.vue": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/RepoPreview.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/Repositories.vue": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "src/components/Repositories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-8785471f.js"
+    "/assets/SectionContainer-7f3ba227.js"
   ],
   "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-8785471f.js"
+    "/assets/SectionContainer-7f3ba227.js"
   ],
   "src/components/VerticalDivider.vue": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "src/main.ts": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2159,46 +2165,46 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/pages/404.vue": [
-    "/assets/404-bb6137ba.js"
+    "/assets/404-32012597.js"
   ],
   "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-bb6137ba.js"
+    "/assets/404-32012597.js"
   ],
   "src/pages/Home.vue": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-b33adc3c.js"
+    "/assets/Home-5abb5bc5.js"
   ],
   "src/pages/Minigames.vue": [
-    "/assets/Minigames-217af7a1.js"
+    "/assets/Minigames-85c528a3.js"
   ],
   "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-217af7a1.js"
+    "/assets/Minigames-85c528a3.js"
   ],
   "src/pages/Notes.vue": [
-    "/assets/Notes-ec602cc9.js"
+    "/assets/Notes-2715f0d4.js"
   ],
   "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-ec602cc9.js"
+    "/assets/Notes-2715f0d4.js"
   ],
   "src/pages/Repos.vue": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-50657675.js"
+    "/assets/Repos-617c4957.js"
   ],
   "src/pages/Videos.vue": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-40768070.js"
+    "/assets/Videos-1aa6f24a.js"
   ],
   "src/pages/notes/One.vue": [
-    "/assets/One-85c31c91.js"
+    "/assets/One-4d8cefb8.js"
   ],
   "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-85c31c91.js"
+    "/assets/One-4d8cefb8.js"
   ],
   "src/style.css": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -2233,6 +2239,6 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/utils.ts": [
-    "/assets/utils-3bb1888f.js"
+    "/assets/utils-abcab8ac.js"
   ]
 }

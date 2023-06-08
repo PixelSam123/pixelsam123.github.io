@@ -1,136 +1,5 @@
 {
-  "\u0000plugin-vue:export-helper": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "\u0000vite/modulepreload-polyfill": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
   "\u0000vite/preload-helper": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "../../../../../fish.png": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "../../../../../laptop-frame-edited.png": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "index.html": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -354,7 +223,214 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/@tanstack/match-sorter-utils/build/lib/index.mjs": [
+  "node_modules/@solid-primitives/date/dist/index.js": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "node_modules/@solid-primitives/memo/dist/index.js": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "node_modules/@solid-primitives/storage/dist/index.js": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solid-primitives/timer/dist/index.js": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "node_modules/@solid-primitives/utils/dist/chunk/APG4HSEJ.js": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "node_modules/@solid-primitives/websocket/dist/index.js": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "node_modules/@solidjs/meta/dist/index.jsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solidjs/router/dist/components.jsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solidjs/router/dist/integration.js": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solidjs/router/dist/lifecycle.js": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solidjs/router/dist/routing.js": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "node_modules/@solidjs/router/dist/utils.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -707,7 +783,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/utils-abcab8ac.js"
+    "/assets/createQuery-f22cd62e.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -837,7 +913,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/@tanstack/vue-query/build/lib/devtools/devtools.mjs": [
+  "node_modules/@tanstack/solid-query/build/solid/QueryClientProvider.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -869,691 +945,19 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/@tanstack/vue-query/build/lib/devtools/utils.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  "node_modules/@tanstack/solid-query/build/solid/createBaseQuery.js": [
+    "/assets/createQuery-f22cd62e.js"
   ],
-  "node_modules/@tanstack/vue-query/build/lib/mutationCache.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  "node_modules/@tanstack/solid-query/build/solid/createQuery.js": [
+    "/assets/createQuery-f22cd62e.js"
   ],
-  "node_modules/@tanstack/vue-query/build/lib/queryCache.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/queryClient.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/useBaseQuery.mjs": [
-    "/assets/utils-abcab8ac.js"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/useQuery.mjs": [
-    "/assets/utils-abcab8ac.js"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/useQueryClient.mjs": [
-    "/assets/utils-abcab8ac.js"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/utils.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@tanstack/vue-query/build/lib/vueQueryPlugin.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@unhead/dom/dist/index.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@unhead/shared/dist/index.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@unhead/vue/dist/shared/vue.505b826e.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vueuse/core/index.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vueuse/head/dist/index.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
-  ],
-  "node_modules/@vueuse/shared/index.mjs": [
-    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
-    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
-    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
-    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
-    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
-    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
-    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
-    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
-    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
-    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
-    "/assets/inter-all-400-normal-f824029b.woff",
-    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
-    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
-    "/assets/inter-greek-400-normal-2f2d421a.woff2",
-    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
-    "/assets/inter-latin-400-normal-0364d368.woff2",
-    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
-    "/assets/inter-all-600-normal-ba29c057.woff",
-    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
-    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
-    "/assets/inter-greek-600-normal-4591e350.woff2",
-    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
-    "/assets/inter-latin-600-normal-048d136d.woff2",
-    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
-    "/assets/inter-all-700-normal-9d318ccb.woff",
-    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
-    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
-    "/assets/inter-greek-700-normal-9e078f49.woff2",
-    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
-    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  "node_modules/@tanstack/solid-query/build/solid/utils.js": [
+    "/assets/createQuery-f22cd62e.js"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/Home-5abb5bc5.js"
+    "/assets/Markdown-11f76a3b.js"
   ],
-  "node_modules/hookable/dist/index.mjs": [
+  "node_modules/lucide-solid/dist/source/Icon.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1585,7 +989,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/createLucideIcon.js": [
+  "node_modules/lucide-solid/dist/source/defaultAttributes.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1617,7 +1021,28 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/defaultAttributes.js": [
+  "node_modules/lucide-solid/dist/source/icons/book.jsx": [
+    "/assets/RepoPreview-7d476d4e.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/braces.jsx": [
+    "/assets/Repositories-0de4c58f.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/clock.jsx": [
+    "/assets/clock-106e5dc0.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/eye.jsx": [
+    "/assets/YoutubeVideos-edbfa828.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/file-code.jsx": [
+    "/assets/RepoPreview-7d476d4e.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/git-fork.jsx": [
+    "/assets/Repositories-0de4c58f.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/github.jsx": [
+    "/assets/index-515366df.js"
+  ],
+  "node_modules/lucide-solid/dist/source/icons/loader-2.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1649,28 +1074,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/book.js": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/braces.js": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/clock.js": [
-    "/assets/clock-330356a7.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/eye.js": [
-    "/assets/Videos-1aa6f24a.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/file-code.js": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/git-fork.js": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/github.js": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "node_modules/lucide-vue-next/dist/esm/icons/moon.js": [
+  "node_modules/lucide-solid/dist/source/icons/moon.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1702,13 +1106,13 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/star.js": [
-    "/assets/Repos-617c4957.js"
+  "node_modules/lucide-solid/dist/source/icons/star.jsx": [
+    "/assets/Repositories-0de4c58f.js"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/sun-dim.js": [
-    "/assets/Home-5abb5bc5.js"
+  "node_modules/lucide-solid/dist/source/icons/sun-dim.jsx": [
+    "/assets/RepoPreview-7d476d4e.js"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/sun.js": [
+  "node_modules/lucide-solid/dist/source/icons/sun.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1740,19 +1144,19 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/thumbs-up.js": [
-    "/assets/Videos-1aa6f24a.js"
+  "node_modules/lucide-solid/dist/source/icons/thumbs-up.jsx": [
+    "/assets/YoutubeVideos-edbfa828.js"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/wrench.js": [
-    "/assets/Home-5abb5bc5.js"
+  "node_modules/lucide-solid/dist/source/icons/wrench.jsx": [
+    "/assets/RepoPreview-7d476d4e.js"
   ],
-  "node_modules/lucide-vue-next/dist/esm/icons/youtube.js": [
-    "/assets/Home-5abb5bc5.js"
+  "node_modules/lucide-solid/dist/source/icons/youtube.jsx": [
+    "/assets/index-515366df.js"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/Home-5abb5bc5.js"
+    "/assets/Markdown-11f76a3b.js"
   ],
-  "node_modules/unhead/dist/index.mjs": [
+  "node_modules/solid-js/dist/solid.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1784,7 +1188,10 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/vite-ssg/dist/index.mjs": [
+  "node_modules/solid-js/store/dist/store.js": [
+    "/assets/createQuery-f22cd62e.js"
+  ],
+  "node_modules/solid-js/web/dist/web.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1816,7 +1223,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
+  "node_modules/solid-start/entry-client/StartClient.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1848,7 +1255,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
+  "node_modules/solid-start/entry-client/mount.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1880,7 +1287,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "node_modules/vue-router/dist/vue-router.mjs": [
+  "node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1912,7 +1319,10 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/App.vue": [
+  "node_modules/solid-start/islands/clientOnly.tsx": [
+    "/assets/clientOnly-30b76eac.js"
+  ],
+  "node_modules/solid-start/root/Document.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1944,7 +1354,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/App.vue?vue&type=script&setup=true&lang.ts": [
+  "node_modules/solid-start/root/FileRoutes.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -1976,7 +1386,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/App.vue?vue&type=style&index=0&scoped=7a7a37b1&lang.postcss": [
+  "node_modules/solid-start/root/Scripts.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -2008,40 +1418,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/components/AboutMe.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/AboutMe.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Anagrams.vue": [
-    "/assets/Minigames-85c528a3.js"
-  ],
-  "src/components/Anagrams.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-85c528a3.js"
-  ],
-  "src/components/Button.vue": [
-    "/assets/Button-d36a9ffd.js"
-  ],
-  "src/components/Card.vue": [
-    "/assets/Card-091364a8.js"
-  ],
-  "src/components/HorizontalDivider.vue": [
-    "/assets/Notes-2715f0d4.js"
-  ],
-  "src/components/Links.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Links.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Markdown.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Markdown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Navbar.vue": [
+  "node_modules/solid-start/router.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -2073,7 +1450,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/components/Navbar.vue?vue&type=script&setup=true&lang.ts": [
+  "node_modules/solid-start/server/ServerContext.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -2105,34 +1482,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/components/RepoPreview.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/RepoPreview.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/Repositories.vue": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "src/components/Repositories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "src/components/SectionContainer.vue": [
-    "/assets/SectionContainer-7f3ba227.js"
-  ],
-  "src/components/SectionContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/SectionContainer-7f3ba227.js"
-  ],
-  "src/components/VerticalDivider.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/components/YoutubeVideos.vue": [
-    "/assets/Videos-1aa6f24a.js"
-  ],
-  "src/components/YoutubeVideos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-1aa6f24a.js"
-  ],
-  "src/main.ts": [
+  "node_modules/solid-start/server/types.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -2164,49 +1514,7 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/pages/404.vue": [
-    "/assets/404-32012597.js"
-  ],
-  "src/pages/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-32012597.js"
-  ],
-  "src/pages/Home.vue": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/pages/Home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Home-5abb5bc5.js"
-  ],
-  "src/pages/Minigames.vue": [
-    "/assets/Minigames-85c528a3.js"
-  ],
-  "src/pages/Minigames.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Minigames-85c528a3.js"
-  ],
-  "src/pages/Notes.vue": [
-    "/assets/Notes-2715f0d4.js"
-  ],
-  "src/pages/Notes.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Notes-2715f0d4.js"
-  ],
-  "src/pages/Repos.vue": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "src/pages/Repos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Repos-617c4957.js"
-  ],
-  "src/pages/Videos.vue": [
-    "/assets/Videos-1aa6f24a.js"
-  ],
-  "src/pages/Videos.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/Videos-1aa6f24a.js"
-  ],
-  "src/pages/notes/One.vue": [
-    "/assets/One-4d8cefb8.js"
-  ],
-  "src/pages/notes/One.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/One-4d8cefb8.js"
-  ],
-  "src/style.css": [
+  "src/Providers.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
     "/assets/titillium-web-all-400-normal-36ceefe1.woff",
     "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
@@ -2238,7 +1546,355 @@
     "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
-  "src/utils.ts": [
-    "/assets/utils-abcab8ac.js"
+  "src/components/AboutMe.tsx": [
+    "/assets/AboutMe-c4fd17c5.js"
+  ],
+  "src/components/Anagrams.tsx": [
+    "/assets/Anagrams-4b1196a6.js"
+  ],
+  "src/components/Button.tsx": [
+    "/assets/Button-8a3d77dd.js"
+  ],
+  "src/components/Card.tsx": [
+    "/assets/Card-b7fdf2ce.js"
+  ],
+  "src/components/HorizontalDivider.tsx": [
+    "/assets/index-b6fc355a.js"
+  ],
+  "src/components/Links.tsx": [
+    "/assets/index-515366df.js"
+  ],
+  "src/components/Markdown.tsx": [
+    "/assets/Markdown-11f76a3b.js"
+  ],
+  "src/components/RepoPreview.tsx": [
+    "/assets/RepoPreview-7d476d4e.js"
+  ],
+  "src/components/Repositories.tsx": [
+    "/assets/Repositories-0de4c58f.js"
+  ],
+  "src/components/SectionContainer.tsx": [
+    "/assets/SectionContainer-1fb6ca0d.js"
+  ],
+  "src/components/TheNav.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/components/ThemeToggleButton.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/components/VerticalDivider.tsx": [
+    "/assets/RepoPreview-7d476d4e.js"
+  ],
+  "src/components/YoutubeVideos.tsx": [
+    "/assets/YoutubeVideos-edbfa828.js"
+  ],
+  "src/entry-client.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/layouts/MainLayout.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/primitives/use-color-scheme.ts": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/primitives/use-has-mounted.ts": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/providers/LocalStorageProvider.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/root.css": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/root.tsx": [
+    "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "/assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "/assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "/assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "/assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "/assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "/assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "/assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "/assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "/assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "/assets/inter-all-400-normal-f824029b.woff",
+    "/assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "/assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "/assets/inter-greek-400-normal-2f2d421a.woff2",
+    "/assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "/assets/inter-latin-400-normal-0364d368.woff2",
+    "/assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "/assets/inter-all-600-normal-ba29c057.woff",
+    "/assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "/assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "/assets/inter-greek-600-normal-4591e350.woff2",
+    "/assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "/assets/inter-latin-600-normal-048d136d.woff2",
+    "/assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "/assets/inter-all-700-normal-9d318ccb.woff",
+    "/assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "/assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "/assets/inter-greek-700-normal-9e078f49.woff2",
+    "/assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "/assets/inter-latin-700-normal-ced2d8e0.woff2"
+  ],
+  "src/routes/[...404].tsx": [
+    "/assets/_...404_-c1a461e0.js"
+  ],
+  "src/routes/index.tsx": [
+    "/assets/index-515366df.js"
+  ],
+  "src/routes/minigames.tsx": [
+    "/assets/minigames-f65e40bb.js"
+  ],
+  "src/routes/notes/index.tsx": [
+    "/assets/index-b6fc355a.js"
+  ],
+  "src/routes/notes/one.tsx": [
+    "/assets/one-7b4976ce.js"
+  ],
+  "src/routes/repos.tsx": [
+    "/assets/repos-fd4f4494.js"
+  ],
+  "src/routes/videos.tsx": [
+    "/assets/videos-05eb78b7.js"
+  ],
+  "src/utils/fetch-json.ts": [
+    "/assets/Repositories-0de4c58f.js"
+  ],
+  "src/utils/fetch-string.ts": [
+    "/assets/fetch-string-42065095.js"
   ]
 }

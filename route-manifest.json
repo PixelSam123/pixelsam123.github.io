@@ -1,0 +1,151 @@
+{
+  "/*404": [
+    {
+      "type": "script",
+      "href": "/assets/_...404_-c1a461e0.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    }
+  ],
+  "/": [
+    {
+      "type": "script",
+      "href": "/assets/index-515366df.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clientOnly-30b76eac.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/SectionContainer-1fb6ca0d.js"
+    }
+  ],
+  "/minigames": [
+    {
+      "type": "script",
+      "href": "/assets/minigames-f65e40bb.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clientOnly-30b76eac.js"
+    }
+  ],
+  "/notes/": [
+    {
+      "type": "script",
+      "href": "/assets/index-b6fc355a.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/Card-b7fdf2ce.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/SectionContainer-1fb6ca0d.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clock-106e5dc0.js"
+    }
+  ],
+  "/notes/one": [
+    {
+      "type": "script",
+      "href": "/assets/one-7b4976ce.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clock-106e5dc0.js"
+    }
+  ],
+  "/repos": [
+    {
+      "type": "script",
+      "href": "/assets/repos-fd4f4494.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clientOnly-30b76eac.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/Button-8a3d77dd.js"
+    }
+  ],
+  "/videos": [
+    {
+      "type": "script",
+      "href": "/assets/videos-05eb78b7.js"
+    },
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    },
+    {
+      "type": "script",
+      "href": "/assets/clientOnly-30b76eac.js"
+    }
+  ],
+  "entry-client": [
+    {
+      "type": "script",
+      "href": "/assets/entry-client-f4fb8dc3.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/entry-client-03d21195.css"
+    }
+  ],
+  "index.html": []
+}

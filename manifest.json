@@ -1,0 +1,357 @@
+{
+  "_Button-8a3d77dd.js": {
+    "file": "assets/Button-8a3d77dd.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_Card-b7fdf2ce.js": {
+    "file": "assets/Card-b7fdf2ce.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_Markdown-11f76a3b.js": {
+    "file": "assets/Markdown-11f76a3b.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_SectionContainer-1fb6ca0d.js": {
+    "file": "assets/SectionContainer-1fb6ca0d.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_clientOnly-30b76eac.js": {
+    "file": "assets/clientOnly-30b76eac.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_clock-106e5dc0.js": {
+    "file": "assets/clock-106e5dc0.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_createQuery-f22cd62e.js": {
+    "file": "assets/createQuery-f22cd62e.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "_fetch-string-42065095.js": {
+    "file": "assets/fetch-string-42065095.js"
+  },
+  "node_modules/@fontsource/inter/files/inter-all-400-normal.woff": {
+    "file": "assets/inter-all-400-normal-f824029b.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-all-600-normal.woff": {
+    "file": "assets/inter-all-600-normal-ba29c057.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-all-600-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-all-700-normal.woff": {
+    "file": "assets/inter-all-700-normal-9d318ccb.woff",
+    "src": "node_modules/@fontsource/inter/files/inter-all-700-normal.woff"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-400-normal-e9493683.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2": {
+    "file": "assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff2": {
+    "file": "assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff2": {
+    "file": "assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-cyrillic-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2": {
+    "file": "assets/inter-greek-400-normal-2f2d421a.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff2": {
+    "file": "assets/inter-greek-600-normal-4591e350.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff2": {
+    "file": "assets/inter-greek-700-normal-9e078f49.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2": {
+    "file": "assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff2": {
+    "file": "assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff2": {
+    "file": "assets/inter-greek-ext-700-normal-22174f43.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-greek-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2": {
+    "file": "assets/inter-latin-400-normal-0364d368.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2": {
+    "file": "assets/inter-latin-600-normal-048d136d.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2": {
+    "file": "assets/inter-latin-700-normal-ced2d8e0.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2": {
+    "file": "assets/inter-latin-ext-400-normal-64a98f58.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2": {
+    "file": "assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2": {
+    "file": "assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+    "src": "node_modules/@fontsource/inter/files/inter-latin-ext-700-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-all-400-normal.woff": {
+    "file": "assets/titillium-web-all-400-normal-36ceefe1.woff",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-all-600-normal.woff": {
+    "file": "assets/titillium-web-all-600-normal-9c7f6537.woff",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-all-600-normal.woff"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-all-700-normal.woff": {
+    "file": "assets/titillium-web-all-700-normal-65d21c1b.woff",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-all-700-normal.woff"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-400-normal.woff2": {
+    "file": "assets/titillium-web-latin-400-normal-557f6d08.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-600-normal.woff2": {
+    "file": "assets/titillium-web-latin-600-normal-dd870101.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-600-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-700-normal.woff2": {
+    "file": "assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-700-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-400-normal.woff2": {
+    "file": "assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-600-normal.woff2": {
+    "file": "assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-600-normal.woff2"
+  },
+  "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-700-normal.woff2": {
+    "file": "assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+    "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-700-normal.woff2"
+  },
+  "src/components/AboutMe.tsx": {
+    "file": "assets/AboutMe-c4fd17c5.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_fetch-string-42065095.js",
+      "_SectionContainer-1fb6ca0d.js",
+      "_Markdown-11f76a3b.js",
+      "_createQuery-f22cd62e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/AboutMe.tsx"
+  },
+  "src/components/Anagrams.tsx": {
+    "file": "assets/Anagrams-4b1196a6.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_SectionContainer-1fb6ca0d.js",
+      "_Button-8a3d77dd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/Anagrams.tsx"
+  },
+  "src/components/RepoPreview.tsx": {
+    "file": "assets/RepoPreview-7d476d4e.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_fetch-string-42065095.js",
+      "_SectionContainer-1fb6ca0d.js",
+      "_Markdown-11f76a3b.js",
+      "_createQuery-f22cd62e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/RepoPreview.tsx"
+  },
+  "src/components/Repositories.tsx": {
+    "file": "assets/Repositories-0de4c58f.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_SectionContainer-1fb6ca0d.js",
+      "_Card-b7fdf2ce.js",
+      "_createQuery-f22cd62e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/Repositories.tsx"
+  },
+  "src/components/YoutubeVideos.tsx": {
+    "file": "assets/YoutubeVideos-edbfa828.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_fetch-string-42065095.js",
+      "_SectionContainer-1fb6ca0d.js",
+      "_Card-b7fdf2ce.js",
+      "_createQuery-f22cd62e.js",
+      "_clock-106e5dc0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/components/YoutubeVideos.tsx"
+  },
+  "src/entry-client.css": {
+    "file": "assets/entry-client-03d21195.css",
+    "src": "src/entry-client.css"
+  },
+  "src/entry-client.tsx": {
+    "assets": [
+      "assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
+      "assets/titillium-web-all-400-normal-36ceefe1.woff",
+      "assets/titillium-web-latin-400-normal-557f6d08.woff2",
+      "assets/titillium-web-latin-ext-600-normal-069170df.woff2",
+      "assets/titillium-web-all-600-normal-9c7f6537.woff",
+      "assets/titillium-web-latin-600-normal-dd870101.woff2",
+      "assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
+      "assets/titillium-web-all-700-normal-65d21c1b.woff",
+      "assets/titillium-web-latin-700-normal-d5c1172f.woff2",
+      "assets/inter-cyrillic-ext-400-normal-f7666a51.woff2",
+      "assets/inter-all-400-normal-f824029b.woff",
+      "assets/inter-cyrillic-400-normal-e9493683.woff2",
+      "assets/inter-greek-ext-400-normal-d3e30cde.woff2",
+      "assets/inter-greek-400-normal-2f2d421a.woff2",
+      "assets/inter-latin-ext-400-normal-64a98f58.woff2",
+      "assets/inter-latin-400-normal-0364d368.woff2",
+      "assets/inter-cyrillic-ext-600-normal-2ea11f8c.woff2",
+      "assets/inter-all-600-normal-ba29c057.woff",
+      "assets/inter-cyrillic-600-normal-9bc492f5.woff2",
+      "assets/inter-greek-ext-600-normal-c37a11b3.woff2",
+      "assets/inter-greek-600-normal-4591e350.woff2",
+      "assets/inter-latin-ext-600-normal-cc23fe6f.woff2",
+      "assets/inter-latin-600-normal-048d136d.woff2",
+      "assets/inter-cyrillic-ext-700-normal-b7bb121f.woff2",
+      "assets/inter-all-700-normal-9d318ccb.woff",
+      "assets/inter-cyrillic-700-normal-f6c6dcaf.woff2",
+      "assets/inter-greek-ext-700-normal-22174f43.woff2",
+      "assets/inter-greek-700-normal-9e078f49.woff2",
+      "assets/inter-latin-ext-700-normal-1cc47d25.woff2",
+      "assets/inter-latin-700-normal-ced2d8e0.woff2"
+    ],
+    "css": [
+      "assets/entry-client-03d21195.css"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx",
+      "src/routes/index.tsx",
+      "src/routes/minigames.tsx",
+      "src/routes/repos.tsx",
+      "src/routes/videos.tsx",
+      "src/routes/notes/index.tsx",
+      "src/routes/notes/one.tsx"
+    ],
+    "file": "assets/entry-client-f4fb8dc3.js",
+    "isEntry": true,
+    "src": "src/entry-client.tsx"
+  },
+  "src/routes/[...404].tsx": {
+    "file": "assets/_...404_-c1a461e0.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].tsx"
+  },
+  "src/routes/index.tsx": {
+    "dynamicImports": [
+      "src/components/AboutMe.tsx",
+      "src/components/RepoPreview.tsx"
+    ],
+    "file": "assets/index-515366df.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_clientOnly-30b76eac.js",
+      "_SectionContainer-1fb6ca0d.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  },
+  "src/routes/minigames.tsx": {
+    "dynamicImports": [
+      "src/components/Anagrams.tsx"
+    ],
+    "file": "assets/minigames-f65e40bb.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_clientOnly-30b76eac.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/minigames.tsx"
+  },
+  "src/routes/notes/index.tsx": {
+    "file": "assets/index-b6fc355a.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_Card-b7fdf2ce.js",
+      "_SectionContainer-1fb6ca0d.js",
+      "_clock-106e5dc0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/notes/index.tsx"
+  },
+  "src/routes/notes/one.tsx": {
+    "file": "assets/one-7b4976ce.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_clock-106e5dc0.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/notes/one.tsx"
+  },
+  "src/routes/repos.tsx": {
+    "dynamicImports": [
+      "src/components/Repositories.tsx"
+    ],
+    "file": "assets/repos-fd4f4494.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_clientOnly-30b76eac.js",
+      "_Button-8a3d77dd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/repos.tsx"
+  },
+  "src/routes/videos.tsx": {
+    "dynamicImports": [
+      "src/components/YoutubeVideos.tsx"
+    ],
+    "file": "assets/videos-05eb78b7.js",
+    "imports": [
+      "src/entry-client.tsx",
+      "_clientOnly-30b76eac.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/videos.tsx"
+  }
+}

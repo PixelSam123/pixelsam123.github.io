@@ -1,0 +1,1 @@
+import{g as t,i as a,b as s,t as n,j as o}from"./entry-client-049c3809.js";const d=n("<div>");function c(r){return(()=>{const e=t(d);return a(e,()=>r.children),s(()=>o(e,`rounded-lg border-[3px] p-2 hover:border-black dark:hover:border-slate-300 ${r.class}`)),e})()}export{c as C};

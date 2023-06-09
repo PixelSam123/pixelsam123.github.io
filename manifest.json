@@ -1,42 +1,36 @@
 {
-  "_Button-d7f39d01.js": {
-    "file": "assets/Button-d7f39d01.js",
+  "_Button-8ed8985b.js": {
+    "file": "assets/Button-8ed8985b.js",
     "imports": [
       "src/entry-client.tsx"
     ]
   },
-  "_Card-2c91753c.js": {
-    "file": "assets/Card-2c91753c.js",
+  "_Card-4c6bf449.js": {
+    "file": "assets/Card-4c6bf449.js",
     "imports": [
       "src/entry-client.tsx"
     ]
   },
-  "_Markdown-3626a344.js": {
-    "file": "assets/Markdown-3626a344.js",
+  "_SectionContainer-e3c80f3e.js": {
+    "file": "assets/SectionContainer-e3c80f3e.js",
     "imports": [
       "src/entry-client.tsx"
     ]
   },
-  "_SectionContainer-1d6f901c.js": {
-    "file": "assets/SectionContainer-1d6f901c.js",
+  "_clientOnly-798d4ce4.js": {
+    "file": "assets/clientOnly-798d4ce4.js",
     "imports": [
       "src/entry-client.tsx"
     ]
   },
-  "_clientOnly-c6d94e44.js": {
-    "file": "assets/clientOnly-c6d94e44.js",
+  "_clock-188bafd5.js": {
+    "file": "assets/clock-188bafd5.js",
     "imports": [
       "src/entry-client.tsx"
     ]
   },
-  "_clock-e1889427.js": {
-    "file": "assets/clock-e1889427.js",
-    "imports": [
-      "src/entry-client.tsx"
-    ]
-  },
-  "_createQuery-38aa1df2.js": {
-    "file": "assets/createQuery-38aa1df2.js",
+  "_createQuery-0b113f1e.js": {
+    "file": "assets/createQuery-0b113f1e.js",
     "imports": [
       "src/entry-client.tsx"
     ]
@@ -164,64 +158,6 @@
     "file": "assets/titillium-web-latin-ext-700-normal-8f8ebc7e.woff2",
     "src": "node_modules/@fontsource/titillium-web/files/titillium-web-latin-ext-700-normal.woff2"
   },
-  "src/components/AboutMe.tsx": {
-    "file": "assets/AboutMe-2ef80844.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_fetch-string-42065095.js",
-      "_SectionContainer-1d6f901c.js",
-      "_Markdown-3626a344.js",
-      "_createQuery-38aa1df2.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/components/AboutMe.tsx"
-  },
-  "src/components/Anagrams.tsx": {
-    "file": "assets/Anagrams-41c95d58.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_SectionContainer-1d6f901c.js",
-      "_Button-d7f39d01.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/components/Anagrams.tsx"
-  },
-  "src/components/RepoPreview.tsx": {
-    "file": "assets/RepoPreview-98010410.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_fetch-string-42065095.js",
-      "_SectionContainer-1d6f901c.js",
-      "_Markdown-3626a344.js",
-      "_createQuery-38aa1df2.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/components/RepoPreview.tsx"
-  },
-  "src/components/Repositories.tsx": {
-    "file": "assets/Repositories-a5f4d09a.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_SectionContainer-1d6f901c.js",
-      "_Card-2c91753c.js",
-      "_createQuery-38aa1df2.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/components/Repositories.tsx"
-  },
-  "src/components/YoutubeVideos.tsx": {
-    "file": "assets/YoutubeVideos-78fae6b6.js",
-    "imports": [
-      "src/entry-client.tsx",
-      "_fetch-string-42065095.js",
-      "_SectionContainer-1d6f901c.js",
-      "_Card-2c91753c.js",
-      "_createQuery-38aa1df2.js",
-      "_clock-e1889427.js"
-    ],
-    "isDynamicEntry": true,
-    "src": "src/components/YoutubeVideos.tsx"
-  },
   "src/entry-client.css": {
     "file": "assets/entry-client-03d21195.css",
     "src": "src/entry-client.css"
@@ -271,12 +207,12 @@
       "src/routes/notes/index.tsx",
       "src/routes/notes/one.tsx"
     ],
-    "file": "assets/entry-client-049c3809.js",
+    "file": "assets/entry-client-dd6a69e8.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-37adf823.js",
+    "file": "assets/_...404_-c2fb07b7.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -284,72 +220,71 @@
     "src": "src/routes/[...404].tsx"
   },
   "src/routes/index.tsx": {
-    "dynamicImports": [
-      "src/components/AboutMe.tsx",
-      "src/components/RepoPreview.tsx"
-    ],
-    "file": "assets/index-a618be91.js",
+    "file": "assets/index-0d0131bc.js",
     "imports": [
       "src/entry-client.tsx",
-      "_clientOnly-c6d94e44.js",
-      "_SectionContainer-1d6f901c.js"
+      "_fetch-string-42065095.js",
+      "_SectionContainer-e3c80f3e.js",
+      "_clientOnly-798d4ce4.js",
+      "_createQuery-0b113f1e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/index.tsx"
   },
   "src/routes/minigames.tsx": {
-    "dynamicImports": [
-      "src/components/Anagrams.tsx"
-    ],
-    "file": "assets/minigames-9ee5723b.js",
+    "file": "assets/minigames-c033ab29.js",
     "imports": [
       "src/entry-client.tsx",
-      "_clientOnly-c6d94e44.js"
+      "_SectionContainer-e3c80f3e.js",
+      "_Button-8ed8985b.js",
+      "_clientOnly-798d4ce4.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/minigames.tsx"
   },
   "src/routes/notes/index.tsx": {
-    "file": "assets/index-8ee1f74e.js",
+    "file": "assets/index-4a18159c.js",
     "imports": [
       "src/entry-client.tsx",
-      "_Card-2c91753c.js",
-      "_SectionContainer-1d6f901c.js",
-      "_clock-e1889427.js"
+      "_Card-4c6bf449.js",
+      "_SectionContainer-e3c80f3e.js",
+      "_clock-188bafd5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/notes/index.tsx"
   },
   "src/routes/notes/one.tsx": {
-    "file": "assets/one-42d3b209.js",
+    "file": "assets/one-ad7d0d8a.js",
     "imports": [
       "src/entry-client.tsx",
-      "_clock-e1889427.js"
+      "_clock-188bafd5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/notes/one.tsx"
   },
   "src/routes/repos.tsx": {
-    "dynamicImports": [
-      "src/components/Repositories.tsx"
-    ],
-    "file": "assets/repos-7b52d2fa.js",
+    "file": "assets/repos-606ac825.js",
     "imports": [
       "src/entry-client.tsx",
-      "_clientOnly-c6d94e44.js",
-      "_Button-d7f39d01.js"
+      "_Button-8ed8985b.js",
+      "_SectionContainer-e3c80f3e.js",
+      "_Card-4c6bf449.js",
+      "_clientOnly-798d4ce4.js",
+      "_createQuery-0b113f1e.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/repos.tsx"
   },
   "src/routes/videos.tsx": {
-    "dynamicImports": [
-      "src/components/YoutubeVideos.tsx"
-    ],
-    "file": "assets/videos-04e5679e.js",
+    "file": "assets/videos-f5df9d36.js",
     "imports": [
       "src/entry-client.tsx",
-      "_clientOnly-c6d94e44.js"
+      "_fetch-string-42065095.js",
+      "_SectionContainer-e3c80f3e.js",
+      "_Card-4c6bf449.js",
+      "_clientOnly-798d4ce4.js",
+      "_createQuery-0b113f1e.js",
+      "_clock-188bafd5.js"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/videos.tsx"

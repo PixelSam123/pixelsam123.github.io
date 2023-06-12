@@ -224,10 +224,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@solid-primitives/date/dist/index.js": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "node_modules/@solid-primitives/memo/dist/index.js": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "node_modules/@solid-primitives/storage/dist/index.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -262,13 +262,13 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@solid-primitives/timer/dist/index.js": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "node_modules/@solid-primitives/utils/dist/chunk/APG4HSEJ.js": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "node_modules/@solid-primitives/websocket/dist/index.js": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "node_modules/@solidjs/meta/dist/index.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -783,7 +783,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/query-core/build/lib/queryObserver.mjs": [
-    "/assets/createQuery-f1d0a647.js"
+    "/assets/createQuery-ad0da0ae.js"
   ],
   "node_modules/@tanstack/query-core/build/lib/removable.mjs": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -946,16 +946,16 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/@tanstack/solid-query/build/solid/createBaseQuery.js": [
-    "/assets/createQuery-f1d0a647.js"
+    "/assets/createQuery-ad0da0ae.js"
   ],
   "node_modules/@tanstack/solid-query/build/solid/createQuery.js": [
-    "/assets/createQuery-f1d0a647.js"
+    "/assets/createQuery-ad0da0ae.js"
   ],
   "node_modules/@tanstack/solid-query/build/solid/utils.js": [
-    "/assets/createQuery-f1d0a647.js"
+    "/assets/createQuery-ad0da0ae.js"
   ],
   "node_modules/dompurify/dist/purify.es.js": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/Icon.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1022,25 +1022,25 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-solid/dist/source/icons/book.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/braces.jsx": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/clock.jsx": [
-    "/assets/clock-226a7e20.js"
+    "/assets/clock-499a6028.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/eye.jsx": [
-    "/assets/videos-05eddf6f.js"
+    "/assets/videos-7735842a.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/file-code.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/git-fork.jsx": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/github.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/loader-2.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1107,10 +1107,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-solid/dist/source/icons/star.jsx": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/sun-dim.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/sun.jsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1145,16 +1145,16 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/lucide-solid/dist/source/icons/thumbs-up.jsx": [
-    "/assets/videos-05eddf6f.js"
+    "/assets/videos-7735842a.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/wrench.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/lucide-solid/dist/source/icons/youtube.jsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/marked/lib/marked.esm.js": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "node_modules/solid-js/dist/solid.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1189,7 +1189,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/solid-js/store/dist/store.js": [
-    "/assets/createQuery-f1d0a647.js"
+    "/assets/createQuery-ad0da0ae.js"
   ],
   "node_modules/solid-js/web/dist/web.js": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1320,7 +1320,7 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "node_modules/solid-start/islands/clientOnly.tsx": [
-    "/assets/clientOnly-edb1c546.js"
+    "/assets/clientOnly-ab45c80b.js"
   ],
   "node_modules/solid-start/root/Document.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1547,34 +1547,34 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/AboutMe.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/components/Anagrams.tsx": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "src/components/Button.tsx": [
-    "/assets/Button-d1424f43.js"
+    "/assets/Button-a15d68a1.js"
   ],
   "src/components/Card.tsx": [
-    "/assets/Card-ffbcc607.js"
+    "/assets/Card-2f9c4169.js"
   ],
   "src/components/HorizontalDivider.tsx": [
-    "/assets/index-d834baa7.js"
+    "/assets/index-d20c5c49.js"
   ],
   "src/components/Links.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/components/Markdown.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/components/RepoPreview.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/components/Repositories.tsx": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "src/components/SectionContainer.tsx": [
-    "/assets/SectionContainer-fc7d1e9c.js"
+    "/assets/SectionContainer-4278b96a.js"
   ],
   "src/components/TheNav.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1641,10 +1641,10 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/components/VerticalDivider.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/components/YoutubeVideos.tsx": [
-    "/assets/videos-05eddf6f.js"
+    "/assets/videos-7735842a.js"
   ],
   "src/entry-client.tsx": [
     "/assets/titillium-web-latin-ext-400-normal-05e41516.woff2",
@@ -1871,28 +1871,28 @@
     "/assets/inter-latin-700-normal-ced2d8e0.woff2"
   ],
   "src/routes/[...404].tsx": [
-    "/assets/_...404_-08ee543e.js"
+    "/assets/_...404_-2bf7c0e8.js"
   ],
   "src/routes/index.tsx": [
-    "/assets/index-8abc1cb9.js"
+    "/assets/index-86f8b5c6.js"
   ],
   "src/routes/minigames.tsx": [
-    "/assets/minigames-12275230.js"
+    "/assets/minigames-b7810f47.js"
   ],
   "src/routes/notes/index.tsx": [
-    "/assets/index-d834baa7.js"
+    "/assets/index-d20c5c49.js"
   ],
   "src/routes/notes/one.tsx": [
-    "/assets/one-7dcf44b0.js"
+    "/assets/one-6d4707d3.js"
   ],
   "src/routes/repos.tsx": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "src/routes/videos.tsx": [
-    "/assets/videos-05eddf6f.js"
+    "/assets/videos-7735842a.js"
   ],
   "src/utils/fetch-json.ts": [
-    "/assets/repos-aafab1eb.js"
+    "/assets/repos-50465c4a.js"
   ],
   "src/utils/fetch-string.ts": [
     "/assets/fetch-string-42065095.js"

@@ -1,0 +1,1 @@
+import{c,m as e,I as n}from"./entry-client-974c5c15.js";const s=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16 14",key:"68esgv"}]],r=o=>c(n,e(o,{name:"Clock",iconNode:s})),a=r;export{a as C};

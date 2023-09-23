@@ -2,29 +2,29 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/assets/_...404_-6b86326e.js"
+      "href": "/assets/_...404_-0a83b849.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/assets/index-bded81eb.js"
+      "href": "/assets/index-54b1cb75.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
@@ -32,133 +32,133 @@
     },
     {
       "type": "script",
-      "href": "/assets/SectionContainer-a30658cd.js"
+      "href": "/assets/SectionContainer-855e4f39.js"
     },
     {
       "type": "script",
-      "href": "/assets/clientOnly-8f6b6dd9.js"
+      "href": "/assets/clientOnly-8819f74e.js"
     },
     {
       "type": "script",
-      "href": "/assets/createQuery-16a80f7a.js"
+      "href": "/assets/createQuery-7c0fcbfa.js"
     }
   ],
   "/minigames": [
     {
       "type": "script",
-      "href": "/assets/minigames-7eef718f.js"
+      "href": "/assets/minigames-ad8f0fb7.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
-      "href": "/assets/SectionContainer-a30658cd.js"
+      "href": "/assets/SectionContainer-855e4f39.js"
     },
     {
       "type": "script",
-      "href": "/assets/Button-8d03bfe3.js"
+      "href": "/assets/Button-0c64c5c2.js"
     },
     {
       "type": "script",
-      "href": "/assets/clientOnly-8f6b6dd9.js"
+      "href": "/assets/clientOnly-8819f74e.js"
     }
   ],
   "/notes/": [
     {
       "type": "script",
-      "href": "/assets/index-77a63a2a.js"
+      "href": "/assets/index-14ec2e50.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
-      "href": "/assets/Card-8323d34a.js"
+      "href": "/assets/Card-db43822a.js"
     },
     {
       "type": "script",
-      "href": "/assets/SectionContainer-a30658cd.js"
+      "href": "/assets/SectionContainer-855e4f39.js"
     },
     {
       "type": "script",
-      "href": "/assets/clock-bbfd5924.js"
+      "href": "/assets/clock-d71c854c.js"
     }
   ],
-  "/notes/one": [
+  "/notes/snappy-windows-terminal-setup": [
     {
       "type": "script",
-      "href": "/assets/one-71cdfa73.js"
+      "href": "/assets/snappy-windows-terminal-setup-836356a9.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
-      "href": "/assets/clock-bbfd5924.js"
+      "href": "/assets/clock-d71c854c.js"
     }
   ],
   "/repos": [
     {
       "type": "script",
-      "href": "/assets/repos-6b5e6d33.js"
+      "href": "/assets/repos-8aaa5a96.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
-      "href": "/assets/Button-8d03bfe3.js"
+      "href": "/assets/Button-0c64c5c2.js"
     },
     {
       "type": "script",
-      "href": "/assets/SectionContainer-a30658cd.js"
+      "href": "/assets/SectionContainer-855e4f39.js"
     },
     {
       "type": "script",
-      "href": "/assets/Card-8323d34a.js"
+      "href": "/assets/Card-db43822a.js"
     },
     {
       "type": "script",
-      "href": "/assets/clientOnly-8f6b6dd9.js"
+      "href": "/assets/clientOnly-8819f74e.js"
     },
     {
       "type": "script",
-      "href": "/assets/createQuery-16a80f7a.js"
+      "href": "/assets/createQuery-7c0fcbfa.js"
     }
   ],
   "/videos": [
     {
       "type": "script",
-      "href": "/assets/videos-49435da7.js"
+      "href": "/assets/videos-60e43098.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     },
     {
       "type": "script",
@@ -166,33 +166,33 @@
     },
     {
       "type": "script",
-      "href": "/assets/SectionContainer-a30658cd.js"
+      "href": "/assets/SectionContainer-855e4f39.js"
     },
     {
       "type": "script",
-      "href": "/assets/Card-8323d34a.js"
+      "href": "/assets/Card-db43822a.js"
     },
     {
       "type": "script",
-      "href": "/assets/clientOnly-8f6b6dd9.js"
+      "href": "/assets/clientOnly-8819f74e.js"
     },
     {
       "type": "script",
-      "href": "/assets/createQuery-16a80f7a.js"
+      "href": "/assets/createQuery-7c0fcbfa.js"
     },
     {
       "type": "script",
-      "href": "/assets/clock-bbfd5924.js"
+      "href": "/assets/clock-d71c854c.js"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client-d14c5eed.js"
+      "href": "/assets/entry-client-5daf0763.js"
     },
     {
       "type": "style",
-      "href": "/assets/entry-client-dcec2705.css"
+      "href": "/assets/entry-client-604a77ca.css"
     }
   ],
   "index.html": []

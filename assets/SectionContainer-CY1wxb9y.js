@@ -1,2 +1,0 @@
-import{ssr as d,ssrHydrationKey as r,escape as t}from"solid-js/web";var l=["<fieldset",' class="','"><legend class="mx-auto px-2 font-heading font-bold">',"</legend><!--$-->","<!--/--></fieldset>"],n=["<p",' class="text-center">Rendering...</p>'];function a(e){return d(l,r(),`m-2 rounded-2xl border-[6px] border-[#48ACF0] bg-white p-2 pt-0
-        dark:bg-[#293548] ${t(e.class,!0)}`,t(e.title),t(e.children)??n[0]+r()+n[1])}export{a as S};

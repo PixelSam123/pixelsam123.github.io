@@ -1,0 +1,1 @@
+import{createComponent as t}from"solid-js/web";import{createLocalStorage as a}from"@solid-primitives/storage";import{createContext as n,useContext as c}from"solid-js";const o=a(),e=n(o);function m(r){return t(e.Provider,{value:o,get children(){return r.children}})}function g(){return c(e)}export{m as L,g as u};

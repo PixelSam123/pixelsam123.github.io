@@ -1,2 +1,0 @@
-import{g as l,f as o,h as r,a as c,b as g,t as a}from"./entry-client-a55d42f8.js";const x=a('<fieldset><legend class="mx-auto px-2 font-heading font-bold"></legend><!#><!/>'),f=a('<p class="text-center">Rendering...');function b(t){return(()=>{const e=l(x),n=e.firstChild,s=n.nextSibling,[i,d]=o(s.nextSibling);return r(n,()=>t.title),r(e,()=>t.children??l(f),i,d),c(()=>g(e,`m-2 rounded-2xl border-[6px] border-[#48ACF0] bg-white p-2 pt-0
-        dark:bg-[#293548] ${t.class}`)),e})()}export{b as S};

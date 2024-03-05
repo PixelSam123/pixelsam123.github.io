@@ -61,8 +61,8 @@
       "_index-B6q3_By8.js"
     ]
   },
-  "_routes-zFCx8phO.js": {
-    "file": "assets/routes-zFCx8phO.js",
+  "_routes-BwjMIxRR.js": {
+    "file": "assets/routes-BwjMIxRR.js",
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css",
@@ -310,7 +310,7 @@
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-DNzhRDpn.js",
+    "file": "assets/index-CTMIavJF.js",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -319,7 +319,7 @@
       "_index-DpmeHZvu.js",
       "_fetch-string-CqwrOzXh.js",
       "_SectionContainer-C2IZZ3lR.js",
-      "_routes-zFCx8phO.js",
+      "_routes-BwjMIxRR.js",
       "_clientOnly-MCsGhWNt.js",
       "_Icon-Bc3_YvsK.js",
       "_LocalStorageProvider-DMw5IUFP.js",
@@ -327,7 +327,7 @@
     ]
   },
   "src/routes/minigames.tsx?pick=default&pick=$css": {
-    "file": "assets/minigames-BkVIDA1r.js",
+    "file": "assets/minigames-C0ynZ0kv.js",
     "src": "src/routes/minigames.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -336,7 +336,7 @@
       "_SectionContainer-C2IZZ3lR.js",
       "_Button-Dd-1O0FU.js",
       "_LocalStorageProvider-DMw5IUFP.js",
-      "_routes-zFCx8phO.js",
+      "_routes-BwjMIxRR.js",
       "_clientOnly-MCsGhWNt.js"
     ]
   },
@@ -366,7 +366,7 @@
     ]
   },
   "src/routes/notes/snappy-windows-terminal-setup.tsx?pick=default&pick=$css": {
-    "file": "assets/snappy-windows-terminal-setup-xc0x5R8n.js",
+    "file": "assets/snappy-windows-terminal-setup-WKeyVcyH.js",
     "src": "src/routes/notes/snappy-windows-terminal-setup.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -392,7 +392,7 @@
     ]
   },
   "src/routes/videos.tsx?pick=default&pick=$css": {
-    "file": "assets/videos-BJEl06ip.js",
+    "file": "assets/videos-9beRQUnt.js",
     "src": "src/routes/videos.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -402,18 +402,18 @@
       "_fetch-string-CqwrOzXh.js",
       "_SectionContainer-C2IZZ3lR.js",
       "_Card-BgLX7MHT.js",
-      "_routes-zFCx8phO.js",
+      "_routes-BwjMIxRR.js",
       "_clientOnly-MCsGhWNt.js",
       "_Icon-Bc3_YvsK.js",
       "_clock-Bglwh05G.js"
     ]
   },
   "virtual:#vinxi/handler/client": {
-    "file": "assets/client-B4Wxx9bt.js",
+    "file": "assets/client-AJhdE106.js",
     "src": "virtual:#vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_routes-zFCx8phO.js",
+      "_routes-BwjMIxRR.js",
       "_index-B6q3_By8.js",
       "_use-has-mounted-Cg1lpYPA.js",
       "_LocalStorageProvider-DMw5IUFP.js",
@@ -421,7 +421,7 @@
       "_index-DpmeHZvu.js"
     ],
     "css": [
-      "assets/client-BXniD98v.css"
+      "assets/client-CEElW8co.css"
     ],
     "assets": [
       "assets/titillium-web-latin-ext-400-normal-CkwGgFuy.woff2",

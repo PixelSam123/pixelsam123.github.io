@@ -1,0 +1,2 @@
+import{q as r,z as o,t as l,d as c,w as g,y as a}from"./index-B6q3_By8.js";var x=a('<fieldset><legend class="mx-auto px-2 font-heading font-bold"></legend><!$><!/>'),m=a("<p class=text-center>Rendering...");function f(t){return(()=>{var e=r(x),n=e.firstChild,i=n.nextSibling,[s,d]=o(i.nextSibling);return l(n,()=>t.title),l(e,()=>t.children??r(m),s,d),c(()=>g(e,`m-2 rounded-2xl border-[6px] border-[#48ACF0] bg-white p-2 pt-0
+        dark:bg-[#293548] ${t.class}`)),e})()}export{f as S};

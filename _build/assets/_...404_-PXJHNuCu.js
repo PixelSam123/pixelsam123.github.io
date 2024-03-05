@@ -1,0 +1,1 @@
+import{h as t,q as e,y as n,T as o,H as a}from"./index-B6q3_By8.js";var s=n('<section class="mt-6 text-center"><h1 class="font-heading text-4xl font-semibold">😲 Oops!</h1><p>Page not found.');function i(){return[t(o,{children:"PixelSamz - Not Found"}),t(a,{name:"description",content:"Oops! Page not found."}),e(s)]}export{i as default};

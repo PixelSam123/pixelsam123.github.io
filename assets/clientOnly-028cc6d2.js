@@ -1,0 +1,1 @@
+import{j as r,w as f,x as s,y as i,e as p,o as d}from"./entry-client-a55d42f8.js";function k(c){const[n,l]=r();return c().then(e=>l(()=>e.default)),e=>{let t,o;const[,a]=f(e,["fallback"]);if((t=n())&&!s.context)return t(a);const[u,m]=r(!s.context);return i(()=>m(!0)),p(()=>(t=n(),o=u(),d(()=>t&&o?t(a):e.fallback)))}}export{k as c};

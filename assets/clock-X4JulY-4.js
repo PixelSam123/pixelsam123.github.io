@@ -1,0 +1,1 @@
+import{createComponent as e,mergeProps as r}from"solid-js/web";import{I as c}from"./Icon-BVug0vLO.js";var a=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["polyline",{points:"12 6 12 12 16 14",key:"68esgv"}]],l=o=>e(c,r(o,{name:"Clock",iconNode:a})),n=l;export{n as c};

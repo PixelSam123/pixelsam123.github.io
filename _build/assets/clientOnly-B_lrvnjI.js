@@ -1,1 +1,0 @@
-import{b as c,N as f,O as r,K as i,c as p,e as d}from"./index-BNJ3oQN6.js";function k(s){const[n,l]=c();return s().then(e=>l(()=>e.default)),e=>{let t,o;const[,a]=f(e,["fallback"]);if((t=n())&&!r.context)return t(a);const[u,m]=c(!r.context);return i(()=>m(!0)),p(()=>(t=n(),o=u(),d(()=>t&&o?t(a):e.fallback)))}}export{k as c};

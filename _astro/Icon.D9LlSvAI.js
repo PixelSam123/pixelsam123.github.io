@@ -1,6 +1,0 @@
-import{n as u,g as d,p as c,m as a,a as h,i as m,k as n,D as g,F as k,r as p,t as v}from"./web.Cdr1opmF.js";/**
-* @license lucide-solid v0.376.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/var w={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"},t=w,b=v("<svg>"),f=r=>r.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),x=(...r)=>r.filter((e,s,o)=>!!e&&o.indexOf(e)===s).join(" "),z=r=>{const[e,s]=u(r,["color","size","strokeWidth","children","class","name","iconNode","absoluteStrokeWidth"]);return(()=>{var o=d(b);return c(o,a(t,{get width(){return e.size??t.width},get height(){return e.size??t.height},get stroke(){return e.color??t.stroke},get"stroke-width"(){return h(()=>!!e.absoluteStrokeWidth)()?Number(e.strokeWidth??t["stroke-width"])*24/Number(e.size):Number(e.strokeWidth??t["stroke-width"])},get class(){return x("lucide","lucide-icon",e.name!=null?`lucide-${f(e?.name)}`:void 0,e.class!=null?e.class:"")}},s),!0,!0),m(o,n(k,{get each(){return e.iconNode},children:([i,l])=>n(g,a({component:i},l))})),p(),o})()},N=z;export{N as I};

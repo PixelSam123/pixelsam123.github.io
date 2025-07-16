@@ -1,0 +1,1 @@
+import{g as t,t as r,i as s,e as l,k as n}from"./web.BGGeRZ3W.js";var d=r("<div>");function i(a){return(()=>{var e=t(d);return s(e,()=>a.children),l(()=>n(e,`rounded-2xl bg-slate-200 dark:bg-slate-700 ${a.class??""}`)),e})()}export{i as C};

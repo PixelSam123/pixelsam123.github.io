@@ -1,0 +1,14 @@
+// overview description file for de_ancient_csgo.bsp
+
+global 
+{
+	ZOOM	1.27
+	ORIGIN	-752 	686	-353
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/de_ancient_csgo.bmp"
+	HEIGHT	-353
+}
